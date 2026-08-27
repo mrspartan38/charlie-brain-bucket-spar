@@ -6,11 +6,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const app = express();
 
+app.use(express.static('public'));   // primary
+app.use(express.static('docs'));     // fallback if not found in public
 app.use(express.static(join(__dirname, 'public', 'index.html')));
+app.use('/static', express.static('assets'));
+
 
 app.get('/', (req, res) => {
   res.send('Hello World')
 })
+
 
 app.listen(3000, () => {
   console.log('Server is running on http://localhost:3000')
