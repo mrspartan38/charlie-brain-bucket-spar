@@ -8,11 +8,12 @@ const app = express();
 
 app.use(express.static('public'));
 app.use(express.static('docs'));
+app.use(express.static(join(__dirname, '../public', 'index.html')));
 app.use('/static', express.static('assets'));
 
 
 app.get('/', (req, res) => {
-  res.sendFile(join(__dirname, 'public', 'index.html'))
+  res.sendFile(join(__dirname, '../public/pages', 'auth.html'))
 })
 
 
