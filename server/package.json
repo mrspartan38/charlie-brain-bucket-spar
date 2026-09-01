@@ -2,17 +2,17 @@
   "name": "charlie-brain-bucket-spar",
   "version": "1.0.0",
   "description": "> [dev project] charlie",
-  "main": "index.js",
+  "main": "app.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "dev": "nodemon server/app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrspartan38/charlie-brain-bucket-spar.git"
+    "url": "git+https://github.com/mrspartnpman38/charlie-brain-bucket-spar.git"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/mrspartan38/charlie-brain-bucket-spar#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
   }
 }
