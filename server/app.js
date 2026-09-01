@@ -6,9 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const app = express();
 
-app.use(express.static('public'));   // primary
-app.use(express.static('docs'));     // fallback if not found in public
 app.use(express.static(join(__dirname, 'public', 'index.html')));
+app.use(express.static('docs'));
 app.use('/static', express.static('assets'));
 
 
