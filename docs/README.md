@@ -1,35 +1,76 @@
-# my generic web app framework 
-> [dev project] charlie
+# BRAIN BUCKET SPAR
+> an app for testing a devruntime
 
-# deployments
+### authorship + version
 
-- dev server: https://barrycumbie.github.io/charlie-brain-bucket/
-- +
-- 
-- video production server: 34.55.74.112
+`@mrspartan38` \| `2026-09-15` \| `GOLF`
 
-reference this [gist](https://gist.github.com/barrycumbie/36fff4083f20439615e1ed7811f81a3c)
+### deployments, codebase, & repo features 
 
-## sprint 99 / future dev ideas
+  resource                     link
+  ---------------------------- ----------------------
+  PROD codebase                [`[main](https://github.com/mrspartan38/charlie-brain-bucket-spar)`](URL)
+  PROD server                  [34.55.74.112](URL)
+  DEV codebase                 [`[dev](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/dev)`](URL)
+  DEV server                   [[Render](https://charlie-brain-bucket-spar.onrender.com)](URL)
+  docs                         [`docs/`](URL)
+  published docs               [GitHub Pages](URL)
+  CI/CD workflow               [`[deploy.yml](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/main/.github/workflows/main.yml)`](URL)
+  successful PROD deployment   [GitHub Action](URL)
+  resolved GOLF issue          [issue \#](URL)
 
-- check out this [milestone](https://github.com/barrycumbie/charlie-brain-bucket/milestone/1) for future dev ideas 
+### user story
 
-## project dir/ structure 
+- **As a** burgeoning full-stack developer,
+- **I want** a CI/CD infrastructure
+- **so that** I can develop locally, manage my code in GitHub, and
+    automatically deploy changes to DEV and PROD environments.
 
-```bash
-.
-├── index.html
-├── assets
-│   ├── css
-│   │   └── style.css
-│   ├── img
-│   └── js
-│       └── main.js
-├── pages
-│   └── auth.html
-└── README.md
+### narrative
+
+In 2--4 sentences, briefly describe your GOLF infrastructure and whatyou built/deployed.
+
+In this project, we build a complete front-end and back-end ecosystem. The front end was built using a prexisting project. The back-end was built with GCP.
+
+### architecture
+
+``` text
+LOCAL
+  │
+  ▼
+GitHub
+  │
+  ├── dev  ──► Render ─────────► DEV
+  │
+  └── main ──► GitHub Actions ─► GCP ──► PROD
 ```
 
-render server: https://charlie-brain-bucket-spar.onrender.com
+### stack
+
+`HTML/CSS/JS` \| `Node.js` \| `Express` \| `Git/GitHub` \| `Render` \|
+`GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions`
+
+### project structure
+
+Use `tree` to show your actual project structure.
+
+``` text
+app/
+├── .github/
+│   └── workflows/
+├── docs/
+│   └── README.md
+├── public/
+├── server/
+├── .gitignore
+└── ...
+```
+
+### GCP
+
+external IP: `34.55.74.112`\
+Linux user: `mrspartan38`\
+instructor SSH public key installed: `yes`
+
 
 
