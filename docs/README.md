@@ -73,5 +73,5 @@ external IP: `34.55.74.112`\
 Linux user: `mrspartan38`\
 instructor SSH public key installed: `yes`
 
-
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEzzXh5wHhW4lpUvKVy7zUi/sXeuzdkwmUSNaoZq5hrH
 
