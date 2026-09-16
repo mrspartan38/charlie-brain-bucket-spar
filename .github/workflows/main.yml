@@ -18,9 +18,8 @@ jobs:
 
           # echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
           # echo "${{ secrets.SSH_WHATEVER_KEY }}" > ~/.ssh/deploy_key
-          cat > ~/.ssh/deploy_key <<EOF
-          ${{ secrets.SSH_WHATEVER_KEY }}
-          EOF
+          echo "${{ secrets.SSH_THREE_KEY }}" > ~/.ssh/deploy_key
+
           chmod 600 ~/.ssh/deploy_key
 
           # safer than StrictHostKeyChecking=no
