@@ -26,7 +26,17 @@ jobs:
           # ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts
           ssh-keyscan -H "34.55.74.112" >> ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
-
+          
+      - name: Debug secret (safe)
+        shell: bash
+        run: |
+          echo "Secret length: ${#KEY}"
+          echo "First 20 chars of decoded key:"
+          echo "$KEY" | base64 -d | head -c 20
+          echo
+        env:
+          KEY: ${{ secrets.SSH_THREE_KEY }}
+          
       - name: Deploy over SSH
         shell: bash
         env:
