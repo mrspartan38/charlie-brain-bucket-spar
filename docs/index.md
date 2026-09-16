@@ -4,21 +4,21 @@
 test 4.2
 ### authorship + version
 
-`@mrspartan38` \| `2026-09-15` \| `GOLF`
+`@mrspartan38` \| `2026-09-16` \| `GOLF`
 
 ### deployments, codebase, & repo features 
 
-  resource                     link
-  ---------------------------- ----------------------
-  PROD codebase                [`[main](https://github.com/mrspartan38/charlie-brain-bucket-spar)`](URL)
-  PROD server                  [34.55.74.112](URL)
-  DEV codebase                 [`[dev](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/dev)`](URL)
-  DEV server                   [[Render](https://charlie-brain-bucket-spar.onrender.com)](URL)
-  docs                         [`docs/`](URL)
-  published docs               [GitHub Pages](URL)
-  CI/CD workflow               [`[deploy.yml](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/main/.github/workflows/main.yml)`](URL)
-  successful PROD deployment   [GitHub Action](URL)
-  resolved GOLF issue          [issue \#](URL)
+  | Resource                     | Link |
+|------------------------------|------|
+| PROD codebase                | [`main`](https://github.com/mrspartan38/charlie-brain-bucket-spar) |
+| PROD server                  | GCP (`34.55.74.112`) |
+| DEV codebase                 | [`dev`](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/dev) |
+| DEV server                   | [Render](https://charlie-brain-bucket-spar.onrender.com) |
+| docs                         | [`docs/`](URL) |
+| published docs               | [GitHub Pages](URL) |
+| CI/CD workflow               | [`deploy.yml`](URL) |
+| successful PROD deployment   | [GitHub Action](URL) |
+| resolved GOLF issue          | [issue \#](URL) |
 
 ### user story
 
@@ -29,7 +29,7 @@ test 4.2
 
 ### narrative
 
-In 2--4 sentences, briefly describe your GOLF infrastructure and whatyou built/deployed.
+> In 2--4 sentences, briefly describe your GOLF infrastructure and whatyou built/deployed.
 
 In this project, we build a complete front-end and back-end ecosystem. The front end was built using a prexisting project. The back-end was built with GCP.
 
@@ -60,7 +60,7 @@ app/
 ├── .github/
 │   └── workflows/
 ├── docs/
-│   └── README.md
+│   └── index.md
 ├── public/
 ├── server/
 ├── .gitignore
@@ -72,6 +72,4 @@ app/
 external IP: `34.55.74.112`\
 Linux user: `mrspartan38`\
 instructor SSH public key installed: `yes`
-
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEzzXh5wHhW4lpUvKVy7zUi/sXeuzdkwmUSNaoZq5hrH
 
