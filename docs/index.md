@@ -14,11 +14,11 @@ test 4.2
 | PROD server                  | GCP (`34.55.74.112`) |
 | DEV codebase                 | [`dev`](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/dev) |
 | DEV server                   | [Render](https://charlie-brain-bucket-spar.onrender.com) |
-| docs                         | [`docs/`](URL) |
-| published docs               | [GitHub Pages](URL) |
-| CI/CD workflow               | [`deploy.yml`](URL) |
-| successful PROD deployment   | [GitHub Action](URL) |
-| resolved GOLF issue          | [issue \#](URL) |
+| docs                         | [`docs/`](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/main/docs) |
+| published docs               | [GitHub Pages](https://mrspartan38.github.io/charlie-brain-bucket-spar/) |
+| CI/CD workflow               | [`deploy.yml`](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/main/.github/workflows/main.yml) |
+| successful PROD deployment   | [GitHub Action](https://github.com/mrspartan38/charlie-brain-bucket-spar/actions/runs/35106769809) |
+| resolved GOLF issue          | [issue \#](https://github.com/mrspartan38/charlie-brain-bucket-spar/issues/1) |
 
 ### user story
 
