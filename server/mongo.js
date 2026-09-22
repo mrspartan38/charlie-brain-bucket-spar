@@ -1,7 +1,9 @@
 
-
+import express from 'express';
 import { MongoClient, ServerApiVersion } from 'mongodb';
 import 'dotenv/config';
+
+const app = express();
 
 // const uri = "mongodb+srv://fullstack-brainbucket-chud:hyBUXzTEgoCe8FIt@cluster0.afjwqih.mongodb.net/?appName=Cluster0";
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
@@ -27,4 +29,23 @@ async function run() {
     await client.close();
   }
 }
-run().catch(console.dir);
+run().catch(console.dir); 
+
+app.get(
+  '/api/hello',
+  function(req, res) {
+
+    const message = {
+      message: 'hello from hard code json',
+      success: 'true'
+
+    };
+
+    res.json(message);
+
+  }
+);
+
+app.listen(5500, () => {
+  console.log('Server is running on http://localhost:5500');
+});
