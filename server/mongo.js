@@ -12,6 +12,7 @@ const app = express();
 const uri = process.env.MONGO_URI;
 
 app.use(express.static(join(__dirname, '../public')));
+app.use( express.json());
 
 // app.get('/', (req, res) => {
 //   res.send('Hello World')
@@ -55,6 +56,24 @@ app.get(
     };
 
     res.json(message);
+
+  }
+);
+
+app.post(
+  '/api/students',
+  function(req, res) {
+
+    console.log(
+      req.body
+    );
+
+    res.json({
+
+      received:
+        req.body
+
+    });
 
   }
 );

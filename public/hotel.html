@@ -1,13 +1,18 @@
 <!doctype html>
+
 <html>
+
 <head>
+
   <title>
-    hotel #
+    hotel 04
   </title>
+
 </head>
+
 <body>
-  <h1>
-    client → server
+<h1>
+    iss04 | client → server
   </h1>
   <button id="getData">
     get data
@@ -28,7 +33,76 @@
 
       const response =
         await fetch(
-          '/api/hello'
+          '/api/students'
+        );
+
+      const data =
+        await response.json();
+
+      document
+        .querySelector('#output')
+        .textContent =
+          JSON.stringify(
+            data,
+            null,
+            2
+          );
+
+    }
+
+  </script>
+  <h2>
+     iss05 | client → server data
+  </h2>
+
+  <button id="sendData">
+    send data
+  </button>
+
+  <pre id="output"></pre>
+
+  <script>
+
+    document
+      .querySelector('#sendData')
+      .addEventListener(
+        'click',
+        sendData
+      );
+
+    async function sendData() {
+
+      const student = {
+
+        name:
+          'Lasagna',
+
+        major:
+          'CIS'
+
+      };
+
+      const response =
+        await fetch(
+          '/api/students',
+          {
+
+            method:
+              'POST',
+
+            headers: {
+
+              'Content-Type':
+                'application/json'
+
+            },
+
+            body:
+              JSON.stringify(
+                student
+              )
+
+          }
         );
 
       const data =
