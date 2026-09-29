@@ -2,9 +2,11 @@
 import express from 'express';
 import { MongoClient, ServerApiVersion } from 'mongodb';
 import 'dotenv/config';
-
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { ObjectId } from 'mongodb';
+
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -26,24 +28,34 @@ const client = new MongoClient(uri, {
   }
 });
 
+const db = client.db('hotel');
+const collection = db.collection('items');
+
+const seedData = [
+  { name: 'alpha', category: 'one' },
+  { name: 'bravo', category: 'two' },
+  { name: 'charlie', category: 'one' }
+];
+
+
 app.get('/', (req, res) => {
   res.sendFile(join(__dirname, '../public', 'hotel.html'));
 })
 
-async function run() {
-  try {
-    // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
-    // Send a ping to confirm a successful connection
-    await client.db("admin").command({ ping: 1 });
-    console.log("Pinged your deployment. You successfully connected to MongoDB!");
-  } finally {
-    // Ensures that the client will close when you finish/error
-    await client.close();
-  }
-}
+// async function run() {
+//   try {
+//     // Connect the client to the server	(optional starting in v4.7)
+//     await client.connect();
+//     // Send a ping to confirm a successful connection
+//     await client.db("admin").command({ ping: 1 });
+//     console.log("Pinged your deployment. You successfully connected to MongoDB!");
+//   } finally {
+//     // Ensures that the client will close when you finish/error
+//     await client.close();
+//   }
+// }
 
-run().catch(console.dir); 
+// run().catch(console.dir); 
 
 app.get(
   '/api/hello',
@@ -76,6 +88,108 @@ app.post(
     });
 
   }
+);
+
+app.get('/api/hello', function (req, res) {
+
+  // const message = 'hello from the server as a variable';
+  // res.send(message);
+
+  const message = {
+    message: 'hello from hard code json',
+    success: 'true'
+  };
+  res.json(message);
+
+
+}
+);
+
+//iss08, get all items. 
+//iss10 in here also, refactored this endpoint for all or filtered itemss
+app.get('/api/items', async function (req, res) {
+
+  //iss10 stuff
+  
+  const category = req.query.category;
+
+  // console.log('iss10 category.', category);
+
+  const filter =
+    category
+      ? {
+        category: category
+      }
+      : {};
+  //end iss10 new stuff
+
+  const records =
+    await collection
+      // .find({}) remove for iss10
+      .find(filter) //add for iss10
+      .toArray();
+
+  res.json(records);
+
+}
+);
+
+//iss09. get one
+app.get('/api/items/:id', async function (req, res) {
+
+  const id =
+    new ObjectId(
+      req.params.id
+    );
+
+  const record =
+    await collection
+      .findOne({
+        _id: id
+      });
+
+  res.json(record);
+
+}
+);
+
+//iss 11, notice post to slash api/items != get to slash of same name
+app.post('/api/items', async function(req, res) {
+    const newItem = req.body;
+    const result = await collection.insertOne(newItem);
+    res.status(201).json(result);
+});
+
+app.post('/api/students', function (req, res) {
+  console.log(req.body);
+
+  res.json({
+    received:
+      req.body
+  });
+}
+);
+
+//iss07 seed & clear 
+app.post('/api/dev/seed', async function (req, res) {
+  const result =
+    await collection
+      .insertMany(
+        seedData
+      );
+  res.json(result);
+}
+);
+
+app.delete('/api/dev/clear', async function (req, res) {
+
+  const result =
+    await collection
+      .deleteMany({});
+
+  res.json(result);
+
+}
 );
 
 app.listen(5500, () => {
