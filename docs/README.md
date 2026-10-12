@@ -2,6 +2,15 @@
 
 Dev runtime example project #2, to set up a complete dev pipeline with front and back end wiht MongoDB & complete CRUD pipeline.
 
+# APP NAME
+> short app tagline
+
+### authorship + version
+
+`@githubusername` \| `YYYY-MM-DD` \| `GOLF`
+
+### deployments, codebase, & repo features 
+
 | requirement | evidence |
 |---|---|
 | MongoDB connection | [server code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/server/mongo.js#L23) |
@@ -20,7 +29,56 @@ Dev runtime example project #2, to set up a complete dev pipeline with front and
 | dev → main | [PR](https://github.com/mrspartan38/charlie-brain-bucket-spar/pull/11) |
 | PROD deployment | [Action](https://github.com/mrspartan38/charlie-brain-bucket-spar/actions/runs/38313577173) |
 
+### user story
 
+- **As a** burgeoning full-stack developer,
+- **I want** a CI/CD infrastructure
+- **so that** I can develop locally, manage my code in GitHub, and
+    automatically deploy changes to DEV and PROD environments.
+
+### narrative
+
+In 2--4 sentences, briefly describe your GOLF infrastructure and whatyou built/deployed.
+
+### architecture
+
+``` text
+LOCAL
+  │
+  ▼
+GitHub
+  │
+  ├── dev  ──► Render ─────────► DEV
+  │
+  └── main ──► GitHub Actions ─► GCP ──► PROD
+```
+
+### stack
+
+`HTML/CSS/JS` \| `Node.js` \| `Express` \| `Git/GitHub` \| `Render` \|
+`GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions`
+
+### project structure
+
+Use `tree` to show your actual project structure.
+
+``` text
+repo/
+├── .github/
+│   └── workflows/
+├── docs/
+│   └── README.md
+├── public/
+├── server/
+├── .gitignore
+└── ...
+```
+
+### GCP
+
+external IP: `00.00.00.00`\
+Linux user: `username`\
+instructor SSH public key installed: `yes`
 ## Golf Documentation
 
 Full docs are available here:  
