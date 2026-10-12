@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "nodemon app.js",
+    "mongo": "nodemon mongo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +24,9 @@
   },
   "homepage": "https://github.com/mrspartan38/charlie-brain-bucket-spar#readme",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "mongodb": "^7.7.0",
     "nodemon": "^3.1.14"
   }
 }
