@@ -1,8 +1,27 @@
  Charlie Brain Bucket Spar
 
-Dev runtime example project, to set up a complete dev pipeline with front and back end.
+Dev runtime example project #2, to set up a complete dev pipeline with front and back end wiht MongoDB & complete CRUD pipeline.
 
-## Documentation
+| requirement | evidence |
+|---|---|
+| MongoDB connection | [server code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/server/mongo.js#L23) |
+| GET all | [code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/public/hotel.html#L149) |
+| GET one | [code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/public/hotel.html#L189) |
+| filtered GET | [code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/public/hotel.html#L232) |
+| POST | [code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/public/hotel.html#L267) |
+| PATCH | [code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/public/hotel.html#L297) |
+| DELETE | [code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/public/hotel.html#L331) |
+| frontend `fetch()` | [client code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/bba701e0864c94ea1ed10a5f4bf0c62b0801c3f9/public/hotel.html#L33) |
+| PROD app | [app](URL) |
+| HOTEL milestone | [milestone](https://github.com/mrspartan38/charlie-brain-bucket-spar/milestone/1) |
+| example issue | [issue](URL) |
+| development branch | [branch](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/dev) |
+| feature → dev | [PR](https://github.com/mrspartan38/charlie-brain-bucket-spar/pull/10) |
+| dev → main | [PR](https://github.com/mrspartan38/charlie-brain-bucket-spar/pull/11) |
+| PROD deployment | [Action](https://github.com/mrspartan38/charlie-brain-bucket-spar/actions/runs/38313577173) |
+
+
+## Golf Documentation
 
 Full docs are available here:  
 **[View Documentation](https://mrspartan38.github.io/charlie-brain-bucket-spar/)**
