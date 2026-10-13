@@ -1,8 +1,7 @@
  
-# APP NAME
- Charlie Brain Bucket Spar
+# Charlie Brain Bucket Spar
+ 
 Dev runtime example project #2, to set up a complete dev pipeline with front and back end wiht MongoDB & complete CRUD pipeline.
-test2
 ### authorship + version
 
 `@mrspartan38` \| `2026-10-13` \| `HOTEL`
@@ -19,13 +18,13 @@ test2
 | PATCH | [code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/public/hotel.html#L297) |
 | DELETE | [code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/583d3f31508f586f3bb920c31162138277c0dc65/public/hotel.html#L331) |
 | frontend `fetch()` | [client code](https://github.com/mrspartan38/charlie-brain-bucket-spar/blob/bba701e0864c94ea1ed10a5f4bf0c62b0801c3f9/public/hotel.html#L33) |
-| PROD app | [app](URL) |
+| PROD app | [app](http://evan.barrycumbie.com) |
 | HOTEL milestone | [milestone](https://github.com/mrspartan38/charlie-brain-bucket-spar/milestone/1) |
-| example issue | [issue](URL) |
+| example issue | [issue](https://github.com/mrspartan38/charlie-brain-bucket-spar/issues/3) |
 | development branch | [branch](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/dev) |
 | feature → dev | [PR](https://github.com/mrspartan38/charlie-brain-bucket-spar/pull/10) |
 | dev → main | [PR](https://github.com/mrspartan38/charlie-brain-bucket-spar/pull/11) |
-| PROD deployment | [Action](https://github.com/mrspartan38/charlie-brain-bucket-spar/actions/runs/38313577173) |
+| PROD deployment | [Action](https://github.com/mrspartan38/charlie-brain-bucket-spar/actions/runs/38444429453) |
 
 ### user story
 
@@ -56,7 +55,8 @@ GitHub
 ### stack
 
 `HTML/CSS/JS` \| `Node.js` \| `Express` \| `Git/GitHub` \| `Render` \|
-`GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions`
+`GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions` \|
+`MongoDB`
 
 ### project structure
 
@@ -69,7 +69,9 @@ repo/
 ├── docs/
 │   └── README.md
 ├── public/
+│   └── hotel.html
 ├── server/
+│   └── mongo.js
 ├── .gitignore
 └── ...
 ```
@@ -77,8 +79,9 @@ repo/
 ### GCP
 
 external IP: `34.55.77.112`\
+named IP:`evan.barrycumbie.com`\
 Linux user: `mrspartan38`\
-instructor SSH public key installed: `maybe?`
+instructor SSH public key installed: `wahrscheinlich?`
 
 ## Golf Documentation
 
