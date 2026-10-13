@@ -1,13 +1,11 @@
- Charlie Brain Bucket Spar
- test2
-Dev runtime example project #2, to set up a complete dev pipeline with front and back end wiht MongoDB & complete CRUD pipeline.
-
+ 
 # APP NAME
-> short app tagline
+ Charlie Brain Bucket Spar
+Dev runtime example project #2, to set up a complete dev pipeline with front and back end wiht MongoDB & complete CRUD pipeline.
 
 ### authorship + version
 
-`@githubusername` \| `YYYY-MM-DD` \| `GOLF`
+`@mrspartan38` \| `2026-10-13` \| `HOTEL`
 
 ### deployments, codebase, & repo features 
 
@@ -38,7 +36,9 @@ Dev runtime example project #2, to set up a complete dev pipeline with front and
 
 ### narrative
 
-In 2--4 sentences, briefly describe your GOLF infrastructure and whatyou built/deployed.
+This hotel project is designed to implent a CRUD system within a cloud hosted website. 
+The backend connects to Mongodb and utilizes JSONs to write data and sends it back and forth via fetch calls.
+This project is designed to be the bones of in terms of what our end of semester project is going to be. (A full stack app that utilizes fetch and a form of restfulAPI)
 
 ### architecture
 
@@ -76,10 +76,11 @@ repo/
 
 ### GCP
 
-external IP: `00.00.00.00`\
-Linux user: `username`\
-instructor SSH public key installed: `yes`
+external IP: `34.55.77.112`\
+Linux user: `mrspartan38`\
+instructor SSH public key installed: `maybe?`
+
 ## Golf Documentation
 
-Full docs are available here:  
+Full docs for Golf are available here:  
 **[View Documentation](https://mrspartan38.github.io/charlie-brain-bucket-spar/)**
