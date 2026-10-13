@@ -35,7 +35,7 @@ jobs:
           echo "$KEY" | base64 -d | head -c 20
           echo
         env:
-          KEY: ${{ secrets.SSH_THREE_KEY }}
+          KEY: ${{ secrets.SSH_FARTKNOCKER_KEY }}
           
       - name: Deploy over SSH
         shell: bash
