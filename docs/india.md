@@ -25,17 +25,24 @@ Apps/Services that already exist:
 >At KILO, we should be able to demonstrate that users are able to successfully read, save, and review vocabulary words and grammatical concepts that they would need to review.
 
 
-## PLAN --- project system
+## PLAN
 
-Starting point --- what already exists?
-Direction --- The goal is to implement a vocabulary/grammar review system that is savable by users who are logged in. 
-Capabilities --- three initial capability directions; these may change
-Biggest unknowns --- User Authentication, do not not how to sucessfully implement that!
-Project links --- 
+- Starting point --- what already exists?
+- Direction --- The goal is to implement a vocabulary/grammar review system that is savable by users who are logged in. 
+- Capabilities --- three initial capability directions; these may change
+- Biggest unknowns --- User Authentication, do not not how to sucessfully implement that!
+- Project links --- 
 
-[Milestones](https://github.com/mrspartan38/charlie-brain-bucket-spar/milestones)
-[Backlong] - TBD
+| Resource                     | Link |
+|------------------------------|------|
+| Milestones                | [`Milestones`](https://github.com/mrspartan38/charlie-brain-bucket-spar/milestones) |
+| Backlog                  | [`Backlog`] - TBD |
+| DEV                      | ['DEV'](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/dev) |
+| MAIN                     | ['MAIN'](https://github.com/mrspartan38/charlie-brain-bucket-spar/tree/main) |
+| GCP IP                   | [`GCP`](https://evan.barrycumbie.com/) |
+|Render                    | [`Render`](https://charlie-brain-bucket-spar.onrender.com/) |
 
-## SPRING 99 --- future
+
+## SPRING 99
 
 > While this is specifically used for German language review, it could be easily scaled to the other languages that the Department of Foreign Languages teaches at UNA. Could be scaled after that to a publically available app, maybe with Monetization services. Ideally this would just be free with ads.
