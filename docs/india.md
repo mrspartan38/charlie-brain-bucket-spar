@@ -20,14 +20,22 @@ Apps/Services that already exist:
 - Nicos Weg: A learning tool created by DW using an interactive web series. Is good for listening, but is overall annoying to use and not especially targeted towards higher level courses at UNA. [Nicos Weg](https://learngerman.dw.com/en/nicos-weg/c-36519789)
 - GR textbooks: Our main tool to learn German in the classroom. The most helpful primary tool because it has a lot of resources, but it can be difficult to review certain grammatical and syntaxial concepts if you don't know where to look. No unified, accessible textbook exists for the 300-400 level courses. [GR Textbooks](https://una.pressbooks.pub/gr101/)
 - 
-## DONE --- your KILO success test
+## KILO SUCCESS TEST
 
+>At KILO, we should be able to demonstrate that users are able to successfully read, save, and review vocabulary words and grammatical concepts that they would need to review.
 
 
 ## PLAN --- project system
 
-## Create your own GitHub Milestones
+Starting point --- what already exists?
+Direction --- The goal is to implement a vocabulary/grammar review system that is savable by users who are logged in. 
+Capabilities --- three initial capability directions; these may change
+Biggest unknowns --- User Authentication, do not not how to sucessfully implement that!
+Project links --- 
 
-## Populate the backlog
+[Milestones](https://github.com/mrspartan38/charlie-brain-bucket-spar/milestones)
+[Backlong] - TBD
 
 ## SPRING 99 --- future
+
+> While this is specifically used for German language review, it could be easily scaled to the other languages that the Department of Foreign Languages teaches at UNA. Could be scaled after that to a publically available app, maybe with Monetization services. Ideally this would just be free with ads.
