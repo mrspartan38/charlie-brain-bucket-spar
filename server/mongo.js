@@ -48,8 +48,6 @@ app.get('/api/health', async (req, res) => {
 
 // Vocab CRUD (#13),
 
-//iss13, vocab CRUD
-
 const requiredVocab = ['german', 'english', 'partOfSpeech', 'level'];
 
 app.post('/api/vocab', async function (req, res) {
@@ -123,6 +121,24 @@ app.delete('/api/vocab/:id', async function (req, res) {
   res.json(result);
 });
 
+app.get('/api/vocab', async function (req, res) {
+  const filter = {};
+
+  if (req.query.level) {
+    filter.level = Number(req.query.level);
+  }
+
+  if (req.query.chapter) {
+    filter['source.chapter'] = Number(req.query.chapter);
+  }
+
+  if (req.query.tag) {
+    filter.tags = req.query.tag;
+  }
+
+  const records = await vocab.find(filter).toArray();
+  res.json(records);
+});
 
 // grammar CRUD (#14), seed routes (#15) and saves go here
 
