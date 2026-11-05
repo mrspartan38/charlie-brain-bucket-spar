@@ -28,8 +28,11 @@ const client = new MongoClient(uri, {
   }
 });
 
-const db = client.db('hotel');
-const collection = db.collection('items');
+const db = client.db('una');
+const vocab = db.collection('vocab');
+const grammar = db.collection('grammar');
+const saves = db.collection('saves');
+
 
 const seedData = [
   { name: 'alpha', category: 'one' },
@@ -56,21 +59,6 @@ app.get('/', (req, res) => {
 // }
 
 // run().catch(console.dir); 
-
-app.get(
-  '/api/hello',
-  function(req, res) {
-
-    const message = {
-      message: 'hello from hard code json',
-      success: 'true'
-
-    };
-
-    res.json(message);
-
-  }
-);
 
 app.post(
   '/api/students',
