@@ -2,12 +2,11 @@
   "name": "charlie-brain-bucket-spar",
   "version": "1.0.0",
   "description": "> [dev project] charlie",
-  "main": "app.js",
+  "main": "mongo.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "dev": "nodemon app.js",
     "mongo": "nodemon mongo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
