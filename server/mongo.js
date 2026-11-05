@@ -39,11 +39,6 @@ app.get('/', (req, res) => {
   res.sendFile(join(__dirname, '../public', 'una.html'));
 })
 
-// Temporary home page until Una has its own (#16)
-app.get('/', (req, res) => {
-  res.redirect('/pages/content.html');
-});
-
 // Health check: confirms the server is up and can reach MongoDB
 app.get('/api/health', async (req, res) => {
   try {
