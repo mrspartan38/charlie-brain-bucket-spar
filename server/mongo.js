@@ -55,9 +55,13 @@ const requiredVocab = ['german', 'english', 'partOfSpeech', 'level'];
 app.post('/api/vocab', async function (req, res) {
   const word = req.body;
 
-  if (!word.german || !word.english || !word.partOfSpeech || !word.level) {
-    return res.status(400).json({ error: 'missing required fields' });
-  }
+  const missing = requiredVocab.filter(function (field) {
+  return !word[field];
+});
+
+if (missing.length > 0) {
+  return res.status(400).json({ error: 'missing fields: ' + missing.join(', ') });
+}
 
   word.createdAt = new Date();
   word.updatedAt = new Date();
