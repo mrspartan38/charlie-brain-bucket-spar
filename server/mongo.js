@@ -34,153 +34,28 @@ const grammar = db.collection('grammar');
 const saves = db.collection('saves');
 
 
-const seedData = [
-  { name: 'alpha', category: 'one' },
-  { name: 'bravo', category: 'two' },
-  { name: 'charlie', category: 'one' }
-];
-
 
 app.get('/', (req, res) => {
-  res.sendFile(join(__dirname, '../public', 'hotel.html'));
+  res.sendFile(join(__dirname, '../public', 'una.html'));
 })
 
-// async function run() {
-//   try {
-//     // Connect the client to the server	(optional starting in v4.7)
-//     await client.connect();
-//     // Send a ping to confirm a successful connection
-//     await client.db("admin").command({ ping: 1 });
-//     console.log("Pinged your deployment. You successfully connected to MongoDB!");
-//   } finally {
-//     // Ensures that the client will close when you finish/error
-//     await client.close();
-//   }
-// }
+// Temporary home page until Una has its own (#16)
+app.get('/', (req, res) => {
+  res.redirect('/pages/content.html');
+});
 
-// run().catch(console.dir); 
-
-app.post(
-  '/api/students',
-  function(req, res) {
-
-    console.log(
-      req.body
-    );
-
-    res.json({
-
-      received:
-        req.body
-
-    });
-
+// Health check: confirms the server is up and can reach MongoDB
+app.get('/api/health', async (req, res) => {
+  try {
+    await db.command({ ping: 1 });
+    res.json({ ok: true, db: db.databaseName });
+  } catch (err) {
+    res.status(503).json({ ok: false, error: err.message });
   }
-);
-
-//iss08, get all items. 
-//iss10 in here also, refactored this endpoint for all or filtered itemss
-app.get('/api/items', async function (req, res) {
-
-  //iss10 stuff
-  
-  const category = req.query.category;
-
-  // console.log('iss10 category.', category);
-
-  const filter =
-    category
-      ? {
-        category: category
-      }
-      : {};
-  //end iss10 new stuff
-
-  const records =
-    await collection
-      // .find({}) remove for iss10
-      .find(filter) //add for iss10
-      .toArray();
-
-  res.json(records);
-
-}
-);
-
-//iss09. get one
-app.get('/api/items/:id', async function (req, res) {
-
-  const id =
-    new ObjectId(
-      req.params.id
-    );
-
-  const record =
-    await collection
-      .findOne({
-        _id: id
-      });
-
-  res.json(record);
-
-}
-);
-
-//iss 11, notice post to slash api/items != get to slash of same name
-app.post('/api/items', async function(req, res) {
-    const newItem = req.body;
-    const result = await collection.insertOne(newItem);
-    res.status(201).json(result);
 });
 
-app.post('/api/students', function (req, res) {
-  console.log(req.body);
+// Vocab CRUD (#13), grammar CRUD (#14), seed routes (#15) and saves go here
 
-  res.json({
-    received:
-      req.body
-  });
-}
-);
-
-//iss07 seed & clear 
-app.post('/api/dev/seed', async function (req, res) {
-  const result =
-    await collection
-      .insertMany(
-        seedData
-      );
-  res.json(result);
-}
-);
-
-app.delete('/api/dev/clear', async function (req, res) {
-
-  const result =
-    await collection
-      .deleteMany({});
-
-  res.json(result);
-
-}
-);
-
-app.patch('/api/items/:id',
-  async function(req, res) {
-    const id = new ObjectId(req.params.id);
-    const changes = req.body;
-    const result = await collection
-        .updateOne({ _id: id }, { $set: changes });
-    res.json(result);
-});
-
-//iss20
-app.delete('/api/items/:id',
-  async function(req, res) {
-    const id = new ObjectId(req.params.id);
-    const result = await collection.deleteOne({ _id: id });
-    res.json(result);
-});
 
 app.listen(5500, () => {
   console.log('Server is running on http://localhost:5500');
