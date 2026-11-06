@@ -236,9 +236,11 @@ app.post('/api/dev/seed', async function (req, res) {
 
   await vocab.deleteMany({});
   await grammar.deleteMany({});
+  await saves.deleteMany({});
 
   const vocabResult = await vocab.insertMany(vocabWords);
   const grammarResult = await grammar.insertMany(grammarConcepts);
+  
 
   res.json({ vocab: vocabResult.insertedCount, grammar: grammarResult.insertedCount });
 });
@@ -246,7 +248,8 @@ app.post('/api/dev/seed', async function (req, res) {
 app.delete('/api/dev/clear', async function (req, res) {
   const vocabResult = await vocab.deleteMany({});
   const grammarResult = await grammar.deleteMany({});
-
+  await saves.deleteMany({});
+  
   res.json({ vocab: vocabResult.deletedCount, grammar: grammarResult.deletedCount });
 });
 
