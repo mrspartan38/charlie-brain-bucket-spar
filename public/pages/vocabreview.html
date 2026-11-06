@@ -17,6 +17,14 @@
       vocab review
     </h1>
 
+     <p id="sessionCount">
+      Reviewed 0 words
+    </p>
+
+    <button id="endSession">
+      end session
+    </button>
+
     <p id="messageCard"></p>
 
     <div id="card" hidden>
@@ -41,9 +49,24 @@
       </div>
     </div>
 
+     <div id="summary" hidden>
+      <h2>
+        session finished
+      </h2>
+
+      <p id="summaryText"></p>
+
+      <button id="reviewAgain">
+        review again
+      </button>
+    </div>
+
     <script>
+    
+    
 
       let currentSaveId = null;
+      let reviewedCount = 0;
 
       document
         .querySelector('#showAnswer')
@@ -56,6 +79,20 @@
       document.querySelector('#rate2').addEventListener('click', function () { rate(2); });
       document.querySelector('#rate3').addEventListener('click', function () { rate(3); });
 
+        document
+        .querySelector('#endSession')
+        .addEventListener(
+          'click',
+          endSession
+        );
+
+      document
+        .querySelector('#reviewAgain')
+        .addEventListener(
+          'click',
+          reviewAgain
+        );
+        
       async function loadNext() {
 
         const response =
@@ -127,9 +164,51 @@
           return;
         }
 
+        reviewedCount = reviewedCount + 1;
+
+        document
+          .querySelector('#sessionCount')
+          .textContent =
+          'Reviewed ' +
+          reviewedCount +
+          (reviewedCount === 1 ? ' word' : ' words');
+
         loadNext();
 
       }
+
+      function endSession() {
+
+        document.querySelector('#card').hidden = true;
+        document.querySelector('#messageCard').textContent = '';
+        document.querySelector('#endSession').hidden = true;
+
+        document
+          .querySelector('#summaryText')
+          .textContent =
+          'You reviewed ' +
+          reviewedCount +
+          (reviewedCount === 1 ? ' word.' : ' words.');
+
+        document.querySelector('#summary').hidden = false;
+
+      }
+
+      function reviewAgain() {
+
+        reviewedCount = 0;
+
+        document
+          .querySelector('#sessionCount')
+          .textContent = 'Reviewed 0 words';
+
+        document.querySelector('#summary').hidden = true;
+        document.querySelector('#endSession').hidden = false;
+
+        loadNext();
+
+      }
+
 
       loadNext();
 
