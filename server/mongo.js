@@ -250,6 +250,86 @@ app.delete('/api/dev/clear', async function (req, res) {
   res.json({ vocab: vocabResult.deletedCount, grammar: grammarResult.deletedCount });
 });
 
+// Saves (no accounts yet)
+
+saves.createIndex({ itemType: 1, itemId: 1 }, { unique: true });
+
+app.post('/api/saves', async function (req, res) {
+  const { itemType, itemId } = req.body;
+
+  if (!['vocab', 'grammar'].includes(itemType) || !ObjectId.isValid(itemId)) {
+    return res.status(400).json({ error: 'itemType must be vocab or grammar, and itemId must be valid' });
+  }
+
+  const save = {
+    itemType: itemType,
+    itemId: new ObjectId(itemId),
+    confidence: 1,
+    reviewCount: 0,
+    lastReviewedAt: null,
+    savedAt: new Date()
+  };
+
+  try {
+    const result = await saves.insertOne(save);
+    res.status(201).json(result);
+  } catch (err) {
+    if (err.code === 11000) {
+      return res.status(409).json({ error: 'already saved' });
+    }
+    throw err;
+  }
+});
+
+app.get('/api/saves', async function (req, res) {
+  const records = await saves.find({}).toArray();
+
+  const withContent = await Promise.all(records.map(async function (save) {
+    const collection = save.itemType === 'vocab' ? vocab : grammar;
+    save.item = await collection.findOne({ _id: save.itemId });
+    return save;
+  }));
+
+  res.json(withContent);
+});
+
+app.patch('/api/saves/:id/review', async function (req, res) {
+  if (!ObjectId.isValid(req.params.id)) {
+    return res.status(400).json({ error: 'invalid id' });
+  }
+
+  const confidence = Number(req.body.confidence);
+
+  if (![1, 2, 3].includes(confidence)) {
+    return res.status(400).json({ error: 'confidence must be 1, 2 or 3' });
+  }
+
+  const result = await saves.updateOne(
+    { _id: new ObjectId(req.params.id) },
+    { $set: { confidence: confidence, lastReviewedAt: new Date() }, $inc: { reviewCount: 1 } }
+  );
+
+  if (result.matchedCount === 0) {
+    return res.status(404).json({ error: 'not found' });
+  }
+
+  res.json(result);
+});
+
+app.delete('/api/saves/:id', async function (req, res) {
+  if (!ObjectId.isValid(req.params.id)) {
+    return res.status(400).json({ error: 'invalid id' });
+  }
+
+  const result = await saves.deleteOne({ _id: new ObjectId(req.params.id) });
+
+  if (result.deletedCount === 0) {
+    return res.status(404).json({ error: 'not found' });
+  }
+
+  res.json(result);
+});
+
 app.listen(5500, () => {
   console.log('Server is running on http://localhost:5500');
 });
