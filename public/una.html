@@ -35,7 +35,7 @@
           getVocab
         );
 
-      async function getVocab() {
+            async function getVocab() {
 
         const response =
           await fetch(
@@ -44,6 +44,22 @@
 
         const data =
           await response.json();
+
+        const savesResponse =
+          await fetch(
+            '/api/saves'
+          );
+
+        const saves =
+          await savesResponse.json();
+
+        const savedIds = new Set();
+
+        saves.forEach(function (save) {
+          if (save.itemType === 'vocab') {
+            savedIds.add(String(save.itemId));
+          }
+        });
 
         const list =
           document
@@ -63,6 +79,14 @@
             word.english +
             ' ';
 
+          if (savedIds.has(String(word._id))) {
+            item.appendChild(
+              document.createTextNode('(saved)')
+            );
+            list.appendChild(item);
+            return;
+          }
+
           const button =
             document
               .createElement('button');
@@ -71,12 +95,22 @@
 
           button.addEventListener(
             'click',
-            function () {
-              saveItem(
-                'vocab',
-                word._id,
-                '#messageVocab'
-              );
+            async function () {
+
+              const saved =
+                await saveItem(
+                  'vocab',
+                  word._id,
+                  '#messageVocab'
+                );
+
+              if (saved) {
+                button.remove();
+                item.appendChild(
+                  document.createTextNode('(saved)')
+                );
+              }
+
             }
           );
 
@@ -125,6 +159,7 @@
           .querySelector(messageSelector)
           .textContent = message;
 
+          return response.status === 201 || response.status === 409;
       }
 
     </script>
@@ -371,6 +406,10 @@
           );
 
         await getSaves();
+
+        if (document.querySelector('#listVocab').children.length > 0) {
+          await getVocab();
+        }
 
         document
           .querySelector('#messageReview')
