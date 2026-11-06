@@ -1,0 +1,99 @@
+[
+  {
+    "german": "der Bahnhof",
+    "english": "train station",
+    "partOfSpeech": "noun",
+    "article": "der",
+    "plural": "die Bahnhöfe",
+    "example": { "german": "Ich warte am Bahnhof.", "english": "I am waiting at the train station." },
+    "source": { "book": "GR101", "chapter": 4 },
+    "level": 100,
+    "tags": ["travel", "places"]
+  },
+  {
+    "german": "das Buch",
+    "english": "book",
+    "partOfSpeech": "noun",
+    "article": "das",
+    "plural": "die Bücher",
+    "example": { "german": "Das Buch liegt auf dem Tisch.", "english": "The book is lying on the table." },
+    "source": { "book": "GR101", "chapter": 4 },
+    "level": 100,
+    "tags": ["school", "objects"]
+  },
+  {
+    "german": "die Schule",
+    "english": "school",
+    "partOfSpeech": "noun",
+    "article": "die",
+    "plural": "die Schulen",
+    "example": { "german": "Die Schule beginnt um acht Uhr.", "english": "School starts at eight o'clock." },
+    "source": { "book": "GR101", "chapter": 4 },
+    "level": 100,
+    "tags": ["school", "places"]
+  },
+  {
+    "german": "der Tisch",
+    "english": "table",
+    "partOfSpeech": "noun",
+    "article": "der",
+    "plural": "die Tische",
+    "source": { "book": "GR101", "chapter": 4 },
+    "level": 100,
+    "tags": ["objects"]
+  },
+  {
+    "german": "die Stadt",
+    "english": "city",
+    "partOfSpeech": "noun",
+    "article": "die",
+    "plural": "die Städte",
+    "example": { "german": "Berlin ist eine große Stadt.", "english": "Berlin is a big city." },
+    "source": { "book": "GR101", "chapter": 4 },
+    "level": 100,
+    "tags": ["travel", "places"]
+  },
+  {
+    "german": "gehen",
+    "english": "to go, to walk",
+    "partOfSpeech": "verb",
+    "example": { "german": "Wir gehen zur Schule.", "english": "We are going to school." },
+    "source": { "book": "GR101", "chapter": 5 },
+    "level": 100,
+    "tags": ["verbs", "movement"]
+  },
+  {
+    "german": "lernen",
+    "english": "to learn",
+    "partOfSpeech": "verb",
+    "example": { "german": "Ich lerne Deutsch.", "english": "I am learning German." },
+    "source": { "book": "GR101", "chapter": 5 },
+    "level": 100,
+    "tags": ["verbs", "school"]
+  },
+  {
+    "german": "trinken",
+    "english": "to drink",
+    "partOfSpeech": "verb",
+    "source": { "book": "GR101", "chapter": 5 },
+    "level": 100,
+    "tags": ["verbs", "food"]
+  },
+  {
+    "german": "schnell",
+    "english": "fast, quick",
+    "partOfSpeech": "adjective",
+    "example": { "german": "Der Zug ist sehr schnell.", "english": "The train is very fast." },
+    "source": { "book": "GR101", "chapter": 6 },
+    "level": 100,
+    "tags": ["adjectives"]
+  },
+  {
+    "german": "groß",
+    "english": "big, tall",
+    "partOfSpeech": "adjective",
+    "source": { "book": "GR101", "chapter": 6 },
+    "level": 100,
+    "tags": ["adjectives"]
+  }
+]

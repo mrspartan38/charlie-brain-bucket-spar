@@ -226,6 +226,29 @@ app.get('/api/grammar', async function (req, res) {
 
 // seed routes (#15) and saves go here
 
+app.post('/api/dev/seed', async function (req, res) {
+  const vocabWords = JSON.parse(await readFile(join(__dirname, 'seed/vocab.json'), 'utf8'));
+  const grammarConcepts = JSON.parse(await readFile(join(__dirname, 'seed/grammar.json'), 'utf8'));
+
+  const now = new Date();
+  vocabWords.forEach(function (item) { item.createdAt = now; item.updatedAt = now; });
+  grammarConcepts.forEach(function (item) { item.createdAt = now; item.updatedAt = now; });
+
+  await vocab.deleteMany({});
+  await grammar.deleteMany({});
+
+  const vocabResult = await vocab.insertMany(vocabWords);
+  const grammarResult = await grammar.insertMany(grammarConcepts);
+
+  res.json({ vocab: vocabResult.insertedCount, grammar: grammarResult.insertedCount });
+});
+
+app.delete('/api/dev/clear', async function (req, res) {
+  const vocabResult = await vocab.deleteMany({});
+  const grammarResult = await grammar.deleteMany({});
+
+  res.json({ vocab: vocabResult.deletedCount, grammar: grammarResult.deletedCount });
+});
 
 app.listen(5500, () => {
   console.log('Server is running on http://localhost:5500');
