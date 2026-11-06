@@ -135,7 +135,96 @@ app.get('/api/vocab', async function (req, res) {
   res.json(records);
 });
 
-// grammar CRUD (#14), seed routes (#15) and saves go here
+// grammar CRUD (#14), 
+
+const requiredGrammar = ['title', 'summary', 'explanation', 'level'];
+
+app.post('/api/grammar', async function (req, res) {
+  const concept = req.body;
+
+  const missing = requiredGrammar.filter(function (field) {
+    return !concept[field];
+  });
+
+  if (missing.length > 0) {
+    return res.status(400).json({ error: 'missing fields: ' + missing.join(', ') });
+  }
+
+  concept.createdAt = new Date();
+  concept.updatedAt = new Date();
+
+  const result = await grammar.insertOne(concept);
+  res.status(201).json(result);
+});
+
+app.get('/api/grammar/:id', async function (req, res) {
+  if (!ObjectId.isValid(req.params.id)) {
+    return res.status(400).json({ error: 'invalid id' });
+  }
+
+  const record = await grammar.findOne({ _id: new ObjectId(req.params.id) });
+
+  if (!record) {
+    return res.status(404).json({ error: 'not found' });
+  }
+
+  res.json(record);
+});
+
+app.patch('/api/grammar/:id', async function (req, res) {
+  if (!ObjectId.isValid(req.params.id)) {
+    return res.status(400).json({ error: 'invalid id' });
+  }
+
+  const changes = req.body;
+  changes.updatedAt = new Date();
+
+  const result = await grammar.updateOne(
+    { _id: new ObjectId(req.params.id) },
+    { $set: changes }
+  );
+
+  if (result.matchedCount === 0) {
+    return res.status(404).json({ error: 'not found' });
+  }
+
+  res.json(result);
+});
+
+app.delete('/api/grammar/:id', async function (req, res) {
+  if (!ObjectId.isValid(req.params.id)) {
+    return res.status(400).json({ error: 'invalid id' });
+  }
+
+  const result = await grammar.deleteOne({ _id: new ObjectId(req.params.id) });
+
+  if (result.deletedCount === 0) {
+    return res.status(404).json({ error: 'not found' });
+  }
+
+  res.json(result);
+});
+
+app.get('/api/grammar', async function (req, res) {
+  const filter = {};
+
+  if (req.query.level) {
+    filter.level = Number(req.query.level);
+  }
+
+  if (req.query.chapter) {
+    filter['source.chapter'] = Number(req.query.chapter);
+  }
+
+  if (req.query.tag) {
+    filter.tags = req.query.tag;
+  }
+
+  const records = await grammar.find(filter).toArray();
+  res.json(records);
+});
+
+// seed routes (#15) and saves go here
 
 
 app.listen(5500, () => {
