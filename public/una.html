@@ -3,20 +3,207 @@
 
 <head>
   <title>
-    hotel final
+    Una
   </title>
 </head>
 
 <body>
-  <div id="iss01">
+    <div id="vocab">
     <h1>
-      hi
+      vocab: read all
     </h1>
-    <button id="getData">
-      get data
+
+    <button id="getVocab">
+      get vocab
     </button>
 
-    
+    <p id="messageVocab"></p>
+
+    <ul id="listVocab"></ul>
+
+    <script>
+
+      document
+        .querySelector('#getVocab')
+        .addEventListener(
+          'click',
+          getVocab
+        );
+
+      async function getVocab() {
+
+        const response =
+          await fetch(
+            '/api/vocab'
+          );
+
+        const data =
+          await response.json();
+
+        const list =
+          document
+            .querySelector('#listVocab');
+
+        list.textContent = '';
+
+        data.forEach(function (word) {
+
+          const item =
+            document
+              .createElement('li');
+
+          item.textContent =
+            word.german +
+            ' = ' +
+            word.english +
+            ' ';
+
+          const button =
+            document
+              .createElement('button');
+
+          button.textContent = 'save';
+
+          button.addEventListener(
+            'click',
+            function () {
+              saveItem(
+                'vocab',
+                word._id,
+                '#messageVocab'
+              );
+            }
+          );
+
+          item.appendChild(button);
+          list.appendChild(item);
+
+        });
+
+      }
+
+      async function saveItem(itemType, itemId, messageSelector) {
+
+        const save = {
+          itemType: itemType,
+          itemId: itemId
+        };
+
+        const response =
+          await fetch(
+            '/api/saves',
+            {
+              method:
+                'POST',
+              headers: {
+                'Content-Type':
+                  'application/json'
+              },
+              body:
+                JSON.stringify(
+                  save
+                )
+            }
+          );
+
+        let message = 'error ' + response.status;
+
+        if (response.status === 201) {
+          message = 'saved';
+        }
+
+        if (response.status === 409) {
+          message = 'already saved';
+        }
+
+        document
+          .querySelector(messageSelector)
+          .textContent = message;
+
+      }
+
+    </script>
+  </div>
+
+    <div id="grammar">
+    <hr>
+    <h1>
+      grammar: read all
+    </h1>
+
+    <button id="getGrammar">
+      get grammar
+    </button>
+
+    <p id="messageGrammar"></p>
+
+    <ul id="listGrammar"></ul>
+
+    <script>
+
+      document
+        .querySelector('#getGrammar')
+        .addEventListener(
+          'click',
+          getGrammar
+        );
+
+      async function getGrammar() {
+
+        const response =
+          await fetch(
+            '/api/grammar'
+          );
+
+        const data =
+          await response.json();
+
+        const list =
+          document
+            .querySelector('#listGrammar');
+
+        list.textContent = '';
+
+        data.forEach(function (concept) {
+
+          const item =
+            document
+              .createElement('li');
+
+          item.textContent =
+            concept.title +
+            ': ' +
+            concept.summary +
+            ' ';
+
+          const button =
+            document
+              .createElement('button');
+
+          button.textContent = 'save';
+
+          button.addEventListener(
+            'click',
+            function () {
+              saveItem(
+                'grammar',
+                concept._id,
+                '#messageGrammar'
+              );
+            }
+          );
+
+          item.appendChild(button);
+          list.appendChild(item);
+
+        });
+
+      }
+
+    </script>
+  </div>
+
+  
 </body>
 
 </html>
