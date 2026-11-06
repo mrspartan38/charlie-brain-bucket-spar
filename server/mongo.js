@@ -333,6 +333,30 @@ app.delete('/api/saves/:id', async function (req, res) {
   res.json(result);
 });
 
+app.get('/api/review/next', async function (req, res) {
+  const itemType = req.query.itemType;
+
+  if (!['vocab', 'grammar'].includes(itemType)) {
+    return res.status(400).json({ error: 'itemType must be vocab or grammar' });
+  }
+
+  const next = await saves
+    .find({ itemType: itemType })
+    .sort({ confidence: 1, lastReviewedAt: 1 })
+    .limit(1)
+    .toArray();
+
+  if (next.length === 0) {
+    return res.json({ done: true });
+  }
+
+  const save = next[0];
+  const collection = itemType === 'vocab' ? vocab : grammar;
+  save.item = await collection.findOne({ _id: save.itemId });
+
+  res.json(save);
+});
+
 app.listen(5500, () => {
   console.log('Server is running on http://localhost:5500');
 });
