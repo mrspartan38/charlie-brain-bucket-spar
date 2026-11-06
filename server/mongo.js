@@ -66,12 +66,7 @@ if (missing.length > 0) {
 
   const result = await vocab.insertOne(word);
   res.status(201).json(result);
-});
-
-app.get('/api/vocab', async function (req, res) {
-  const records = await vocab.find({}).toArray();
-  res.json(records);
-});
+});curl "localhost:5500/api/vocab?level=300"
 
 app.get('/api/vocab/:id', async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
