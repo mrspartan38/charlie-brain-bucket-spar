@@ -66,6 +66,7 @@ if (missing.length > 0) {
 
   const result = await vocab.insertOne(word);
   res.status(201).json(result);
+});
 
 app.get('/api/vocab/:id', async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
