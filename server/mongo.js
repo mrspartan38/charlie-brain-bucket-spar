@@ -5,7 +5,7 @@ import 'dotenv/config';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { ObjectId } from 'mongodb';
-
+import { readFile } from 'fs/promises';
 
 
 const __filename = fileURLToPath(import.meta.url);
