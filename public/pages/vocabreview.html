@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>
+    Una: vocab review
+  </title>
+</head>
+
+<body>
+  <div id="review">
+    <a href="/">
+      back to Una
+    </a>
+
+    <h1>
+      vocab review
+    </h1>
+
+    <p id="messageCard"></p>
+
+    <div id="card" hidden>
+      <h2 id="cardGerman"></h2>
+
+      <button id="showAnswer">
+        show answer
+      </button>
+
+      <div id="cardAnswer" hidden>
+        <p id="cardEnglish"></p>
+        <p id="cardPlural"></p>
+        <p id="cardExample"></p>
+
+        <p>
+          1 = still learning, 2 = getting there, 3 = know it
+        </p>
+
+        <button id="rate1">1</button>
+        <button id="rate2">2</button>
+        <button id="rate3">3</button>
+      </div>
+    </div>
+
+    <script>
+
+      let currentSaveId = null;
+
+      document
+        .querySelector('#showAnswer')
+        .addEventListener(
+          'click',
+          showAnswer
+        );
+
+      document.querySelector('#rate1').addEventListener('click', function () { rate(1); });
+      document.querySelector('#rate2').addEventListener('click', function () { rate(2); });
+      document.querySelector('#rate3').addEventListener('click', function () { rate(3); });
+
+      async function loadNext() {
+
+        const response =
+          await fetch(
+            '/api/review/next?itemType=vocab'
+          );
+
+        const data =
+          await response.json();
+
+        if (data.done || !data.item) {
+          document.querySelector('#card').hidden = true;
+          document.querySelector('#messageCard').textContent =
+            'Nothing to review. Save some words on the main page first.';
+          return;
+        }
+
+        currentSaveId = data._id;
+
+        document.querySelector('#messageCard').textContent = '';
+        document.querySelector('#cardGerman').textContent = data.item.german;
+        document.querySelector('#cardEnglish').textContent = data.item.english;
+
+        document.querySelector('#cardPlural').textContent =
+          data.item.plural
+            ? 'Plural: ' + data.item.plural
+            : '';
+
+        document.querySelector('#cardExample').textContent =
+          data.item.example
+            ? data.item.example.german + ' (' + data.item.example.english + ')'
+            : '';
+
+        document.querySelector('#cardAnswer').hidden = true;
+        document.querySelector('#showAnswer').hidden = false;
+        document.querySelector('#card').hidden = false;
+
+      }
+
+      function showAnswer() {
+
+        document.querySelector('#cardAnswer').hidden = false;
+        document.querySelector('#showAnswer').hidden = true;
+
+      }
+
+      async function rate(confidence) {
+
+        const response =
+          await fetch(
+            `/api/saves/${currentSaveId}/review`,
+            {
+              method:
+                'PATCH',
+              headers: {
+                'Content-Type':
+                  'application/json'
+              },
+              body:
+                JSON.stringify({
+                  confidence: confidence
+                })
+            }
+          );
+
+        if (response.status !== 200) {
+          document.querySelector('#messageCard').textContent =
+            'error ' + response.status;
+          return;
+        }
+
+        loadNext();
+
+      }
+
+      loadNext();
+
+    </script>
+  </div>
+</body>
+
+</html>
