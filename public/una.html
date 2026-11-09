@@ -210,11 +210,23 @@
             document
               .createElement('li');
 
-          item.textContent =
-            concept.title +
-            ': ' +
-            concept.summary +
-            ' ';
+                    const link =
+            document
+              .createElement('a');
+
+          link.href =
+            '/pages/grammar.html?id=' +
+            concept._id;
+
+          link.textContent = concept.title;
+
+          item.appendChild(link);
+
+          item.appendChild(
+            document.createTextNode(
+              ': ' + concept.summary + ' '
+            )
+          );
 
           const button =
             document
