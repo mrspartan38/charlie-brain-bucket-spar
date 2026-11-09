@@ -192,7 +192,7 @@
           getGrammar
         );
 
-      async function getGrammar() {
+            async function getGrammar() {
 
         const response =
           await fetch(
@@ -201,6 +201,22 @@
 
         const data =
           await response.json();
+
+        const savesResponse =
+          await fetch(
+            '/api/saves'
+          );
+
+        const saves =
+          await savesResponse.json();
+
+        const savedIds = new Set();
+
+        saves.forEach(function (save) {
+          if (save.itemType === 'grammar') {
+            savedIds.add(String(save.itemId));
+          }
+        });
 
         const list =
           document
@@ -214,7 +230,7 @@
             document
               .createElement('li');
 
-                    const link =
+          const link =
             document
               .createElement('a');
 
@@ -232,6 +248,14 @@
             )
           );
 
+          if (savedIds.has(String(concept._id))) {
+            item.appendChild(
+              document.createTextNode('(saved)')
+            );
+            list.appendChild(item);
+            return;
+          }
+
           const button =
             document
               .createElement('button');
@@ -240,12 +264,22 @@
 
           button.addEventListener(
             'click',
-            function () {
-              saveItem(
-                'grammar',
-                concept._id,
-                '#messageGrammar'
-              );
+            async function () {
+
+              const saved =
+                await saveItem(
+                  'grammar',
+                  concept._id,
+                  '#messageGrammar'
+                );
+
+              if (saved) {
+                button.remove();
+                item.appendChild(
+                  document.createTextNode('(saved)')
+                );
+              }
+
             }
           );
 
@@ -427,6 +461,10 @@
           await getVocab();
         }
 
+        if (document.querySelector('#listGrammar').children.length > 0) {
+          await getGrammar();
+        }
+        
         document
           .querySelector('#messageReview')
           .textContent =
