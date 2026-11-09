@@ -17,6 +17,8 @@
     start grammar review
   </a>
 
+  <p id="sessionStatus"></p>
+
   <div id="vocab">
     <h1>
       vocab: read all
@@ -155,6 +157,10 @@
 
         if (response.status === 201) {
           message = 'saved';
+        }
+
+        if (response.status === 401) {
+          message = 'log in to save';
         }
 
         if (response.status === 409) {
@@ -331,6 +337,13 @@
             '/api/saves'
           );
 
+        if (response.status === 401) {
+          document
+            .querySelector('#messageReview')
+            .textContent = 'log in to see your saves';
+          return;
+        }
+        
         const data =
           await response.json();
 
@@ -480,6 +493,8 @@
 
     </script>
   </div>
+
+  <script src="/assets/js/session.js"></script>
 </body>
 
 </html>

@@ -8,6 +8,9 @@
 </head>
 
 <body>
+
+  <p id="sessionStatus"></p>
+
   <div id="concept">
     <a href="/">
       back to Una
@@ -141,6 +144,10 @@
           message = 'saved';
         }
 
+        if (response.status === 401) {
+          message = 'log in to save';
+        }
+
         if (response.status === 409) {
           message = 'already saved';
         }
@@ -155,6 +162,8 @@
 
     </script>
   </div>
+
+  <script src="/assets/js/session.js"></script>
 </body>
 
 </html>
