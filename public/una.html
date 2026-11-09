@@ -55,7 +55,9 @@
           );
 
         const saves =
-          await savesResponse.json();
+          savesResponse.status === 200
+            ? await savesResponse.json()
+            : [];
 
         const savedIds = new Set();
 
@@ -208,7 +210,9 @@
           );
 
         const saves =
-          await savesResponse.json();
+          savesResponse.status === 200
+            ? await savesResponse.json()
+            : [];
 
         const savedIds = new Set();
 

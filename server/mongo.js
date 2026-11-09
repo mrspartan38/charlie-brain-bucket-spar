@@ -299,7 +299,24 @@ app.delete('/api/dev/clear', async function (req, res) {
 
 // Saves (no accounts yet)
 
-saves.createIndex({ itemType: 1, itemId: 1 }, { unique: true });
+async function setupSavesIndex() {
+  try {
+    await saves.dropIndex('itemType_1_itemId_1');
+  } catch (err) {
+    if (err.codeName !== 'IndexNotFound' && err.codeName !== 'NamespaceNotFound') {
+      throw err;
+    }
+  }
+
+  await saves.deleteMany({ userId: { $exists: false } });
+
+  await saves.createIndex(
+    { userId: 1, itemType: 1, itemId: 1 },
+    { unique: true }
+  );
+}
+
+setupSavesIndex().catch(console.error);
 
 app.post('/api/saves', requireUser, async function (req, res) {
   const { itemType, itemId } = req.body;
@@ -309,12 +326,14 @@ app.post('/api/saves', requireUser, async function (req, res) {
   }
 
   const save = {
+    userId: req.user._id,
     itemType: itemType,
     itemId: new ObjectId(itemId),
     confidence: 1,
     reviewCount: 0,
     lastReviewedAt: null,
     savedAt: new Date()
+
   };
 
   try {
@@ -329,7 +348,7 @@ app.post('/api/saves', requireUser, async function (req, res) {
 });
 
 app.get('/api/saves', requireUser, async function (req, res) {
-  const records = await saves.find({}).toArray();
+    const records = await saves.find({ userId: req.user._id }).toArray();
 
   const withContent = await Promise.all(records.map(async function (save) {
     const collection = save.itemType === 'vocab' ? vocab : grammar;
@@ -352,7 +371,7 @@ app.patch('/api/saves/:id/review', requireUser, async function (req, res) {
   }
 
   const result = await saves.updateOne(
-    { _id: new ObjectId(req.params.id) },
+    { _id: new ObjectId(req.params.id), userId: req.user._id },
     { $set: { confidence: confidence, lastReviewedAt: new Date() }, $inc: { reviewCount: 1 } }
   );
 
@@ -368,7 +387,7 @@ app.delete('/api/saves/:id', requireUser, async function (req, res) {
     return res.status(400).json({ error: 'invalid id' });
   }
 
-  const result = await saves.deleteOne({ _id: new ObjectId(req.params.id) });
+   const result = await saves.deleteOne({ _id: new ObjectId(req.params.id), userId: req.user._id });
 
   if (result.deletedCount === 0) {
     return res.status(404).json({ error: 'not found' });
@@ -385,7 +404,7 @@ app.get('/api/review/next', requireUser, async function (req, res) {
   }
 
   const next = await saves
-    .find({ itemType: itemType })
+    .find({ userId: req.user._id, itemType: itemType })
     .sort({ confidence: 1, lastReviewedAt: 1 })
     .limit(1)
     .toArray();
