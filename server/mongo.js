@@ -17,7 +17,7 @@ const app = express();
 const uri = process.env.MONGO_URI;
 
 app.use(express.static(join(__dirname, '../public')));
-app.use( express.json());
+app.use(express.json());
 
 
 const client = new MongoClient(uri, {
@@ -98,12 +98,12 @@ app.post('/api/vocab', async function (req, res) {
   const word = req.body;
 
   const missing = requiredVocab.filter(function (field) {
-  return !word[field];
-});
+    return !word[field];
+  });
 
-if (missing.length > 0) {
-  return res.status(400).json({ error: 'missing fields: ' + missing.join(', ') });
-}
+  if (missing.length > 0) {
+    return res.status(400).json({ error: 'missing fields: ' + missing.join(', ') });
+  }
 
   word.createdAt = new Date();
   word.updatedAt = new Date();
@@ -284,7 +284,7 @@ app.post('/api/dev/seed', async function (req, res) {
 
   const vocabResult = await vocab.insertMany(vocabWords);
   const grammarResult = await grammar.insertMany(grammarConcepts);
-  
+
 
   res.json({ vocab: vocabResult.insertedCount, grammar: grammarResult.insertedCount });
 });
@@ -293,11 +293,11 @@ app.delete('/api/dev/clear', async function (req, res) {
   const vocabResult = await vocab.deleteMany({});
   const grammarResult = await grammar.deleteMany({});
   await saves.deleteMany({});
-  
+
   res.json({ vocab: vocabResult.deletedCount, grammar: grammarResult.deletedCount });
 });
 
-// Saves (no accounts yet)
+// Saves (one list per user)
 
 async function setupSavesIndex() {
   try {
@@ -348,7 +348,7 @@ app.post('/api/saves', requireUser, async function (req, res) {
 });
 
 app.get('/api/saves', requireUser, async function (req, res) {
-    const records = await saves.find({ userId: req.user._id }).toArray();
+  const records = await saves.find({ userId: req.user._id }).toArray();
 
   const withContent = await Promise.all(records.map(async function (save) {
     const collection = save.itemType === 'vocab' ? vocab : grammar;
@@ -387,7 +387,7 @@ app.delete('/api/saves/:id', requireUser, async function (req, res) {
     return res.status(400).json({ error: 'invalid id' });
   }
 
-   const result = await saves.deleteOne({ _id: new ObjectId(req.params.id), userId: req.user._id });
+  const result = await saves.deleteOne({ _id: new ObjectId(req.params.id), userId: req.user._id });
 
   if (result.deletedCount === 0) {
     return res.status(404).json({ error: 'not found' });
