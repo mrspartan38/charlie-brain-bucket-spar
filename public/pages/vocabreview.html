@@ -8,6 +8,8 @@
 </head>
 
 <body>
+  <p id="sessionStatus"></p>
+
   <div id="review">
     <a href="/">
       back to Una
@@ -17,7 +19,7 @@
       vocab review
     </h1>
 
-     <p id="sessionCount">
+    <p id="sessionCount">
       Reviewed 0 words
     </p>
 
@@ -49,7 +51,7 @@
       </div>
     </div>
 
-     <div id="summary" hidden>
+    <div id="summary" hidden>
       <h2>
         session finished
       </h2>
@@ -62,8 +64,8 @@
     </div>
 
     <script>
-    
-    
+
+
 
       let currentSaveId = null;
       let reviewedCount = 0;
@@ -79,7 +81,7 @@
       document.querySelector('#rate2').addEventListener('click', function () { rate(2); });
       document.querySelector('#rate3').addEventListener('click', function () { rate(3); });
 
-        document
+      document
         .querySelector('#endSession')
         .addEventListener(
           'click',
@@ -92,13 +94,20 @@
           'click',
           reviewAgain
         );
-        
+
       async function loadNext() {
 
         const response =
           await fetch(
             '/api/review/next?itemType=vocab'
           );
+          
+        if (response.status === 401) {
+          document.querySelector('#card').hidden = true;
+          document.querySelector('#messageCard').textContent =
+            'Log in to review your saved words.';
+          return;
+        }
 
         const data =
           await response.json();
@@ -214,6 +223,8 @@
 
     </script>
   </div>
+
+  <script src="/assets/js/session.js"></script>
 </body>
 
 </html>
