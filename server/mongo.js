@@ -7,6 +7,8 @@ import { dirname, join } from 'path';
 import { ObjectId } from 'mongodb';
 import { readFile } from 'fs/promises';
 import bcrypt from 'bcryptjs';
+import session from 'express-session';
+import MongoStore from 'connect-mongo';
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -34,7 +36,30 @@ const users = db.collection('users');
 
 users.createIndex({ username: 1 }, { unique: true });
 
+if (!process.env.SESSION_SECRET) {
+  console.error('SESSION_SECRET is not set. Add it to server/.env.');
+  process.exit(1);
+}
 
+app.set('trust proxy', 1);
+
+app.use(session({
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+  store: MongoStore.create({
+    client: client,
+    dbName: 'una',
+    collectionName: 'sessions',
+    ttl: 60 * 60 * 24 * 7
+  }),
+  cookie: {
+    httpOnly: true,
+    sameSite: 'lax',
+    secure: 'auto',
+    maxAge: 1000 * 60 * 60 * 24 * 7
+  }
+}));
 
 app.get('/', (req, res) => {
   res.sendFile(join(__dirname, '../public', 'una.html'));
@@ -393,6 +418,56 @@ app.post('/api/auth/register', async function (req, res) {
     throw err;
   }
 });
+
+const DUMMY_HASH = bcrypt.hashSync('not-a-real-password', 10);
+
+app.post('/api/auth/login', async function (req, res) {
+  const body = req.body || {};
+  const username = String(body.username || '').trim().toLowerCase();
+  const password = String(body.password || '');
+
+  const user = await users.findOne({ username: username });
+
+  const passwordOk = await bcrypt.compare(
+    password,
+    user ? user.passwordHash : DUMMY_HASH
+  );
+
+  if (!user || !passwordOk) {
+    return res.status(401).json({ error: 'wrong username or password' });
+  }
+
+  req.session.regenerate(function (err) {
+    if (err) {
+      return res.status(500).json({ error: 'could not start session' });
+    }
+
+    req.session.userId = String(user._id);
+    res.json({ username: user.username, role: user.role });
+  });
+});
+
+app.post('/api/auth/logout', function (req, res) {
+  req.session.destroy(function () {
+    res.clearCookie('connect.sid');
+    res.json({ ok: true });
+  });
+});
+
+app.get('/api/auth/me', async function (req, res) {
+  if (!req.session.userId || !ObjectId.isValid(req.session.userId)) {
+    return res.status(401).json({ error: 'not logged in' });
+  }
+
+  const user = await users.findOne({ _id: new ObjectId(req.session.userId) });
+
+  if (!user) {
+    return res.status(401).json({ error: 'not logged in' });
+  }
+
+  res.json({ username: user.username, role: user.role });
+});
+
 app.listen(5500, () => {
   console.log('Server is running on http://localhost:5500');
 });
