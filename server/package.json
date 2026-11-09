@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/mrspartan38/charlie-brain-bucket-spar#readme",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "mongodb": "^7.7.0",

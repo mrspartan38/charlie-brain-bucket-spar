@@ -6,6 +6,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { ObjectId } from 'mongodb';
 import { readFile } from 'fs/promises';
+import bcrypt from 'bcryptjs';
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -29,6 +30,9 @@ const db = client.db('una');
 const vocab = db.collection('vocab');
 const grammar = db.collection('grammar');
 const saves = db.collection('saves');
+const users = db.collection('users');
+
+users.createIndex({ username: 1 }, { unique: true });
 
 
 
@@ -357,6 +361,38 @@ app.get('/api/review/next', async function (req, res) {
   res.json(save);
 });
 
+// Users (User System #1)
+
+app.post('/api/auth/register', async function (req, res) {
+  const body = req.body || {};
+  const username = String(body.username || '').trim().toLowerCase();
+  const password = String(body.password || '');
+
+  if (!/^[a-z0-9_-]{3,30}$/.test(username)) {
+    return res.status(400).json({ error: 'username must be 3-30 characters: letters, numbers, - or _' });
+  }
+
+  if (password.length < 8 || password.length > 72) {
+    return res.status(400).json({ error: 'password must be 8-72 characters' });
+  }
+
+  const user = {
+    username: username,
+    passwordHash: await bcrypt.hash(password, 10),
+    role: 'student',
+    createdAt: new Date()
+  };
+
+  try {
+    await users.insertOne(user);
+    res.status(201).json({ username: username });
+  } catch (err) {
+    if (err.code === 11000) {
+      return res.status(409).json({ error: 'username already taken' });
+    }
+    throw err;
+  }
+});
 app.listen(5500, () => {
   console.log('Server is running on http://localhost:5500');
 });
