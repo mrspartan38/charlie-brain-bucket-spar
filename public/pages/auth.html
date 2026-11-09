@@ -1,75 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Normalize -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="../assets/css/style.css">
-
-  <title>Sign In | Brain Bucket</title>
+  <title>
+    Una: log in
+  </title>
 </head>
 
-<body class="bb-auth-page">
-  <main class="container-fluid bb-auth-wrap">
-    <section class="bb-auth-panel-clean" aria-labelledby="loginHeading">
-      <h1 id="loginHeading" class="bb-login-title mb-4">Log in</h1>
+<body>
+  <div id="auth">
+    <a href="/">
+      back to Una
+    </a>
 
-      <form id="loginForm" novalidate>
-        <div class="mb-3">
-          <input id="userBox" type="text" class="form-control bb-login-input" autocomplete="username" placeholder="Email or username" required>
-        </div>
+    <h1>
+      log in
+    </h1>
 
-        <div class="mb-3">
-          <input id="passBox" type="password" class="form-control bb-login-input" autocomplete="current-password" placeholder="Password" required>
-        </div>
+    <input id="username" placeholder="username">
 
-        <div class="d-grid mb-3">
-          <button id="loginBtn" type="submit" class="btn bb-login-btn">LOG IN</button>
-        </div>
-      </form>
+    <input id="password" type="password" placeholder="password">
 
-      <div class="bb-or-row" aria-hidden="true">
-        <span>OR</span>
-      </div>
+    <button id="login">
+      log in
+    </button>
 
-      <div class="row g-2 mb-3">
-        <div class="col-6 d-grid">
-          <button class="btn bb-social-btn" type="button" disabled>GOOGLE</button>
-        </div>
-        <div class="col-6 d-grid">
-          <button class="btn bb-social-btn" type="button" disabled>GITHUB</button>
-        </div>
-      </div>
+    <button id="register">
+      create account
+    </button>
 
-      <p id="authMsg" class="small text-secondary mb-0 text-center" aria-live="polite">Ready.</p>
-    </section>
-  </main>
+    <p id="messageAuth"></p>
 
-  <!-- Bootstrap JS Bundle -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
 
-  <!-- Shared Auth Guard -->
-  <script src="../assets/js/auth-guard.js"></script>
+      document
+        .querySelector('#login')
+        .addEventListener(
+          'click',
+          login
+        );
 
-  <!-- Auth Page JS -->
-  <script src="../assets/js/auth.js"></script>
+      document
+        .querySelector('#register')
+        .addEventListener(
+          'click',
+          register
+        );
 
+      async function sendAuth(url) {
+
+        const credentials = {
+          username:
+            document
+              .querySelector('#username')
+              .value,
+          password:
+            document
+              .querySelector('#password')
+              .value
+        };
+
+        const response =
+          await fetch(
+            url,
+            {
+              method:
+                'POST',
+              headers: {
+                'Content-Type':
+                  'application/json'
+              },
+              body:
+                JSON.stringify(
+                  credentials
+                )
+            }
+          );
+
+        const data =
+          await response.json();
+
+        return {
+          ok: response.ok,
+          data: data
+        };
+
+      }
+
+      async function login() {
+
+        const result =
+          await sendAuth(
+            '/api/auth/login'
+          );
+
+        if (result.ok) {
+          window.location.assign('/');
+          return;
+        }
+
+        document
+          .querySelector('#messageAuth')
+          .textContent = result.data.error;
+
+      }
+
+      async function register() {
+
+        const result =
+          await sendAuth(
+            '/api/auth/register'
+          );
+
+        if (!result.ok) {
+          document
+            .querySelector('#messageAuth')
+            .textContent = result.data.error;
+          return;
+        }
+
+        await login();
+
+      }
+
+    </script>
+  </div>
 </body>
 
 </html>
