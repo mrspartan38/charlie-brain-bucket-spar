@@ -61,6 +61,21 @@ app.use(session({
   }
 }));
 
+async function requireUser(req, res, next) {
+  if (!req.session.userId || !ObjectId.isValid(req.session.userId)) {
+    return res.status(401).json({ error: 'not logged in' });
+  }
+
+  const user = await users.findOne({ _id: new ObjectId(req.session.userId) });
+
+  if (!user) {
+    return res.status(401).json({ error: 'not logged in' });
+  }
+
+  req.user = { _id: user._id, username: user.username, role: user.role };
+  next();
+}
+
 app.get('/', (req, res) => {
   res.sendFile(join(__dirname, '../public', 'una.html'));
 })
@@ -286,7 +301,7 @@ app.delete('/api/dev/clear', async function (req, res) {
 
 saves.createIndex({ itemType: 1, itemId: 1 }, { unique: true });
 
-app.post('/api/saves', async function (req, res) {
+app.post('/api/saves', requireUser, async function (req, res) {
   const { itemType, itemId } = req.body;
 
   if (!['vocab', 'grammar'].includes(itemType) || !ObjectId.isValid(itemId)) {
@@ -313,7 +328,7 @@ app.post('/api/saves', async function (req, res) {
   }
 });
 
-app.get('/api/saves', async function (req, res) {
+app.get('/api/saves', requireUser, async function (req, res) {
   const records = await saves.find({}).toArray();
 
   const withContent = await Promise.all(records.map(async function (save) {
@@ -325,7 +340,7 @@ app.get('/api/saves', async function (req, res) {
   res.json(withContent);
 });
 
-app.patch('/api/saves/:id/review', async function (req, res) {
+app.patch('/api/saves/:id/review', requireUser, async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
     return res.status(400).json({ error: 'invalid id' });
   }
@@ -348,7 +363,7 @@ app.patch('/api/saves/:id/review', async function (req, res) {
   res.json(result);
 });
 
-app.delete('/api/saves/:id', async function (req, res) {
+app.delete('/api/saves/:id', requireUser, async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
     return res.status(400).json({ error: 'invalid id' });
   }
@@ -362,7 +377,7 @@ app.delete('/api/saves/:id', async function (req, res) {
   res.json(result);
 });
 
-app.get('/api/review/next', async function (req, res) {
+app.get('/api/review/next', requireUser, async function (req, res) {
   const itemType = req.query.itemType;
 
   if (!['vocab', 'grammar'].includes(itemType)) {
@@ -454,18 +469,8 @@ app.post('/api/auth/logout', function (req, res) {
   });
 });
 
-app.get('/api/auth/me', async function (req, res) {
-  if (!req.session.userId || !ObjectId.isValid(req.session.userId)) {
-    return res.status(401).json({ error: 'not logged in' });
-  }
-
-  const user = await users.findOne({ _id: new ObjectId(req.session.userId) });
-
-  if (!user) {
-    return res.status(401).json({ error: 'not logged in' });
-  }
-
-  res.json({ username: user.username, role: user.role });
+app.get('/api/auth/me', requireUser, function (req, res) {
+  res.json({ username: req.user.username, role: req.user.role });
 });
 
 app.listen(5500, () => {
