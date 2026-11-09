@@ -9,15 +9,15 @@
 
 <body>
 
-    <a href="/pages/vocabreview.html">
+  <a href="/pages/vocabreview.html">
     start vocab review
   </a>
 
-    <a href="/pages/grammarreview.html">
+  <a href="/pages/grammarreview.html">
     start grammar review
   </a>
-  
-    <div id="vocab">
+
+  <div id="vocab">
     <h1>
       vocab: read all
     </h1>
@@ -39,7 +39,7 @@
           getVocab
         );
 
-            async function getVocab() {
+      async function getVocab() {
 
         const response =
           await fetch(
@@ -55,7 +55,9 @@
           );
 
         const saves =
-          await savesResponse.json();
+          savesResponse.status === 200
+            ? await savesResponse.json()
+            : [];
 
         const savedIds = new Set();
 
@@ -163,13 +165,13 @@
           .querySelector(messageSelector)
           .textContent = message;
 
-          return response.status === 201 || response.status === 409;
+        return response.status === 201 || response.status === 409;
       }
 
     </script>
   </div>
 
-    <div id="grammar">
+  <div id="grammar">
     <hr>
     <h1>
       grammar: read all
@@ -192,7 +194,7 @@
           getGrammar
         );
 
-            async function getGrammar() {
+      async function getGrammar() {
 
         const response =
           await fetch(
@@ -208,7 +210,9 @@
           );
 
         const saves =
-          await savesResponse.json();
+          savesResponse.status === 200
+            ? await savesResponse.json()
+            : [];
 
         const savedIds = new Set();
 
@@ -293,7 +297,7 @@
     </script>
   </div>
 
-    <div id="review">
+  <div id="review">
     <hr>
     <h1>
       my review
@@ -384,22 +388,22 @@
                 );
               }
             );
-          const unsave =
-            document
-              .createElement('button');
+            const unsave =
+              document
+                .createElement('button');
 
-          unsave.textContent = 'unsave';
+            unsave.textContent = 'unsave';
 
-          unsave.addEventListener(
-            'click',
-            function () {
-              unsaveItem(
-                save._id
-              );
-            }
-          );
+            unsave.addEventListener(
+              'click',
+              function () {
+                unsaveItem(
+                  save._id
+                );
+              }
+            );
 
-          item.appendChild(unsave);
+            item.appendChild(unsave);
             item.appendChild(button);
 
           });
@@ -444,7 +448,7 @@
 
       }
 
-            async function unsaveItem(saveId) {
+      async function unsaveItem(saveId) {
 
         const response =
           await fetch(
@@ -464,7 +468,7 @@
         if (document.querySelector('#listGrammar').children.length > 0) {
           await getGrammar();
         }
-        
+
         document
           .querySelector('#messageReview')
           .textContent =
