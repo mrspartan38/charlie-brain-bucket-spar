@@ -1,4 +1,7 @@
 <!doctype html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <html>
 
 <head>
@@ -9,491 +12,49 @@
 
 <body>
 
-  <a href="/pages/vocabreview.html">
-    start vocab review
-  </a>
-
-  <a href="/pages/grammarreview.html">
-    start grammar review
-  </a>
-
-  <p id="sessionStatus"></p>
-
-  <div id="vocab">
+  <div id="home">
     <h1>
-      vocab: read all
-    </h1>
-
-    <button id="getVocab">
-      get vocab
-    </button>
-
-    <p id="messageVocab"></p>
-
-    <ul id="listVocab"></ul>
-
-    <script>
-
-      document
-        .querySelector('#getVocab')
-        .addEventListener(
-          'click',
-          getVocab
-        );
-
-      async function getVocab() {
-
-        const response =
-          await fetch(
-            '/api/vocab'
-          );
-
-        const data =
-          await response.json();
-
-        const savesResponse =
-          await fetch(
-            '/api/saves'
-          );
-
-        const saves =
-          savesResponse.status === 200
-            ? await savesResponse.json()
-            : [];
-
-        const savedIds = new Set();
-
-        saves.forEach(function (save) {
-          if (save.itemType === 'vocab') {
-            savedIds.add(String(save.itemId));
-          }
-        });
-
-        const list =
-          document
-            .querySelector('#listVocab');
-
-        list.textContent = '';
-
-        data.forEach(function (word) {
-
-          const item =
-            document
-              .createElement('li');
-
-          item.textContent =
-            word.german +
-            ' = ' +
-            word.english +
-            ' ';
-
-          if (savedIds.has(String(word._id))) {
-            item.appendChild(
-              document.createTextNode('(saved)')
-            );
-            list.appendChild(item);
-            return;
-          }
-
-          const button =
-            document
-              .createElement('button');
-
-          button.textContent = 'save';
-
-          button.addEventListener(
-            'click',
-            async function () {
-
-              const saved =
-                await saveItem(
-                  'vocab',
-                  word._id,
-                  '#messageVocab'
-                );
-
-              if (saved) {
-                button.remove();
-                item.appendChild(
-                  document.createTextNode('(saved)')
-                );
-              }
-
-            }
-          );
-
-          item.appendChild(button);
-          list.appendChild(item);
-
-        });
-
-      }
-
-      async function saveItem(itemType, itemId, messageSelector) {
-
-        const save = {
-          itemType: itemType,
-          itemId: itemId
-        };
-
-        const response =
-          await fetch(
-            '/api/saves',
-            {
-              method:
-                'POST',
-              headers: {
-                'Content-Type':
-                  'application/json'
-              },
-              body:
-                JSON.stringify(
-                  save
-                )
-            }
-          );
-
-        let message = 'error ' + response.status;
-
-        if (response.status === 201) {
-          message = 'saved';
-        }
-
-        if (response.status === 401) {
-          message = 'log in to save';
-        }
-
-        if (response.status === 409) {
-          message = 'already saved';
-        }
-
-        document
-          .querySelector(messageSelector)
-          .textContent = message;
-
-        return response.status === 201 || response.status === 409;
-      }
-
-    </script>
-  </div>
-
-  <div id="grammar">
-    <hr>
-    <h1>
-      grammar: read all
-    </h1>
-
-    <button id="getGrammar">
-      get grammar
-    </button>
-
-    <p id="messageGrammar"></p>
-
-    <ul id="listGrammar"></ul>
-
-    <script>
-
-      document
-        .querySelector('#getGrammar')
-        .addEventListener(
-          'click',
-          getGrammar
-        );
-
-      async function getGrammar() {
-
-        const response =
-          await fetch(
-            '/api/grammar'
-          );
-
-        const data =
-          await response.json();
-
-        const savesResponse =
-          await fetch(
-            '/api/saves'
-          );
-
-        const saves =
-          savesResponse.status === 200
-            ? await savesResponse.json()
-            : [];
-
-        const savedIds = new Set();
-
-        saves.forEach(function (save) {
-          if (save.itemType === 'grammar') {
-            savedIds.add(String(save.itemId));
-          }
-        });
-
-        const list =
-          document
-            .querySelector('#listGrammar');
-
-        list.textContent = '';
-
-        data.forEach(function (concept) {
-
-          const item =
-            document
-              .createElement('li');
-
-          const link =
-            document
-              .createElement('a');
-
-          link.href =
-            '/pages/grammar.html?id=' +
-            concept._id;
-
-          link.textContent = concept.title;
-
-          item.appendChild(link);
-
-          item.appendChild(
-            document.createTextNode(
-              ': ' + concept.summary + ' '
-            )
-          );
-
-          if (savedIds.has(String(concept._id))) {
-            item.appendChild(
-              document.createTextNode('(saved)')
-            );
-            list.appendChild(item);
-            return;
-          }
-
-          const button =
-            document
-              .createElement('button');
-
-          button.textContent = 'save';
-
-          button.addEventListener(
-            'click',
-            async function () {
-
-              const saved =
-                await saveItem(
-                  'grammar',
-                  concept._id,
-                  '#messageGrammar'
-                );
-
-              if (saved) {
-                button.remove();
-                item.appendChild(
-                  document.createTextNode('(saved)')
-                );
-              }
-
-            }
-          );
-
-          item.appendChild(button);
-          list.appendChild(item);
-
-        });
-
-      }
-
-    </script>
-  </div>
-
-  <div id="review">
-    <hr>
-    <h1>
-      my review
+      Una
     </h1>
 
     <p>
-      1 = still learning, 2 = getting there, 3 = know it
+      Una is a review tool for German students at UNA. It gathers the vocabulary
+      and grammar from your courses in one place, so you can save what you need
+      to work on and review it until it sticks.
     </p>
 
-    <button id="getSaves">
-      get saves
-    </button>
-
-    <p id="messageReview"></p>
-
-    <ul id="listSaves"></ul>
-
-    <script>
-
-      document
-        .querySelector('#getSaves')
-        .addEventListener(
-          'click',
-          getSaves
-        );
-
-      async function getSaves() {
-
-        const response =
-          await fetch(
-            '/api/saves'
-          );
-
-        if (response.status === 401) {
-          document
-            .querySelector('#messageReview')
-            .textContent = 'log in to see your saves';
-          return;
-        }
-        
-        const data =
-          await response.json();
-
-        const list =
-          document
-            .querySelector('#listSaves');
-
-        list.textContent = '';
-
-        document
-          .querySelector('#messageReview')
-          .textContent =
-          data.length === 0
-            ? 'nothing saved yet'
-            : '';
-
-        data.forEach(function (save) {
-
-          let label = '(this item no longer exists)';
-
-          if (save.item && save.itemType === 'vocab') {
-            label = save.item.german + ' = ' + save.item.english;
-          }
-
-          if (save.item && save.itemType === 'grammar') {
-            label = save.item.title;
-          }
-
-          const item =
-            document
-              .createElement('li');
-
-          item.textContent =
-            label +
-            ' (confidence ' +
-            save.confidence +
-            ', reviewed ' +
-            save.reviewCount +
-            ' times) ';
-
-          [1, 2, 3].forEach(function (confidence) {
-
-            const button =
-              document
-                .createElement('button');
-
-            button.textContent = confidence;
-
-            button.addEventListener(
-              'click',
-              function () {
-                reviewSave(
-                  save._id,
-                  confidence
-                );
-              }
-            );
-            const unsave =
-              document
-                .createElement('button');
-
-            unsave.textContent = 'unsave';
-
-            unsave.addEventListener(
-              'click',
-              function () {
-                unsaveItem(
-                  save._id
-                );
-              }
-            );
-
-            item.appendChild(unsave);
-            item.appendChild(button);
-
-          });
-
-          list.appendChild(item);
-
-        });
-
-      }
-
-      async function reviewSave(saveId, confidence) {
-
-        const review = {
-          confidence: confidence
-        };
-
-        const response =
-          await fetch(
-            `/api/saves/${saveId}/review`,
-            {
-              method:
-                'PATCH',
-              headers: {
-                'Content-Type':
-                  'application/json'
-              },
-              body:
-                JSON.stringify(
-                  review
-                )
-            }
-          );
-
-        await getSaves();
-
-        document
-          .querySelector('#messageReview')
-          .textContent =
-          response.status === 200
-            ? 'reviewed'
-            : 'error ' + response.status;
-
-      }
-
-      async function unsaveItem(saveId) {
-
-        const response =
-          await fetch(
-            `/api/saves/${saveId}`,
-            {
-              method:
-                'DELETE'
-            }
-          );
-
-        await getSaves();
-
-        if (document.querySelector('#listVocab').children.length > 0) {
-          await getVocab();
-        }
-
-        if (document.querySelector('#listGrammar').children.length > 0) {
-          await getGrammar();
-        }
-
-        document
-          .querySelector('#messageReview')
-          .textContent =
-          response.status === 200
-            ? 'unsaved'
-            : 'error ' + response.status;
-
-      }
-
-    </script>
+    <ul>
+      <li>
+        <a href="/pages/vocab.html">vocabulary</a>
+      </li>
+      <li>
+        <a href="/pages/grammarlist.html">grammar</a>
+      </li>
+      <li>
+        <a href="/pages/saves.html">my saves</a>
+      </li>
+      <li>
+        <a href="/pages/vocabreview.html">vocab review</a>
+      </li>
+      <li>
+        <a href="/pages/grammarreview.html">grammar review</a>
+      </li>
+    </ul>
   </div>
 
+  <div id="about">
+    <h2>
+      about
+    </h2>
+
+    <p>
+      Una is being built by Evan Sager as a CIS capstone project for Dr. Linam
+      and the Department of Foreign Languages.
+    </p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/layout.js"></script>
   <script src="/assets/js/session.js"></script>
 </body>
 
