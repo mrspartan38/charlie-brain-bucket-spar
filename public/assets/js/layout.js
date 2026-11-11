@@ -140,6 +140,19 @@
     return footer;
   }
 
+function buildMain() {
+    const main = el('main', 'container py-4', { id: 'siteMain' });
+
+    Array.from(document.body.children).forEach(function (child) {
+      if (child.tagName !== 'SCRIPT') {
+        main.appendChild(child);
+      }
+    });
+
+    return main;
+  }
+
+  document.body.insertBefore(buildMain(), document.body.firstChild);
   document.body.insertBefore(buildHeader(), document.body.firstChild);
-  document.body.appendChild(buildFooter());
+  document.body.appendChild(buildFooter())
 })();
