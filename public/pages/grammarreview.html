@@ -1,4 +1,7 @@
 <!doctype html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <html>
 
 <head>
@@ -9,232 +12,228 @@
 
 <body>
 
-    <p id="sessionStatus"></p>
-    <div id="review">
-        <a href="/">
-            back to Una
-        </a>
+    <h1>
+        grammar review
+    </h1>
 
-        <h1>
-            grammar review
-        </h1>
+    <p id="sessionCount">
+        Reviewed 0 concepts
+    </p>
 
-        <p id="sessionCount">
-            Reviewed 0 concepts
-        </p>
+    <button id="endSession">
+        end session
+    </button>
 
-        <button id="endSession">
-            end session
+    <p id="messageCard"></p>
+
+    <div id="card" hidden>
+        <h2 id="cardTitle"></h2>
+
+        <button id="showAnswer">
+            show answer
         </button>
 
-        <p id="messageCard"></p>
+        <div id="cardAnswer" hidden>
+            <p id="cardSummary"></p>
+            <p id="cardExplanation"></p>
 
-        <div id="card" hidden>
-            <h2 id="cardTitle"></h2>
+            <ul id="cardExamples"></ul>
 
-            <button id="showAnswer">
-                show answer
-            </button>
+            <p>
+                1 = still learning, 2 = getting there, 3 = know it
+            </p>
 
-            <div id="cardAnswer" hidden>
-                <p id="cardSummary"></p>
-                <p id="cardExplanation"></p>
-
-                <ul id="cardExamples"></ul>
-
-                <p>
-                    1 = still learning, 2 = getting there, 3 = know it
-                </p>
-
-                <button id="rate1">1</button>
-                <button id="rate2">2</button>
-                <button id="rate3">3</button>
-            </div>
+            <button id="rate1">1</button>
+            <button id="rate2">2</button>
+            <button id="rate3">3</button>
         </div>
+    </div>
 
-        <div id="summary" hidden>
-            <h2>
-                session finished
-            </h2>
+    <div id="summary" hidden>
+        <h2>
+            session finished
+        </h2>
 
-            <p id="summaryText"></p>
+        <p id="summaryText"></p>
 
-            <button id="reviewAgain">
-                review again
-            </button>
-        </div>
+        <button id="reviewAgain">
+            review again
+        </button>
+    </div>
 
-        <script>
+    <script>
 
-            let currentSaveId = null;
-            let reviewedCount = 0;
+        let currentSaveId = null;
+        let reviewedCount = 0;
 
-            document
-                .querySelector('#showAnswer')
-                .addEventListener(
-                    'click',
-                    showAnswer
+        document
+            .querySelector('#showAnswer')
+            .addEventListener(
+                'click',
+                showAnswer
+            );
+
+        document.querySelector('#rate1').addEventListener('click', function () { rate(1); });
+        document.querySelector('#rate2').addEventListener('click', function () { rate(2); });
+        document.querySelector('#rate3').addEventListener('click', function () { rate(3); });
+
+        document
+            .querySelector('#endSession')
+            .addEventListener(
+                'click',
+                endSession
+            );
+
+        document
+            .querySelector('#reviewAgain')
+            .addEventListener(
+                'click',
+                reviewAgain
+            );
+
+        async function loadNext() {
+
+            const response =
+                await fetch(
+                    '/api/review/next?itemType=grammar'
                 );
 
-            document.querySelector('#rate1').addEventListener('click', function () { rate(1); });
-            document.querySelector('#rate2').addEventListener('click', function () { rate(2); });
-            document.querySelector('#rate3').addEventListener('click', function () { rate(3); });
-
-            document
-                .querySelector('#endSession')
-                .addEventListener(
-                    'click',
-                    endSession
-                );
-
-            document
-                .querySelector('#reviewAgain')
-                .addEventListener(
-                    'click',
-                    reviewAgain
-                );
-
-            async function loadNext() {
-
-                const response =
-                    await fetch(
-                        '/api/review/next?itemType=grammar'
-                    );
-
-                if (response.status === 401) {
-                    document.querySelector('#card').hidden = true;
-                    document.querySelector('#messageCard').textContent =
-                        'Log in to review your saved concepts.';
-                    return;
-                }
-                const data =
-                    await response.json();
-
-                if (data.done || !data.item) {
-                    document.querySelector('#card').hidden = true;
-                    document.querySelector('#messageCard').textContent =
-                        'Nothing to review. Save some grammar concepts on the main page first.';
-                    return;
-                }
-
-                currentSaveId = data._id;
-
-                document.querySelector('#messageCard').textContent = '';
-                document.querySelector('#cardTitle').textContent = data.item.title;
-                document.querySelector('#cardSummary').textContent = data.item.summary;
-                document.querySelector('#cardExplanation').textContent = data.item.explanation;
-
-                const list =
-                    document
-                        .querySelector('#cardExamples');
-
-                list.textContent = '';
-
-                (data.item.examples || []).forEach(function (example) {
-
-                    const item =
-                        document
-                            .createElement('li');
-
-                    item.textContent =
-                        example.german +
-                        ' (' +
-                        example.english +
-                        ')' +
-                        (example.note ? ' - ' + example.note : '');
-
-                    list.appendChild(item);
-
-                });
-
-                document.querySelector('#cardAnswer').hidden = true;
-                document.querySelector('#showAnswer').hidden = false;
-                document.querySelector('#card').hidden = false;
-
-            }
-
-            function showAnswer() {
-
-                document.querySelector('#cardAnswer').hidden = false;
-                document.querySelector('#showAnswer').hidden = true;
-
-            }
-
-            async function rate(confidence) {
-
-                const response =
-                    await fetch(
-                        `/api/saves/${currentSaveId}/review`,
-                        {
-                            method:
-                                'PATCH',
-                            headers: {
-                                'Content-Type':
-                                    'application/json'
-                            },
-                            body:
-                                JSON.stringify({
-                                    confidence: confidence
-                                })
-                        }
-                    );
-
-                if (response.status !== 200) {
-                    document.querySelector('#messageCard').textContent =
-                        'error ' + response.status;
-                    return;
-                }
-
-                reviewedCount = reviewedCount + 1;
-
-                document
-                    .querySelector('#sessionCount')
-                    .textContent =
-                    'Reviewed ' +
-                    reviewedCount +
-                    (reviewedCount === 1 ? ' concept' : ' concepts');
-
-                loadNext();
-
-            }
-
-            function endSession() {
-
+            if (response.status === 401) {
                 document.querySelector('#card').hidden = true;
-                document.querySelector('#messageCard').textContent = '';
-                document.querySelector('#endSession').hidden = true;
+                document.querySelector('#messageCard').textContent =
+                    'Log in to review your saved concepts.';
+                return;
+            }
+            const data =
+                await response.json();
 
-                document
-                    .querySelector('#summaryText')
-                    .textContent =
-                    'You reviewed ' +
-                    reviewedCount +
-                    (reviewedCount === 1 ? ' concept.' : ' concepts.');
-
-                document.querySelector('#summary').hidden = false;
-
+            if (data.done || !data.item) {
+                document.querySelector('#card').hidden = true;
+                document.querySelector('#messageCard').textContent =
+                    'Nothing to review. Save some grammar concepts on the main page first.';
+                return;
             }
 
-            function reviewAgain() {
+            currentSaveId = data._id;
 
-                reviewedCount = 0;
+            document.querySelector('#messageCard').textContent = '';
+            document.querySelector('#cardTitle').textContent = data.item.title;
+            document.querySelector('#cardSummary').textContent = data.item.summary;
+            document.querySelector('#cardExplanation').textContent = data.item.explanation;
 
+            const list =
                 document
-                    .querySelector('#sessionCount')
-                    .textContent = 'Reviewed 0 concepts';
+                    .querySelector('#cardExamples');
 
-                document.querySelector('#summary').hidden = true;
-                document.querySelector('#endSession').hidden = false;
+            list.textContent = '';
 
-                loadNext();
+            (data.item.examples || []).forEach(function (example) {
 
+                const item =
+                    document
+                        .createElement('li');
+
+                item.textContent =
+                    example.german +
+                    ' (' +
+                    example.english +
+                    ')' +
+                    (example.note ? ' - ' + example.note : '');
+
+                list.appendChild(item);
+
+            });
+
+            document.querySelector('#cardAnswer').hidden = true;
+            document.querySelector('#showAnswer').hidden = false;
+            document.querySelector('#card').hidden = false;
+
+        }
+
+        function showAnswer() {
+
+            document.querySelector('#cardAnswer').hidden = false;
+            document.querySelector('#showAnswer').hidden = true;
+
+        }
+
+        async function rate(confidence) {
+
+            const response =
+                await fetch(
+                    `/api/saves/${currentSaveId}/review`,
+                    {
+                        method:
+                            'PATCH',
+                        headers: {
+                            'Content-Type':
+                                'application/json'
+                        },
+                        body:
+                            JSON.stringify({
+                                confidence: confidence
+                            })
+                    }
+                );
+
+            if (response.status !== 200) {
+                document.querySelector('#messageCard').textContent =
+                    'error ' + response.status;
+                return;
             }
+
+            reviewedCount = reviewedCount + 1;
+
+            document
+                .querySelector('#sessionCount')
+                .textContent =
+                'Reviewed ' +
+                reviewedCount +
+                (reviewedCount === 1 ? ' concept' : ' concepts');
 
             loadNext();
 
-        </script>
+        }
+
+        function endSession() {
+
+            document.querySelector('#card').hidden = true;
+            document.querySelector('#messageCard').textContent = '';
+            document.querySelector('#endSession').hidden = true;
+
+            document
+                .querySelector('#summaryText')
+                .textContent =
+                'You reviewed ' +
+                reviewedCount +
+                (reviewedCount === 1 ? ' concept.' : ' concepts.');
+
+            document.querySelector('#summary').hidden = false;
+
+        }
+
+        function reviewAgain() {
+
+            reviewedCount = 0;
+
+            document
+                .querySelector('#sessionCount')
+                .textContent = 'Reviewed 0 concepts';
+
+            document.querySelector('#summary').hidden = true;
+            document.querySelector('#endSession').hidden = false;
+
+            loadNext();
+
+        }
+
+        loadNext();
+
+    </script>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/layout.js"></script>
     <script src="/assets/js/session.js"></script>
 </body>
 
