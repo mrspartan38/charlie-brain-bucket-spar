@@ -19,7 +19,7 @@ A comprehensive language service.
 
 ## Code Snippets
 
-
+- in mongo.js
 
 ## reality check: what is there to improve? features to add? brainstorming to iterate in alpha
 
