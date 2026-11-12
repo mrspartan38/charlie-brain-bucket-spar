@@ -112,6 +112,11 @@ app.post('/api/vocab', async function (req, res) {
   res.status(201).json(result);
 });
 
+app.get('/api/vocab/count', async function (req, res) {
+  const count = await vocab.countDocuments({});
+  res.json({ count: count });
+});
+
 app.get('/api/vocab/:id', async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
     return res.status(400).json({ error: 'invalid id' });
