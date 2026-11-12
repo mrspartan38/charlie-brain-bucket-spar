@@ -76,6 +76,14 @@ async function requireUser(req, res, next) {
   next();
 }
 
+function requireAdmin(req, res, next) {
+  if (req.user.role !== 'admin') {
+    return res.status(403).json({ error: 'admin only' });
+  }
+
+  next();
+}
+
 app.get('/', (req, res) => {
   res.sendFile(join(__dirname, '../public', 'una.html'));
 })
@@ -94,7 +102,7 @@ app.get('/api/health', async (req, res) => {
 
 const requiredVocab = ['german', 'english', 'partOfSpeech', 'level'];
 
-app.post('/api/vocab', async function (req, res) {
+app.post('/api/vocab', requireUser, requireAdmin, async function (req, res) {
   const word = req.body;
 
   const missing = requiredVocab.filter(function (field) {
@@ -131,7 +139,7 @@ app.get('/api/vocab/:id', async function (req, res) {
   res.json(record);
 });
 
-app.patch('/api/vocab/:id', async function (req, res) {
+app.patch('/api/vocab/:id', requireUser, requireAdmin, async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
     return res.status(400).json({ error: 'invalid id' });
   }
@@ -151,7 +159,7 @@ app.patch('/api/vocab/:id', async function (req, res) {
   res.json(result);
 });
 
-app.delete('/api/vocab/:id', async function (req, res) {
+app.delete('/api/vocab/:id', requireUser, requireAdmin, async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
     return res.status(400).json({ error: 'invalid id' });
   }
@@ -188,7 +196,7 @@ app.get('/api/vocab', async function (req, res) {
 
 const requiredGrammar = ['title', 'summary', 'explanation', 'level'];
 
-app.post('/api/grammar', async function (req, res) {
+app.post('/api/grammar', requireUser, requireAdmin, async function (req, res) {
   const concept = req.body;
 
   const missing = requiredGrammar.filter(function (field) {
@@ -220,7 +228,7 @@ app.get('/api/grammar/:id', async function (req, res) {
   res.json(record);
 });
 
-app.patch('/api/grammar/:id', async function (req, res) {
+app.patch('/api/grammar/:id', requireUser, requireAdmin, async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
     return res.status(400).json({ error: 'invalid id' });
   }
@@ -240,7 +248,7 @@ app.patch('/api/grammar/:id', async function (req, res) {
   res.json(result);
 });
 
-app.delete('/api/grammar/:id', async function (req, res) {
+app.delete('/api/grammar/:id', requireUser, requireAdmin, async function (req, res) {
   if (!ObjectId.isValid(req.params.id)) {
     return res.status(400).json({ error: 'invalid id' });
   }
@@ -319,7 +327,7 @@ async function loadSeedFolder(folder, listName, required) {
   return items;
 }
 
-app.post('/api/dev/seed', async function (req, res) {
+app.post('/api/dev/seed', requireUser, requireAdmin, async function (req, res) {
   let vocabWords;
   let grammarConcepts;
 
@@ -348,7 +356,7 @@ app.post('/api/dev/seed', async function (req, res) {
   res.json({ vocab: vocabResult.insertedCount, grammar: grammarResult.insertedCount });
 });
 
-app.delete('/api/dev/clear', async function (req, res) {
+app.delete('/api/dev/clear', requireUser, requireAdmin, async function (req, res) {
   const vocabResult = await vocab.deleteMany({});
   const grammarResult = await grammar.deleteMany({});
   await saves.deleteMany({});
