@@ -1,7 +1,7 @@
 # Una
 A comprehensive language service.
 
-## Why?
+## To Whom and Why?
 
 - During my time as a German student at UNA, I got tired of dealing with the lack of consolidation in terms of outside material
 - The Goal of this app is to have a combined locus of knowledge for German students so they access everything from one place
@@ -21,7 +21,7 @@ A comprehensive language service.
 
 - in mongo.js
 
-## reality check: what is there to improve? features to add? brainstorming to iterate in alpha
+## Reality Check: What do I think there is to improve?
 
 | Current State | Improvements | 
 | -------- | -------- | 
@@ -30,7 +30,7 @@ A comprehensive language service.
 | Annoying to deal with Passwords | Password reset system |
 |No way to look up words | Dictionary System |
 
-## What comes next: prettying it up, better compartmentalization, better data collection, more functionality.
+## What's next?
 
 - UI improvements
 - Better segmentation of Grammatical concepts
