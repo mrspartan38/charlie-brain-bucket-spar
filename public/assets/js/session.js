@@ -16,7 +16,11 @@
   }
 
   function showLoggedIn(user) {
-    status.textContent = 'logged in as ' + user.username + ' ';
+      status.textContent =
+      'logged in as ' +
+      user.username +
+      (user.role === 'admin' ? ' (admin)' : '') +
+      ' ';
 
     const button = document.createElement('button');
     button.textContent = 'log out';
