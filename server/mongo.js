@@ -84,6 +84,42 @@ function requireAdmin(req, res, next) {
   next();
 }
 
+function buildUpdate(body, required) {
+  const changes = { ...(body || {}) };
+
+  delete changes._id;
+  delete changes.createdAt;
+
+  const set = {};
+  const unset = {};
+
+  Object.keys(changes).forEach(function (field) {
+    if (changes[field] === null) {
+      unset[field] = '';
+    } else {
+      set[field] = changes[field];
+    }
+  });
+
+  const emptied = required.filter(function (field) {
+    return field in unset || (field in set && !set[field]);
+  });
+
+  if (emptied.length > 0) {
+    return { error: 'cannot be empty: ' + emptied.join(', ') };
+  }
+
+  set.updatedAt = new Date();
+
+  const update = { $set: set };
+
+  if (Object.keys(unset).length > 0) {
+    update.$unset = unset;
+  }
+
+  return { update: update };
+}
+
 app.get('/', (req, res) => {
   res.sendFile(join(__dirname, '../public', 'una.html'));
 })
@@ -144,12 +180,15 @@ app.patch('/api/vocab/:id', requireUser, requireAdmin, async function (req, res)
     return res.status(400).json({ error: 'invalid id' });
   }
 
-  const changes = req.body;
-  changes.updatedAt = new Date();
+  const built = buildUpdate(req.body, requiredVocab);
+
+  if (built.error) {
+    return res.status(400).json({ error: built.error });
+  }
 
   const result = await vocab.updateOne(
     { _id: new ObjectId(req.params.id) },
-    { $set: changes }
+    built.update
   );
 
   if (result.matchedCount === 0) {
@@ -233,12 +272,15 @@ app.patch('/api/grammar/:id', requireUser, requireAdmin, async function (req, re
     return res.status(400).json({ error: 'invalid id' });
   }
 
-  const changes = req.body;
-  changes.updatedAt = new Date();
+  const built = buildUpdate(req.body, requiredGrammar);
+
+  if (built.error) {
+    return res.status(400).json({ error: built.error });
+  }
 
   const result = await grammar.updateOne(
     { _id: new ObjectId(req.params.id) },
-    { $set: changes }
+    built.update
   );
 
   if (result.matchedCount === 0) {
