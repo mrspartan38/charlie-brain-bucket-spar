@@ -1,5 +1,5 @@
-# Juliette demo
-
+# Una
+A comprehensive language service.
 
 ## Why?
 
@@ -8,17 +8,18 @@
 
 ## Product Demonstration
 
-render link
+[render](https://charlie-brain-bucket-spar.onrender.com)
 
-## Interesting Feature showcase
+## Interesting Features
 
 - Flash Card system
 - Saving System
-- User system
+- User system W/ Admin
+- Admin word creation system
 
-## Peak behind the curtains (code relating to CRUD here)
+## Code Snippets
 
-TBD
+
 
 ## reality check: what is there to improve? features to add? brainstorming to iterate in alpha
 
@@ -27,6 +28,7 @@ TBD
 | UI  | Could be better! |
 | Lack of Actual vocab  | Implementation of Vocab system |
 | Annoying to deal with Passwords | Password reset system |
+|No way to look up words | Dictionary System |
 
 ## What comes next: prettying it up, better compartmentalization, better data collection, more functionality.
 
