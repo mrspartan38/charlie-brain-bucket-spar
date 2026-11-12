@@ -143,10 +143,17 @@ p[id^="message"] {
 /* ---------- lists of words, concepts and saves ---------- */
 
 #listVocab,
-#listGrammar,
+#listGrammar ul,
 #listSaves {
   list-style: none;
   padding: 0;
+}
+
+#listGrammar h2 {
+  border-bottom: 2px solid var(--una-purple-border);
+  font-size: 1.25rem;
+  margin-top: 1.75rem;
+  padding-bottom: 0.25rem;
 }
 
 #listVocab li,
