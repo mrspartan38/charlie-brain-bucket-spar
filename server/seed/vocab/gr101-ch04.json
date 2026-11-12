@@ -1,0 +1,36 @@
+{
+  "book": "GR101",
+  "chapter": 4,
+  "level": 100,
+  "words": [
+    {
+      "german": "der Bahnhof", "english": "train station",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Bahnhöfe",
+      "tags": ["travel", "places"],
+      "example": { "german": "Ich warte am Bahnhof.", "english": "I am waiting at the train station." }
+    },
+    {
+      "german": "das Buch", "english": "book",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Bücher",
+      "tags": ["school", "objects"],
+      "example": { "german": "Das Buch liegt auf dem Tisch.", "english": "The book is lying on the table." }
+    },
+    {
+      "german": "die Schule", "english": "school",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Schulen",
+      "tags": ["school", "places"],
+      "example": { "german": "Die Schule beginnt um acht Uhr.", "english": "School starts at eight o'clock." }
+    },
+    {
+      "german": "der Tisch", "english": "table",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Tische",
+      "tags": ["objects"]
+    },
+    {
+      "german": "die Stadt", "english": "city",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Städte",
+      "tags": ["travel", "places"],
+      "example": { "german": "Berlin ist eine große Stadt.", "english": "Berlin is a big city." }
+    }
+  ]
+}

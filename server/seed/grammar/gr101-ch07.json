@@ -1,0 +1,17 @@
+{
+  "book": "GR101",
+  "chapter": 7,
+  "level": 100,
+  "concepts": [
+    {
+      "title": "Two-way prepositions (Wechselpräpositionen)",
+      "summary": "Nine prepositions take accusative for motion and dative for location.",
+      "explanation": "Ask 'Wohin?' (where to?) for motion, which takes the accusative. Ask 'Wo?' (where?) for location, which takes the dative.",
+      "tags": ["prepositions", "cases"],
+      "examples": [
+        { "german": "Ich lege das Buch auf den Tisch.", "english": "I put the book on the table.", "note": "Wohin? accusative" },
+        { "german": "Das Buch liegt auf dem Tisch.", "english": "The book is lying on the table.", "note": "Wo? dative" }
+      ]
+    }
+  ]
+}

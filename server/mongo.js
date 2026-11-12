@@ -5,7 +5,7 @@ import 'dotenv/config';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { ObjectId } from 'mongodb';
-import { readFile } from 'fs/promises';
+import { readFile, readdir } from 'fs/promises';
 import bcrypt from 'bcryptjs';
 import session from 'express-session';
 import MongoStore from 'connect-mongo';
@@ -275,9 +275,64 @@ app.get('/api/grammar', async function (req, res) {
 
 // seed routes (#15) and saves go here
 
+// Reads every .json file in server/seed/<folder>. Each file has a book, chapter
+// and level at the top, which every entry in its list inherits.
+async function loadSeedFolder(folder, listName, required) {
+  const dir = join(__dirname, 'seed', folder);
+  const files = (await readdir(dir)).filter(function (file) {
+    return file.endsWith('.json');
+  }).sort();
+
+  const items = [];
+
+  for (const file of files) {
+    let data;
+
+    try {
+      data = JSON.parse(await readFile(join(dir, file), 'utf8'));
+    } catch (err) {
+      throw new Error(folder + '/' + file + ': ' + err.message);
+    }
+
+    (data[listName] || []).forEach(function (entry, index) {
+      const item = {
+        ...entry,
+        source: entry.source || { book: data.book, chapter: data.chapter },
+        level: entry.level !== undefined ? entry.level : data.level
+      };
+
+      const missing = required.filter(function (field) {
+        return !item[field];
+      });
+
+      if (missing.length > 0) {
+        throw new Error(
+          folder + '/' + file + ', ' + listName + ' entry ' + (index + 1) +
+          ' is missing: ' + missing.join(', ')
+        );
+      }
+
+      items.push(item);
+    });
+  }
+
+  return items;
+}
+
 app.post('/api/dev/seed', async function (req, res) {
-  const vocabWords = JSON.parse(await readFile(join(__dirname, 'seed/vocab.json'), 'utf8'));
-  const grammarConcepts = JSON.parse(await readFile(join(__dirname, 'seed/grammar.json'), 'utf8'));
+  let vocabWords;
+  let grammarConcepts;
+
+  try {
+    vocabWords = await loadSeedFolder('vocab', 'words', requiredVocab);
+    grammarConcepts = await loadSeedFolder('grammar', 'concepts', requiredGrammar);
+
+    if (vocabWords.length === 0 || grammarConcepts.length === 0) {
+      throw new Error('no entries found in server/seed/vocab or server/seed/grammar');
+    }
+  } catch (err) {
+    return res.status(400).json({ error: err.message });
+  }
 
   const now = new Date();
   vocabWords.forEach(function (item) { item.createdAt = now; item.updatedAt = now; });
@@ -289,7 +344,6 @@ app.post('/api/dev/seed', async function (req, res) {
 
   const vocabResult = await vocab.insertMany(vocabWords);
   const grammarResult = await grammar.insertMany(grammarConcepts);
-
 
   res.json({ vocab: vocabResult.insertedCount, grammar: grammarResult.insertedCount });
 });
