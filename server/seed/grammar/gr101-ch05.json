@@ -1,0 +1,17 @@
+{
+  "book": "GR101",
+  "chapter": 5,
+  "level": 100,
+  "concepts": [
+    {
+      "title": "Verb position in main clauses (V2)",
+      "summary": "In a main clause the conjugated verb is always the second element.",
+      "explanation": "The first element can be the subject or something else, such as a time word. The verb stays in second place, and the subject moves behind it when something else comes first.",
+      "tags": ["word order", "verbs"],
+      "examples": [
+        { "german": "Ich lerne heute Deutsch.", "english": "I am learning German today.", "note": "Subject first" },
+        { "german": "Heute lerne ich Deutsch.", "english": "Today I am learning German.", "note": "Time word first, verb still second" }
+      ]
+    }
+  ]
+}

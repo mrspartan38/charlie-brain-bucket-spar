@@ -1,0 +1,18 @@
+{
+  "book": "GR101",
+  "chapter": 6,
+  "level": 100,
+  "words": [
+    {
+      "german": "schnell", "english": "fast, quick",
+      "partOfSpeech": "adjective",
+      "tags": ["adjectives"],
+      "example": { "german": "Der Zug ist sehr schnell.", "english": "The train is very fast." }
+    },
+    {
+      "german": "groß", "english": "big, tall",
+      "partOfSpeech": "adjective",
+      "tags": ["adjectives"]
+    }
+  ]
+}

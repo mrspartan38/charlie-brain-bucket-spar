@@ -1,0 +1,17 @@
+{
+  "book": "GR101",
+  "chapter": 6,
+  "level": 100,
+  "concepts": [
+    {
+      "title": "Nominative and accusative articles",
+      "summary": "The subject takes the nominative; the direct object takes the accusative.",
+      "explanation": "Only the masculine article changes between the two cases: der becomes den, and ein becomes einen. Feminine, neuter and plural forms stay the same.",
+      "tags": ["cases", "articles"],
+      "examples": [
+        { "german": "Der Hund ist groß.", "english": "The dog is big.", "note": "Subject: nominative" },
+        { "german": "Ich sehe den Hund.", "english": "I see the dog.", "note": "Direct object: accusative" }
+      ]
+    }
+  ]
+}

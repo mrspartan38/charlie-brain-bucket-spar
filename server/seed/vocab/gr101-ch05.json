@@ -1,0 +1,24 @@
+{
+  "book": "GR101",
+  "chapter": 5,
+  "level": 100,
+  "words": [
+    {
+      "german": "gehen", "english": "to go, to walk",
+      "partOfSpeech": "verb",
+      "tags": ["verbs", "movement"],
+      "example": { "german": "Wir gehen zur Schule.", "english": "We are going to school." }
+    },
+    {
+      "german": "lernen", "english": "to learn",
+      "partOfSpeech": "verb",
+      "tags": ["verbs", "school"],
+      "example": { "german": "Ich lerne Deutsch.", "english": "I am learning German." }
+    },
+    {
+      "german": "trinken", "english": "to drink",
+      "partOfSpeech": "verb",
+      "tags": ["verbs", "food"]
+    }
+  ]
+}
