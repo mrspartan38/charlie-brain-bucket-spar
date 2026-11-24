@@ -1,158 +1,183 @@
 (() => {
-  if (document.getElementById('siteNav')) {
-    return;
-  }
-
-  const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/pages/vocab.html', label: 'Vocabulary' },
-    { href: '/pages/grammarlist.html', label: 'Grammar' },
-    { href: '/pages/saves.html', label: 'My saves' }
-  ];
-
-  const reviewLinks = [
-    { href: '/pages/vocabreview.html', label: 'Vocab review' },
-    { href: '/pages/grammarreview.html', label: 'Grammar review' }
-  ];
-
-  const footerLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/#about', label: 'About' },
-    { href: '/pages/vocab.html', label: 'Vocabulary' },
-    { href: '/pages/grammarlist.html', label: 'Grammar' },
-    { href: 'https://github.com/mrspartan38/charlie-brain-bucket-spar', label: 'GitHub' }
-  ];
-
-  function el(tag, className, attributes, text) {
-    const node = document.createElement(tag);
-
-    if (className) {
-      node.className = className;
+    if (document.getElementById('siteNav')) {
+        return;
     }
 
-    Object.keys(attributes || {}).forEach(function (name) {
-      node.setAttribute(name, attributes[name]);
-    });
+    const navLinks = [
+        { href: '/', label: 'Home' },
+        { href: '/pages/vocab.html', label: 'Vocabulary' },
+        { href: '/pages/grammarlist.html', label: 'Grammar' },
+        { href: '/pages/dictionary.html', label: 'Dictionary' },
+        { href: '/pages/saves.html', label: 'My saves' }
+    ];
 
-    if (text) {
-      node.textContent = text;
+    const reviewLinks = [
+        { href: '/pages/vocabreview.html', label: 'Vocab review' },
+        { href: '/pages/grammarreview.html', label: 'Grammar review' }
+    ];
+
+    const footerLinks = [
+        { href: '/', label: 'Home' },
+        { href: '/#about', label: 'About' },
+        { href: '/pages/vocab.html', label: 'Vocabulary' },
+        { href: '/pages/grammarlist.html', label: 'Grammar' },
+        { href: 'https://github.com/mrspartan38/charlie-brain-bucket-spar', label: 'GitHub' }
+    ];
+
+    function el(tag, className, attributes, text) {
+        const node = document.createElement(tag);
+
+        if (className) {
+            node.className = className;
+        }
+
+        Object.keys(attributes || {}).forEach(function (name) {
+            node.setAttribute(name, attributes[name]);
+        });
+
+        if (text) {
+            node.textContent = text;
+        }
+
+        return node;
     }
 
-    return node;
-  }
+    function isCurrentPage(href) {
+        const path = window.location.pathname;
 
-  function isCurrentPage(href) {
-    const path = window.location.pathname;
+        if (href === '/') {
+            return path === '/' || path === '/una.html';
+        }
 
-    if (href === '/') {
-      return path === '/' || path === '/una.html';
+        return path === href;
     }
 
-    return path === href;
-  }
+    function buildLink(link, className) {
+        const anchor = el('a', className, { href: link.href }, link.label);
 
-  function buildLink(link, className) {
-    const anchor = el('a', className, { href: link.href }, link.label);
+        if (isCurrentPage(link.href)) {
+            anchor.classList.add('active');
+            anchor.setAttribute('aria-current', 'page');
+        }
 
-    if (isCurrentPage(link.href)) {
-      anchor.classList.add('active');
-      anchor.setAttribute('aria-current', 'page');
+        return anchor;
     }
 
-    return anchor;
-  }
+    function buildSearch() {
+        const form = el('form', 'd-flex me-xl-3 mb-2 mb-xl-0', {
+            role: 'search',
+            action: '/pages/dictionary.html',
+            method: 'get'
+        });
 
-  function buildHeader() {
-    const nav = el('nav', 'navbar navbar-expand-md border-bottom', { 'aria-label': 'Main' });
-    const container = el('div', 'container');
+        form.appendChild(el('input', 'form-control me-2', {
+            type: 'search',
+            name: 'q',
+            placeholder: 'Search words',
+            'aria-label': 'Search words',
+            minlength: '2',
+            maxlength: '50',
+            required: ''
+        }));
 
-    container.appendChild(el('a', 'navbar-brand', { href: '/' }, 'Una'));
+        form.appendChild(el('button', '', { type: 'submit' }, 'search'));
 
-    const toggler = el('button', 'navbar-toggler', {
-      type: 'button',
-      'data-bs-toggle': 'collapse',
-      'data-bs-target': '#siteNav',
-      'aria-controls': 'siteNav',
-      'aria-expanded': 'false',
-      'aria-label': 'Toggle navigation'
-    });
+        return form;
+    }
 
-    toggler.appendChild(el('span', 'navbar-toggler-icon'));
-    container.appendChild(toggler);
+    function buildHeader() {
+        const nav = el('nav', 'navbar navbar-expand-xl border-bottom', { 'aria-label': 'Main' });
+        const container = el('div', 'container');
 
-    const collapse = el('div', 'collapse navbar-collapse', { id: 'siteNav' });
-    const list = el('ul', 'navbar-nav me-auto mb-2 mb-md-0');
+        container.appendChild(el('a', 'navbar-brand', { href: '/' }, 'Una'));
 
-    navLinks.forEach(function (link) {
-      const item = el('li', 'nav-item');
-      item.appendChild(buildLink(link, 'nav-link'));
-      list.appendChild(item);
-    });
+        const toggler = el('button', 'navbar-toggler', {
+            type: 'button',
+            'data-bs-toggle': 'collapse',
+            'data-bs-target': '#siteNav',
+            'aria-controls': 'siteNav',
+            'aria-expanded': 'false',
+            'aria-label': 'Toggle navigation'
+        });
 
-    const dropdown = el('li', 'nav-item dropdown');
+        toggler.appendChild(el('span', 'navbar-toggler-icon'));
+        container.appendChild(toggler);
 
-    dropdown.appendChild(el('a', 'nav-link dropdown-toggle', {
-      href: '#',
-      role: 'button',
-      'data-bs-toggle': 'dropdown',
-      'aria-expanded': 'false'
-    }, 'Review'));
+        const collapse = el('div', 'collapse navbar-collapse', { id: 'siteNav' });
+         const list = el('ul', 'navbar-nav me-auto mb-2 mb-xl-0');
 
-    const menu = el('ul', 'dropdown-menu');
+        navLinks.forEach(function (link) {
+            const item = el('li', 'nav-item');
+            item.appendChild(buildLink(link, 'nav-link'));
+            list.appendChild(item);
+        });
 
-    reviewLinks.forEach(function (link) {
-      const item = el('li');
-      item.appendChild(buildLink(link, 'dropdown-item'));
-      menu.appendChild(item);
-    });
+        const dropdown = el('li', 'nav-item dropdown');
 
-    dropdown.appendChild(menu);
-    list.appendChild(dropdown);
+        dropdown.appendChild(el('a', 'nav-link dropdown-toggle', {
+            href: '#',
+            role: 'button',
+            'data-bs-toggle': 'dropdown',
+            'aria-expanded': 'false'
+        }, 'Review'));
 
-    collapse.appendChild(list);
-    collapse.appendChild(el('span', 'navbar-text', { id: 'sessionStatus' }));
-    container.appendChild(collapse);
-    nav.appendChild(container);
+        const menu = el('ul', 'dropdown-menu');
 
-    return nav;
-  }
+        reviewLinks.forEach(function (link) {
+            const item = el('li');
+            item.appendChild(buildLink(link, 'dropdown-item'));
+            menu.appendChild(item);
+        });
 
-  function buildFooter() {
-    const footer = el('footer', 'border-top mt-5 py-3');
-    const container = el('div', 'container');
-    const nav = el('nav', 'd-flex flex-wrap gap-3 mb-2', { 'aria-label': 'Footer' });
+        dropdown.appendChild(menu);
+        list.appendChild(dropdown);
 
-    footerLinks.forEach(function (link) {
-      nav.appendChild(el('a', '', { href: link.href }, link.label));
-    });
+        collapse.appendChild(list);
+        collapse.appendChild(buildSearch());
+        collapse.appendChild(el('span', 'navbar-text', { id: 'sessionStatus' }));
+        
+        container.appendChild(collapse);
+        nav.appendChild(container);
 
-    container.appendChild(nav);
+        return nav;
+    }
 
-    container.appendChild(el(
-      'p',
-      'small text-secondary mb-0',
-      {},
-      'Una: German vocabulary and grammar review for UNA students.'
-    ));
+    function buildFooter() {
+        const footer = el('footer', 'border-top mt-5 py-3');
+        const container = el('div', 'container');
+        const nav = el('nav', 'd-flex flex-wrap gap-3 mb-2', { 'aria-label': 'Footer' });
 
-    footer.appendChild(container);
+        footerLinks.forEach(function (link) {
+            nav.appendChild(el('a', '', { href: link.href }, link.label));
+        });
 
-    return footer;
-  }
+        container.appendChild(nav);
 
-function buildMain() {
-    const main = el('main', 'container py-4', { id: 'siteMain' });
+        container.appendChild(el(
+            'p',
+            'small text-secondary mb-0',
+            {},
+            'Una: German vocabulary and grammar review for UNA students.'
+        ));
 
-    Array.from(document.body.children).forEach(function (child) {
-      if (child.tagName !== 'SCRIPT') {
-        main.appendChild(child);
-      }
-    });
+        footer.appendChild(container);
 
-    return main;
-  }
+        return footer;
+    }
 
-  document.body.insertBefore(buildMain(), document.body.firstChild);
-  document.body.insertBefore(buildHeader(), document.body.firstChild);
-  document.body.appendChild(buildFooter())
+    function buildMain() {
+        const main = el('main', 'container py-4', { id: 'siteMain' });
+
+        Array.from(document.body.children).forEach(function (child) {
+            if (child.tagName !== 'SCRIPT') {
+                main.appendChild(child);
+            }
+        });
+
+        return main;
+    }
+
+    document.body.insertBefore(buildMain(), document.body.firstChild);
+    document.body.insertBefore(buildHeader(), document.body.firstChild);
+    document.body.appendChild(buildFooter())
 })();

@@ -156,6 +156,84 @@ app.post('/api/vocab', requireUser, requireAdmin, async function (req, res) {
   res.status(201).json(result);
 });
 
+// Dictionary search (Alpha #66). This has to stay above /api/vocab/:id.
+
+function escapeRegex(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+// Lower-case text without a leading article or "to", so a search for "bahnhof"
+// counts as an exact match for "der Bahnhof", and "go" for "to go".
+function searchForm(text) {
+  return text.toLowerCase().replace(/^(der|die|das|to) /, '');
+}
+
+// Words added with a separate article field ("Zug" + "der") read as "der Zug".
+function fullGerman(word) {
+  const article = word.article;
+
+  if (article && !word.german.toLowerCase().startsWith(article.toLowerCase() + ' ')) {
+    return article + ' ' + word.german;
+  }
+
+  return word.german;
+}
+
+// 0 = exact match, 1 = starts with the search, 2 = contains it somewhere.
+function searchRank(word, lowerQuery) {
+  const texts = [fullGerman(word), word.english, word.plural].filter(Boolean);
+
+  const exact = texts.some(function (text) {
+    return text.toLowerCase() === lowerQuery || searchForm(text) === lowerQuery;
+  });
+
+  if (exact) {
+    return 0;
+  }
+
+  const prefix = texts.some(function (text) {
+    return text.toLowerCase().startsWith(lowerQuery) || searchForm(text).startsWith(lowerQuery);
+  });
+
+  return prefix ? 1 : 2;
+}
+
+app.get('/api/vocab/search', async function (req, res) {
+  const query = String(req.query.q || '').trim();
+
+  if (query.length < 2) {
+    return res.status(400).json({ error: 'search needs at least 2 characters' });
+  }
+
+  if (query.length > 50) {
+    return res.status(400).json({ error: 'search is limited to 50 characters' });
+  }
+
+  const pattern = new RegExp(escapeRegex(query), 'i');
+  const filter = { $or: [{ german: pattern }, { english: pattern }, { plural: pattern }] };
+
+  // "der zug" should also find a word stored as "Zug" with the article "der".
+  const withArticle = query.match(/^(der|die|das) (.+)$/i);
+
+  if (withArticle) {
+    filter.$or.push({
+      article: new RegExp('^' + withArticle[1] + '$', 'i'),
+      german: new RegExp(escapeRegex(withArticle[2].trim()), 'i')
+    });
+  }
+
+  const total = await vocab.countDocuments(filter);
+  const matches = await vocab.find(filter).limit(200).toArray();
+  const lowerQuery = query.toLowerCase();
+
+  matches.sort(function (a, b) {
+    return searchRank(a, lowerQuery) - searchRank(b, lowerQuery) ||
+      a.german.localeCompare(b.german, 'de');
+  });
+
+  res.json({ total: total, results: matches.slice(0, 50) });
+});
+
 app.get('/api/vocab/count', async function (req, res) {
   const count = await vocab.countDocuments({});
   res.json({ count: count });

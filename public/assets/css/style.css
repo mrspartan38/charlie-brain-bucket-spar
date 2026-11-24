@@ -60,6 +60,11 @@ h2 {
   letter-spacing: 0.02em;
 }
 
+.navbar .nav-link,
+.navbar-text {
+  white-space: nowrap;
+}
+
 .navbar .nav-link.active,
 .navbar .dropdown-item.active {
   font-weight: 600;
@@ -96,6 +101,21 @@ h2 {
 }
 
 .navbar .navbar-text button:hover {
+  background-color: #ffffff;
+  color: var(--una-purple);
+}
+
+.navbar form input {
+  min-width: 9rem;
+}
+
+.navbar form button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.navbar form button:hover {
   background-color: #ffffff;
   color: var(--una-purple);
 }
