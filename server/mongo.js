@@ -297,6 +297,10 @@ app.get('/api/vocab', async function (req, res) {
     filter.level = Number(req.query.level);
   }
 
+    if (req.query.book) {
+    filter['source.book'] = String(req.query.book);
+  }
+
   if (req.query.chapter) {
     filter['source.chapter'] = Number(req.query.chapter);
   }
@@ -387,6 +391,10 @@ app.get('/api/grammar', async function (req, res) {
 
   if (req.query.level) {
     filter.level = Number(req.query.level);
+  }
+
+    if (req.query.book) {
+    filter['source.book'] = String(req.query.book);
   }
 
   if (req.query.chapter) {

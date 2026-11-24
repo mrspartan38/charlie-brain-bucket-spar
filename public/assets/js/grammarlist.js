@@ -1,39 +1,6 @@
 (() => {
-  function getSection(concept) {
-    const source = concept.source || {};
-    const chapter = Number(source.chapter);
-
-    if (!source.book || !chapter) {
-      return { key: 'other', label: 'Other', order: Infinity };
-    }
-
-    return {
-      key: source.book + '|' + chapter,
-      label: source.book + ': Chapter ' + chapter,
-      order: chapter
-    };
-  }
-
-  function groupBySection(concepts) {
-    const sections = new Map();
-
-    concepts.forEach(function (concept) {
-      const section = getSection(concept);
-
-      if (!sections.has(section.key)) {
-        sections.set(section.key, {
-          label: section.label,
-          order: section.order,
-          concepts: []
-        });
-      }
-
-      sections.get(section.key).concepts.push(concept);
-    });
-
-    return Array.from(sections.values()).sort(function (a, b) {
-      return a.order - b.order || a.label.localeCompare(b.label);
-    });
+  function setMessage(text) {
+    document.querySelector('#messageGrammar').textContent = text;
   }
 
   function buildItem(concept, savedIds) {
@@ -84,6 +51,7 @@
           );
 
         if (saved) {
+          savedIds.add(String(concept._id));
           button.remove();
           item.appendChild(
             document.createTextNode('(saved)')
@@ -98,6 +66,35 @@
     return item;
   }
 
+  function render(concepts, savedIds) {
+    const container =
+      document
+        .querySelector('#listGrammar');
+
+    container.textContent = '';
+
+    una.sections.group(concepts).forEach(function (section) {
+
+      const heading =
+        document
+          .createElement('h2');
+
+      heading.textContent = section.label;
+
+      const list =
+        document
+          .createElement('ul');
+
+      section.items.forEach(function (concept) {
+        list.appendChild(buildItem(concept, savedIds));
+      });
+
+      container.appendChild(heading);
+      container.appendChild(list);
+
+    });
+  }
+
   async function getGrammar() {
 
     const response =
@@ -105,8 +102,18 @@
         '/api/grammar'
       );
 
-    const data =
+    if (!response.ok) {
+      setMessage('Could not load the grammar concepts.');
+      return;
+    }
+
+    const concepts =
       await response.json();
+
+    if (concepts.length === 0) {
+      setMessage('No grammar concepts yet.');
+      return;
+    }
 
     const savesResponse =
       await fetch(
@@ -126,31 +133,13 @@
       }
     });
 
-    const container =
-      document
-        .querySelector('#listGrammar');
-
-    container.textContent = '';
-
-    groupBySection(data).forEach(function (section) {
-
-      const heading =
-        document
-          .createElement('h2');
-
-      heading.textContent = section.label;
-
-      const list =
-        document
-          .createElement('ul');
-
-      section.concepts.forEach(function (concept) {
-        list.appendChild(buildItem(concept, savedIds));
-      });
-
-      container.appendChild(heading);
-      container.appendChild(list);
-
+    una.sections.createFilter({
+      container: document.querySelector('#sectionFilter'),
+      items: concepts,
+      noun: ['concept', 'concepts'],
+      onChange: function (shown) {
+        render(shown, savedIds);
+      }
     });
 
   }
