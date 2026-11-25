@@ -20,6 +20,7 @@
 //                          decks whose names can't be read automatically
 //   --deck <name>          use this deck name when the export has no deck column
 //   --level <n>            course level for every word (default: from the book code)
+//   --pos <file.json>      german word -> part of speech, e.g. { "schnell": "adjective" }
 //   --review <file>        where to write the review list (default: anki-review.csv
 //                          next to the first export)
 
@@ -39,6 +40,7 @@ const options = {
   front: null,
   fields: null,
   map: null,
+  pos: {},
   deck: null,
   level: null,
   review: null
@@ -56,6 +58,7 @@ for (let i = 0; i < args.length; i += 1) {
   else if (arg === '--front') options.front = value();
   else if (arg === '--fields') options.fields = value().split(',').map(function (s) { return s.trim(); });
   else if (arg === '--map') options.map = JSON.parse(readFileSync(value(), 'utf8'));
+  else if (arg === '--pos') options.pos = JSON.parse(readFileSync(value(), 'utf8'));
   else if (arg === '--deck') options.deck = value();
   else if (arg === '--level') options.level = Number(value());
   else if (arg === '--review') options.review = resolve(value());
@@ -187,6 +190,25 @@ function clean(text) {
 
 const ARTICLE = /^(der|die|das) /i;
 
+// A word with an article is a noun, an English side starting with "to " means a
+// verb, and several words or punctuation means a phrase. Anything else is only
+// a guess ("other") and goes on the review list.
+const ADVERBS = ['heute', 'morgen', 'gestern', 'hier', 'dort', 'da', 'jetzt', 'immer', 'nie', 'oft', 'manchmal',
+  'sehr', 'gern', 'gerne', 'nicht', 'auch', 'noch', 'schon', 'wieder', 'bald', 'dann', 'zusammen', 'vielleicht',
+  'leider', 'fast', 'nur', 'ganz', 'zu', 'links', 'rechts', 'geradeaus', 'hoffentlich'];
+
+function guessPartOfSpeech(german, english) {
+  const known = options.pos[german] || options.pos[german.toLowerCase()];
+
+  if (known) return known;
+  if (ADVERBS.includes(german.toLowerCase())) return 'adverb';
+  if (ARTICLE.test(german)) return 'noun';
+  if (/^to /i.test(english)) return 'verb';
+  if (/\s/.test(german) || /[?!.,]/.test(german)) return 'phrase';
+
+  return 'other';
+}
+
 // ---------- reading a deck name: which book and chapter? ----------
 
 function readDeckName(name) {
@@ -311,7 +333,7 @@ rows.forEach(function (row) {
     deck: deck,
     german: record.german,
     english: record.english,
-    partOfSpeech: articleMatch ? 'noun' : /^to /i.test(record.english) ? 'verb' : 'other',
+    partOfSpeech: guessPartOfSpeech(record.german, record.english),
     article: articleMatch ? articleMatch[1].toLowerCase() : null,
     plural: record.plural || null,
     tags: row.tags.split(/\s+/).filter(function (tag) { return tag && !['leech', 'marked'].includes(tag.toLowerCase()); }),
@@ -420,6 +442,15 @@ review.forEach(function (r) { counts[r.reason] = (counts[r.reason] || 0) + 1; })
 
 console.log('\nTo look over:' + (Object.keys(counts).length ? '' : ' nothing'));
 Object.keys(counts).forEach(function (reason) { console.log('  ' + String(counts[reason]).padStart(4) + '  ' + reason); });
+
+const unknown = review.filter(function (r) { return r.reason.startsWith('part of speech unknown'); });
+
+if (unknown.length > 0) {
+  console.log('\nWords whose part of speech could not be told (saved as "other"):\n');
+  unknown.slice(0, 80).forEach(function (r) { console.log('  ' + r.german + '  =  ' + r.english); });
+
+  if (unknown.length > 80) console.log('  ... and ' + (unknown.length - 80) + ' more (see the review list)');
+}
 
 if (options.dryRun) {
   console.log('\nDry run: nothing was written.\n');
