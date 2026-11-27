@@ -1,0 +1,287 @@
+{
+  "book": "GR201",
+  "chapter": 9,
+  "level": 200,
+  "words": [
+    {
+      "german": "die Leidenschaft", "english": "passion",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Körperkraft", "english": "body power",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Freiheit", "english": "freedom",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Werbung", "english": "ad, commercial",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Internetverbindung", "english": "internet connection",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Gaststatt, die Gaststätte", "english": "the restaurant, the restaurants",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Durchreisen", "english": "passing through, the trip through",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Feinschmecker", "english": "the gourmet, the food connoisseur",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Tablet, die Tablets", "english": "the tablet, the tablets",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Kopfhörer", "english": "headphones",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Smartphone", "english": "smartphone",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Kneipe, die Kneipen", "english": "the pub, the bars",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Mahlzeit, die Mahlzeiten", "english": "the meal, the meals",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Geschmack", "english": "taste",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "sich fühlen", "english": "to feel (good, bad)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich befinden", "english": "to be located, found",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich langweilen", "english": "to be bored, get bored",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich bei jemandem entschuldigen", "english": "to apologize to someone",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich melden", "english": "to raise a hand in class",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich benehmen", "english": "to behave",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "funktioneren", "english": "to work, to function",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "streiten", "english": "to fight, to argue",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich an*melden für", "english": "to register for",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich beschweren über (+ acc.)", "english": "to complain about",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich bewerben bei", "english": "to apply at",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sprechen von", "english": "to speak of",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "warten auf (+ acc.)", "english": "to wait for/on",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich interessieren für", "english": "to be interested in",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich bewerben um, e->i", "english": "to apply for",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich informieren über (+ acc.)", "english": "to inform oneself about",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich unterhalten über (+ acc.)", "english": "to converse about",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich (bei jemanden) bedanken für", "english": "to say thank you (to someone) for",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich ärgern über (+ acc.)", "english": "to get angry about, ticked off about",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Angst haben vor (+ dat.)", "english": "to be afraid of, to have fear of",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich trauen", "english": "to have enough nerve to do something",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich erinnern an (+ acc.)", "english": "to remember",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich an*stellen", "english": "to make a big fuss",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich hin*setzen", "english": "to sit oneself down",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich entscheiden", "english": "to make a decision, decide",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich beschäftigen (mit)", "english": "to focus on, be busy with",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "unterstützen", "english": "to support",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich etwas vor*stellen", "english": "to imagine something",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sprechen über (+ acc.)", "english": "to speak about",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich treffen mit", "english": "to meet up with",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich freuen über (+ acc.)", "english": "to be happy about",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich streiten mit", "english": "to argue with",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich entspannen", "english": "to relax",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich freuen auf (+ acc.)", "english": "to look forward to",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich kümmern um", "english": "to take care of, care for",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich verlieben in (+ acc.)", "english": "to fall in love with",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich gewöhnen an (+ acc.)", "english": "to get used to",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "bitten um", "english": "to ask for, request (something)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "leer", "english": "empty",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "Das wird dir nicht schaden.", "english": "That won't hurt you.",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "Das ist mir egal.", "english": "I don't care.",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "Darf ich mich zu Ihnen setzen?", "english": "May I sit here with you?",
+      "partOfSpeech": "phrase",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,507 @@
+{
+  "book": "GR101",
+  "chapter": 3,
+  "level": 100,
+  "words": [
+    {
+      "german": "der Fluss, die Flüsse", "english": "the river, the rivers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Land, die Länder", "english": "the land/country, the countries",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Meer, die Meere", "english": "the sea, the seas",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Stadt, die Städte", "english": "the city, the cities",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Wald, die Wälder", "english": "the forest/woods, the forests",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Berg, die Berge", "english": "the mountain, the mountains",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Insel, die Inseln", "english": "the island, the islands",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Hügel, die Hügel", "english": "the hill, the hills",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der See, die Seen", "english": "the lake, the lakes",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die See", "english": "the sea",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Baum, die Bäume", "english": "the tree, the trees",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Vorschlag, die Vorschläge", "english": "the suggestion, the suggestions",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Landschaft", "english": "the landscape",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Wörterbuch, die Wörterbücher", "english": "the dictionary, the dictionaries",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Hai, die Haie", "english": "the shark, the sharks",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Ordner, die Ordner", "english": "the binder, the binders",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Gedicht, die Gedichte", "english": "the poem, the poems",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Kuh, die Kühe", "english": "the cow, the cows",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Pferd, die Pferde", "english": "the horse, the horses",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Führung, die Führungen", "english": "the tour, the tours",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Schlange, die Schlangen", "english": "the snake, the snakes",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Igel, die Igel", "english": "the hedgehog, the hedgehogs",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Terasse, die Terassen", "english": "the terrace, the terraces",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Küche, die Küchen", "english": "the kitchen, the kitchens",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Wohnzimmmer, die Wohnzimmer", "english": "the living room, the living rooms",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Badezimmer, die Badezimmer", "english": "the bathroom, the bathrooms",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Bad, die Bäder", "english": "the bathroom, the bathrooms (short)",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Toilette, die Toiletten", "english": "the toilet, the toilets",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Schlafzimmer, die Schlafzimmer", "english": "the bedroom, the bedrooms",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Keller, die Keller", "english": "the basement, the basements",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Flur, die Flure", "english": "the hallway, the hallways",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die WG, die WGs", "english": "the shared apartment, the apartments",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Wohnung, die Wohnungen", "english": "the apartment, the the apartments",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Heizung, die Heizungen", "english": "the heater, the heaters",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Aufzug, die Aufzüge", "english": "the elevator, the elevators",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Mitbewohner, die Mitbewohner", "english": "the male roommate, the male roommates",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Mitbewohnerin, die Mitbewohnerinnen", "english": "the female roommate, the female roommates",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Gericht, die Gerichte", "english": "the dish, the dishes (of food)",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Schloss, die Schlösser", "english": "the castle, the castles",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Ameise, die Ameisen", "english": "the ant, the ants",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Delphin, die Delphine", "english": "the dolphin, the dolphins",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Vogel, die Vögel", "english": "the bird, the birds",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Zettel, die Zettel", "english": "the scrap of paper, the scraps of paper",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "wiederholen", "english": "to review, repeat",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "liegen", "english": "to lie, to be located",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "besuchen", "english": "to visit",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "warten", "english": "to wait",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "besprechen", "english": "to discuss",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "verdienen", "english": "to earn",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "bestellen", "english": "to order",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "übersetzen", "english": "to translate",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "benutzen", "english": "to use",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "belegen", "english": "to take (a course)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "tippen", "english": "to type",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "bekommen", "english": "to receive",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "übernachten", "english": "to spend the night",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "gucken", "english": "to watch (TV, film...)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "können", "english": "can, to be able to",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "müssen", "english": "must, to have to",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "sollen", "english": "should, supposed to",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wollen", "english": "to want (to)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "dürfen", "english": "may, be allowed to",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "möchten", "english": "would like (to)",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "besitzen", "english": "to own",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "geöffnet", "english": "open, opened",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "geschlossen", "english": "closed",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "dies-", "english": "this",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "jed-", "english": "every",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "welch-", "english": "which",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "all-", "english": "all",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "altmodisch", "english": "old-fashioned",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "fließend", "english": "fluent",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "leider", "english": "unfortunately",
+      "partOfSpeech": "adverb",
+      "tags": []
+    },
+    {
+      "german": "jetzt", "english": "now",
+      "partOfSpeech": "adverb",
+      "tags": []
+    },
+    {
+      "german": "eigen", "english": "(one's) own",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "eher", "english": "more likely",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "persönlich", "english": "personally",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "winig/winige", "english": "little/few",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "andere", "english": "other",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "viel/viele", "english": "much/many",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "einige", "english": "some",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "mehrere", "english": "several",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "geradeaus", "english": "straight ahead",
+      "partOfSpeech": "adverb",
+      "tags": []
+    },
+    {
+      "german": "links", "english": "left",
+      "partOfSpeech": "adverb",
+      "tags": []
+    },
+    {
+      "german": "rechts", "english": "right",
+      "partOfSpeech": "adverb",
+      "tags": []
+    },
+    {
+      "german": "nach links", "english": "(going) to the left",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "nach rechts", "english": "(going) to the right",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "in der Nähe", "english": "nearby",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "in diese Richtung", "english": "in this direction",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "auf der rechten Seite", "english": "on the right side",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "auf der linken Seite", "english": "on the left side",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "um die Ecke", "english": "around the corner",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "über die Ampel", "english": "across the traffic light",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "die Kreuzung", "english": "the intersection",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "weit weg", "english": "far away",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "nah", "english": "close",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "im Norden", "english": "in the north",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "im Süden", "english": "in the south",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "im Westen", "english": "in the west",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "im Osten", "english": "in the east",
+      "partOfSpeech": "phrase",
+      "tags": []
+    }
+  ]
+}

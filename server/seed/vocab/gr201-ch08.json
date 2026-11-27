@@ -1,0 +1,307 @@
+{
+  "book": "GR201",
+  "chapter": 8,
+  "level": 200,
+  "words": [
+    {
+      "german": "der Flug, die Flüg", "english": "the flight, the flights",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Kisten, die Kisten", "english": "box, carton",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Angebot, die Angebote", "english": "offer",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Strand, die Strände", "english": "the beach",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Rückflug", "english": "the flight back",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Reisebüro, die Reisebüros", "english": "travel agency",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Beratung", "english": "advising, counseling, consulting",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Umstände", "english": "circumstances, problems",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Doppelzimmer", "english": "double room",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Unterkunft, die Unterkünfte", "english": "lodging, accommodation",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Hinfarht", "english": "the drive there",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Hauptbahnhof", "english": "main train station",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Fahrschein, die Fahrscheine", "english": "ticket",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Strecke, die Strecken", "english": "strech, distance between two",
+      "partOfSpeech": "noun", "article": "die", "plural": "aces",
+      "tags": []
+    },
+    {
+      "german": "der Urlaub, die Urlaube", "english": "vacation",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Ergebnis, die Ergebnisse", "english": "result",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Hinflug", "english": "the flight there",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Vorliebe, die Vorlieben", "english": "preference, partiality",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Aufenthalt, die Aufenhälte", "english": "stay (in a hotel, city, etc.)",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Schlüsselkarte, die Schlüsselkarten", "english": "key card",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Einzelzimmer", "english": "single room",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Etage, die Etagen", "english": "floor (of a building)",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Ausflug, die Ausflüge", "english": "excursion, small trip",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Rückfahrt", "english": "the drive back",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Verbindung, die Verbindungen", "english": "connection",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Schwarzfahrer", "english": "rider without a ticket",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "buchen", "english": "to book",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ein*steigen", "english": "to get in",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ab*fliegen", "english": "to depart by",
+      "partOfSpeech": "verb", "plural": "ane",
+      "tags": []
+    },
+    {
+      "german": "ab*fahren", "english": "to depart by car, train, etc.",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*steigen", "english": "to get out",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*fallen", "english": "to be cancelled",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich*trauen", "english": "to trust oneself to do something",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich verändern", "english": "to change (oneself)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "traineren", "english": "to train, work out",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "versprechen", "english": "to promise",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ski*fahren", "english": "to ski",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "kriegen", "english": "to get, to recieve (slang)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich entscheiden", "english": "to make a decision",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich unterhalten", "english": "to converse with someone",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich entspannen", "english": "to relax",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich treffen", "english": "to meet up with people",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich schminken", "english": "to put on makeup",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich ärgern", "english": "to be/get annoyed",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich interessieren", "english": "to be interested",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich interessieren für", "english": "to be interested in",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "um*steigen", "english": "to change (trains)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "zu*sagen", "english": "to accept",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "besichtigen", "english": "to sightsee",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "benötigen", "english": "to need",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "fremd", "english": "strange, foreign",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "mindestens", "english": "at least",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "stattdessen", "english": "instead",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "ruhig", "english": "calm, peaceful",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "auf keinen Fall!", "english": "no way!",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "Urlaub machen", "english": "to take a vacation",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "in den Urlaub fahren", "english": "to go on a vaction",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "unterwegs", "english": "on the road, underway, on the way",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "im Preis inbegriffen", "english": "included in the price",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "mit Kreditkarte zahlen", "english": "to pay with credit card",
+      "partOfSpeech": "verb",
+      "tags": []
+    }
+  ]
+}

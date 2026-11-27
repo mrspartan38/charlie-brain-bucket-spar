@@ -1,0 +1,602 @@
+{
+  "book": "GR101",
+  "chapter": 1,
+  "level": 100,
+  "words": [
+    {
+      "german": "die Tafel, die Tafeln", "english": "the board, the boards",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Uhr, die Uhren", "english": "the clock, the clocks",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Maus, die Maüse", "english": "the mouse, the mice",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Landkarte, die Landekarten", "english": "the map, the maps",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Professorin, die Professorinnen", "english": "the female professor, the female professors",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Lehrerin, die Lehrerinnen", "english": "the female teacher, the female teachers",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Schülerin, die Schülerinnen", "english": "the female school student, the female school students",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Studentin, die Studentinnen", "english": "the female college student, the female college students",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Wand, die Wände", "english": "the wall, the walls",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Mutter, die Mütter", "english": "the mother, the mothers",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Schwester, die Schwestern", "english": "the sister, the sisters",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Tante, die Tanten", "english": "the aunt, the aunts",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Großmutter, die Großmütter", "english": "the grandmother, the grandmothers",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Tochter, die Töchter", "english": "the daughter, the daughters",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Stadt, die Städte", "english": "the city, the cities",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Katze, die Katzen", "english": "the cat, the cats",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Wischer, die Wischer", "english": "the whiteboard eraser, the whiteboard erasers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Handy, die Handys", "english": "the cell phone, the cell phones",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Papier, die Papiere", "english": "the paper, the papers",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Heft, die Hefte", "english": "the notebook, the notebooks",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Buch, die Bücher", "english": "the book, the books",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Fenster, die Fenster", "english": "the window, the windows",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Poster, die Poster", "english": "the poster, the posters",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Tür, die Türen", "english": "the door, the doors",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Tisch, die Tische", "english": "the table, the tables",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Stuhl, die Stühle", "english": "the chair, the chairs",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Bleistift, die Bleistifte", "english": "the pencil, the pencils",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Stift, die Stifte", "english": "the pencil, the pencils (short)",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Kugelschreiber, die Kugelschriber", "english": "the pen, the pens",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Kuli, die Kulis", "english": "the pen, the pens (short)",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Rucksack, die Rücksacke", "english": "the backpack, the backpacks",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Computer, die Computer", "english": "the computer, the computers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der/das Laptop, die Laptops", "english": "the laptop, the laptops",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "der Radiergummi, die Radiergummis", "english": "the eraser, the erasers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Gummi, die Gummis", "english": "the eraser, the erasers (short)",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Professor, die Professoren", "english": "the male professor, the male professors",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Student, die Studenten", "english": "the male college student, the male college students",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Lehrer, die Lehrer", "english": "the male teacher, the male teachers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Schüler, die Schüler", "english": "the male student, the male students",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Filzstift, die Filzstifte", "english": "the market, the markers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Vater, die Väter", "english": "the father, the fathers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Bruder, die Brüder", "english": "the brother, the brothers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Sohn, die Söhne", "english": "the son, the sons",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Großvater, die Größvater", "english": "the grandfather, the grandfathers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Onkel, die Onkel", "english": "the uncle, the uncles",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Hund, die Hunde", "english": "the dog, the dogs",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Kind, die Kinder", "english": "the child, the children",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Tasche, die Taschen", "english": "the bag/duffle bag, the bags",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "heißen", "english": "to be called",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "kochen", "english": "to cook",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "wandern", "english": "to hike",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "arbeiten", "english": "to work",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "fragen", "english": "to ask",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "tanzen", "english": "to dance",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schreiben", "english": "to write",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "malen", "english": "to paint/color",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "gehen", "english": "to go",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "spielen", "english": "to",
+      "partOfSpeech": "other", "plural": "ay",
+      "tags": []
+    },
+    {
+      "german": "machen", "english": "to make, to do",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "bleiben", "english": "to stay, remain",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "kommen", "english": "to come",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "to go for a walk", "english": "spazieren",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "sagen", "english": "to say",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "zeichnen", "english": "to draw, sketch",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "hören", "english": "to hear, listen to",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "reisen", "english": "to travel",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "joggen", "english": "to jog",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "wohnen", "english": "to live",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "lernen", "english": "to learn, study for a test",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "studieren", "english": "to go to college",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "singen", "english": "to sing",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schwimmen", "english": "to swim",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "fotografieren", "english": "to take pictures",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "finden", "english": "to find",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "fliegen", "english": "to fly",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "alt", "english": "old",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "laut", "english": "loud",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "faul", "english": "lazy",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "groß", "english": "tall",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "gesund", "english": "healthy",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "jung", "english": "young",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "klein", "english": "small",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "komisch", "english": "strange, odd",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "krank", "english": "sick",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "langweilig", "english": "boring",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "müde", "english": "tired",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "pünktlich", "english": "punctual",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "reich", "english": "rich",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "kalt", "english": "cold",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "heiß", "english": "hot",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "fleißig", "english": "hardworking",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "freundlich", "english": "friendly",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "arm", "english": "poor",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "einfach", "english": "easy, simple",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "schwierig", "english": "difficult, hard",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wichtig", "english": "important",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "schlecht", "english": "bad",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "gut", "english": "good",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wolkig", "english": "cloudy",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "sonnig", "english": "sonny",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "neblig", "english": "foggy",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "regnerisch", "english": "rainy",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "windig", "english": "windy",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "warm", "english": "warm",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "kühl", "english": "cool",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wie", "english": "how",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wo", "english": "where",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wer", "english": "who",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wann", "english": "when",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "was", "english": "what",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "woher", "english": "from where",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wohin", "english": "to where",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "warum", "english": "why",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "ja", "english": "yes",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "nein", "english": "no",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "und", "english": "and",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "oder", "english": "or",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "aber", "english": "but",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "sehr", "english": "very",
+      "partOfSpeech": "adverb",
+      "tags": []
+    }
+  ]
+}

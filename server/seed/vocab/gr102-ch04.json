@@ -1,0 +1,542 @@
+{
+  "book": "GR102",
+  "chapter": 4,
+  "level": 100,
+  "words": [
+    {
+      "german": "der Bärenhunger", "english": "hunger like a bear",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Schrank, die Schränke", "english": "the standalone wardrobe; closet",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Bett, die Betten", "english": "the bed, the beds",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Sessel, die Sessel", "english": "the armchair, the armchairs",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Sofa, die Sofas", "english": "the couch, the couches",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Teppich, die Teppiche", "english": "the rug, the rugs",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Lampe, die Lampen", "english": "the lamp, the lamps",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Stehlampe, die Stehlampen", "english": "the standing lamp, the standing lamps",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Bild, die Bilder", "english": "the picture, the pictures",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Mieter, die Mieter", "english": "the renter, the renters",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Arm, die Arme", "english": "the arm, the arms",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Finger, die Finger", "english": "the finger, the finger",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Auge, die Augen", "english": "the eye, the eyes",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Knie, die Knien", "english": "the knee, the knees",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Zahn, die Zähne", "english": "the tooth, the teeth",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Flohmarkt, die Flohmärkte", "english": "the flea market, the flea markets",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Führerschein", "english": "the driver's license",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Chef, die Chefs", "english": "the boss, the bosses",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Friseur, die Friseure", "english": "the barber/hair stylist, the barbers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Polizist, die Polizisten", "english": "the policeman, the policemen",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Erdgeschoss, die Erdgeschossse", "english": "the ground floor, the ground floors",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Treppe, die Treppen", "english": "the stair, the stairs/staircase",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Empfang, die Empfänge", "english": "the reception desk, the reception desks",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Stadtplan, die Stadtpläne", "english": "the city map, the city maps",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Zentrum, die Zentren", "english": "the center, the centers",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Herd, die Herde", "english": "the stovetop, the stovetops",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Spüle, die Spülen", "english": "the kitchen sink, the kitchen sinks",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Gardine, die Gardinen", "english": "the drape/curtain, the curtains",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Schreibtisch, die Schreibtische", "english": "the writing desk, the writing desks",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Fernseher, die Fernseher", "english": "the television, the televisions",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Bücherregal, die Bücherregale", "english": "the bookshelf, the bookshelves",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Spiegel, die Spiegel", "english": "the mirror, the mirrors",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Staubsauger, die Staubsauger", "english": "the vacuum, the vacuums",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Gestank, die Gestank", "english": "the stink, the stinks",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Hand, die Hände", "english": "the hand, the hands",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Kopf, die Köpfe", "english": "the head, the heads",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Nase, die Nasen", "english": "the nose, the noses",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Fuß, die Füße", "english": "the foot, the feet",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Bein, die Beine", "english": "the leg, the legs",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Mund, die Münder", "english": "the mouth, the mouths",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Rechnung, die Rechnungen", "english": "the bill, the bills",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Elektriker, die Elektriker", "english": "the electrician, the electricians",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Koch, die Köche", "english": "the cook, the cooks",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Kellner, die Kellner", "english": "the waiter, the waiters",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Anwalt, die Anwälte", "english": "the lawyer, the lawyers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Etage, die Etagen", "english": "the floor, the floors",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Aufzug, die Aufzüge", "english": "the elevator, the elevators",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Pinguin, die Pinguine", "english": "the penguin, the penguins",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Eis am Stiel", "english": "the popsicle",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "an*fangen", "english": "to begin, start",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "überprufen", "english": "to review, check",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "zu*machen", "english": "to close",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "auf*stehen", "english": "to get up, stand up",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "mit*kommen", "english": "to come along, to come with",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "an*kommen", "english": "to arrive",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "vorbei*kommen", "english": "to come by",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "zurück*kommen", "english": "to come back",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "an*rufen", "english": "to call (on the phone)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "kontrollieren", "english": "to monitor, check",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "kennen*lernen", "english": "to get to know",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "auf*räumen", "english": "to clean up (a dirty room, etc.)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ab*räumen", "english": "to tidy up (a room, table, etc.)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*sehen", "english": "to appear, to look",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ein*schlafen", "english": "to go to sleep, fall asleep",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "gefallen, a -> ä", "english": "to be",
+      "partOfSpeech": "verb", "plural": "easing to",
+      "tags": []
+    },
+    {
+      "german": "gratulieren", "english": "to congratulate",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "treffen, e ->i", "english": "to meet",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Zeit verbringen", "english": "to spend time",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "antworten", "english": "to answer",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "danken", "english": "to thank",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "gehören", "english": "to belong to",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "glauben", "english": "to believe",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "helfen, e->i", "english": "to help",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "beraten, a->ä", "english": "to advise",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "unterschreiben", "english": "to sign",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "vor*bereiten", "english": "to prepare",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "organisieren", "english": "to organize",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "auf*hören", "english": "to stop",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*machen", "english": "to turn off",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*schlafen", "english": "to sleep late",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "an*machen", "english": "to turn on",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "auf*machen", "english": "to open",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "fern*sehen", "english": "to watch TV",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sauber", "english": "clean",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "dreckig", "english": "dirty",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "zuerst", "english": "first of all, first",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "dann", "english": "then",
+      "partOfSpeech": "adverb",
+      "tags": []
+    },
+    {
+      "german": "danach", "english": "after that",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "drinnen", "english": "inside",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "draußen", "english": "outside",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "geöffnet", "english": "open",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "geschlossen", "english": "closed",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "übermorgen", "english": "day after tomorrow",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "vorgestern", "english": "day before yesterday",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "zusammen", "english": "together",
+      "partOfSpeech": "adverb",
+      "tags": []
+    },
+    {
+      "german": "unheimlich", "english": "creepy",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "bequem", "english": "comfortable",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "altmodisch", "english": "old-fashioned",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "doof", "english": "stupid, silly",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "out of, from", "english": "aus (dative)",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "except, besides", "english": "außer (dative)",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "at, near", "english": "bei (dative)",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "with", "english": "mit (dative)",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "nach", "english": "after; to (country) (dative)",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "von", "english": "from (dative)",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "seit)", "english": "since (the time of) (dative)",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "zu", "english": "to (person) (dative)",
+      "partOfSpeech": "adverb",
+      "tags": []
+    }
+  ]
+}

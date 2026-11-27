@@ -1,0 +1,272 @@
+{
+  "book": "GR202",
+  "chapter": 10,
+  "level": 200,
+  "words": [
+    {
+      "german": "das Gericht, die Gerichte", "english": "the dish, the dishes",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Lehrling, die Lehrlinge", "english": "the apprentice, the apprentices",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Schnecke, die Schnecken", "english": "the snail, the snails",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Konditor, die Konditoren", "english": "the pastry chef, the pastry chefs",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Besitzer, die Besitzer", "english": "the owner, the owners",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Vertrag, die Verträge", "english": "the contract, the contracts",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Anwalt, die Anwälte", "english": "the lawyer, the lawyers",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Azubi, die Azubis", "english": "the trainee, the trainees",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Briefmarke, die Briefmarken", "english": "the stamp, the stamps",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Vermögen, die Vermögen", "english": "the fortune, the fortunes",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Jubiläum", "english": "the anniversary",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Geburt, die Geburten", "english": "the birth, the births",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Hochzeitstag", "english": "the wedding day",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Blumenstrauß, die Blumensträuße", "english": "the bouquet, the bouquets",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Fell, die Felle", "english": "the fur, the furs",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Untergang, die Untergänge", "english": "the sinking, the downfalls",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Vorteil, die Vorteile", "english": "the advantage, the advantages",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Nachteil, die Nachteile", "english": "the disadvantage, the disadvantages",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "schnarchen", "english": "to snore",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "funktioneren", "english": "to work out right",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "wetten", "english": "to bet",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ab*holen", "english": "to pick up, fetsch",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ohrfeigen", "english": "to slap",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "überfluten (sein)", "english": "to flood, be flooded",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "renovieren", "english": "to renovate",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schätzen", "english": "to treasure, to value",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "einen Beruf lernen", "english": "to learn a job",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "eine Ausbildung machen", "english": "to train for a job as",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "übernehmen", "english": "to take upon oneself",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich von jm. verabschieden", "english": "to say farewell",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "speisen", "english": "to dine",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "befreundet sein mit", "english": "to be friends with",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "fehlen", "english": "to be missing, absent",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "stören", "english": "to disturb, bother",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich verbrennen", "english": "to burn oneself",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "stolpern", "english": "to stumble",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "stürzen", "english": "to fall (down)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich den Kopf stoßen", "english": "to bump one's head",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schief*gehen", "english": "to go wrong",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "verschütten", "english": "to spill",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "einverstanden", "english": "agreed",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "köstlich", "english": "very tasty",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "peinlich", "english": "embarrasing",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "alles unter einen Hut bringen", "english": "to get everything together, juggle lots of things",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "jemanden über den Tisch ziehen", "english": "to rip someone off; cheat someone",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ein dickes Fell haben", "english": "to be thick-skinned",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "unter den Blinden ist der Einäugige König", "english": "among the blind the one-eyed is king",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "mit einem Bein in Grab stehen", "english": "to be over the hill (stand with one leg in the grave)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "gute Gesellschaft", "english": "good society",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "beides", "english": "both",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "Freundschaft schließen", "english": "to become friends (seal a friendship)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Das Leben geht weiter", "english": "Life goes on.",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "im Amt", "english": "in office (political)",
+      "partOfSpeech": "phrase",
+      "tags": []
+    }
+  ]
+}
