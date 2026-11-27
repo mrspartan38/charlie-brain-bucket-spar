@@ -9,78 +9,78 @@
       "tags": []
     },
     {
-      "german": "der Schrank, die Schränke", "english": "the standalone wardrobe; closet",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Schrank", "english": "the standalone wardrobe; closet",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schränke",
       "tags": []
     },
     {
-      "german": "das Bett, die Betten", "english": "the bed, the beds",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Bett", "english": "the bed",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Betten",
       "tags": []
     },
     {
-      "german": "der Sessel, die Sessel", "english": "the armchair, the armchairs",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Sessel", "english": "the armchair",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Sessel",
       "tags": []
     },
     {
-      "german": "das Sofa, die Sofas", "english": "the couch, the couches",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Sofa", "english": "the couch",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Sofas",
       "tags": []
     },
     {
-      "german": "der Teppich, die Teppiche", "english": "the rug, the rugs",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Teppich", "english": "the rug",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Teppiche",
       "tags": []
     },
     {
-      "german": "die Lampe, die Lampen", "english": "the lamp, the lamps",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Lampe", "english": "the lamp",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Lampen",
       "tags": []
     },
     {
-      "german": "die Stehlampe, die Stehlampen", "english": "the standing lamp, the standing lamps",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Stehlampe", "english": "the standing lamp",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Stehlampen",
       "tags": []
     },
     {
-      "german": "das Bild, die Bilder", "english": "the picture, the pictures",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Bild", "english": "the picture",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Bilder",
       "tags": []
     },
     {
-      "german": "der Mieter, die Mieter", "english": "the renter, the renters",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Mieter", "english": "the renter",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Mieter",
       "tags": []
     },
     {
-      "german": "der Arm, die Arme", "english": "the arm, the arms",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Arm", "english": "the arm",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Arme",
       "tags": []
     },
     {
-      "german": "der Finger, die Finger", "english": "the finger, the finger",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Finger", "english": "the finger",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Finger",
       "tags": []
     },
     {
-      "german": "das Auge, die Augen", "english": "the eye, the eyes",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Auge", "english": "the eye",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Augen",
       "tags": []
     },
     {
-      "german": "das Knie, die Knien", "english": "the knee, the knees",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Knie", "english": "the knee",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Knien",
       "tags": []
     },
     {
-      "german": "der Zahn, die Zähne", "english": "the tooth, the teeth",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Zahn", "english": "the tooth",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Zähne",
       "tags": []
     },
     {
-      "german": "der Flohmarkt, die Flohmärkte", "english": "the flea market, the flea markets",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Flohmarkt", "english": "the flea market",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Flohmärkte",
       "tags": []
     },
     {
@@ -89,158 +89,158 @@
       "tags": []
     },
     {
-      "german": "der Chef, die Chefs", "english": "the boss, the bosses",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Chef", "english": "the boss",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Chefs",
       "tags": []
     },
     {
-      "german": "der Friseur, die Friseure", "english": "the barber/hair stylist, the barbers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Friseur", "english": "the barber/hair stylist",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Friseure",
       "tags": []
     },
     {
-      "german": "der Polizist, die Polizisten", "english": "the policeman, the policemen",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Polizist", "english": "the policeman",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Polizisten",
       "tags": []
     },
     {
-      "german": "das Erdgeschoss, die Erdgeschossse", "english": "the ground floor, the ground floors",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Erdgeschoss", "english": "the ground floor",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Erdgeschossse",
       "tags": []
     },
     {
-      "german": "die Treppe, die Treppen", "english": "the stair, the stairs/staircase",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Treppe", "english": "the stair",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Treppen",
       "tags": []
     },
     {
-      "german": "der Empfang, die Empfänge", "english": "the reception desk, the reception desks",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Empfang", "english": "the reception desk",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Empfänge",
       "tags": []
     },
     {
-      "german": "der Stadtplan, die Stadtpläne", "english": "the city map, the city maps",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Stadtplan", "english": "the city map",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Stadtpläne",
       "tags": []
     },
     {
-      "german": "das Zentrum, die Zentren", "english": "the center, the centers",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Zentrum", "english": "the center",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Zentren",
       "tags": []
     },
     {
-      "german": "der Herd, die Herde", "english": "the stovetop, the stovetops",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Herd", "english": "the stovetop",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Herde",
       "tags": []
     },
     {
-      "german": "die Spüle, die Spülen", "english": "the kitchen sink, the kitchen sinks",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Spüle", "english": "the kitchen sink",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Spülen",
       "tags": []
     },
     {
-      "german": "die Gardine, die Gardinen", "english": "the drape/curtain, the curtains",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Gardine", "english": "the drape/curtain",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Gardinen",
       "tags": []
     },
     {
-      "german": "der Schreibtisch, die Schreibtische", "english": "the writing desk, the writing desks",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Schreibtisch", "english": "the writing desk",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schreibtische",
       "tags": []
     },
     {
-      "german": "der Fernseher, die Fernseher", "english": "the television, the televisions",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Fernseher", "english": "the television",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Fernseher",
       "tags": []
     },
     {
-      "german": "das Bücherregal, die Bücherregale", "english": "the bookshelf, the bookshelves",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Bücherregal", "english": "the bookshelf",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Bücherregale",
       "tags": []
     },
     {
-      "german": "der Spiegel, die Spiegel", "english": "the mirror, the mirrors",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Spiegel", "english": "the mirror",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Spiegel",
       "tags": []
     },
     {
-      "german": "der Staubsauger, die Staubsauger", "english": "the vacuum, the vacuums",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Staubsauger", "english": "the vacuum",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Staubsauger",
       "tags": []
     },
     {
-      "german": "der Gestank, die Gestank", "english": "the stink, the stinks",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Gestank", "english": "the stink",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Gestank",
       "tags": []
     },
     {
-      "german": "die Hand, die Hände", "english": "the hand, the hands",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Hand", "english": "the hand",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Hände",
       "tags": []
     },
     {
-      "german": "der Kopf, die Köpfe", "english": "the head, the heads",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Kopf", "english": "the head",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Köpfe",
       "tags": []
     },
     {
-      "german": "die Nase, die Nasen", "english": "the nose, the noses",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Nase", "english": "the nose",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Nasen",
       "tags": []
     },
     {
-      "german": "der Fuß, die Füße", "english": "the foot, the feet",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Fuß", "english": "the foot",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Füße",
       "tags": []
     },
     {
-      "german": "das Bein, die Beine", "english": "the leg, the legs",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Bein", "english": "the leg",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Beine",
       "tags": []
     },
     {
-      "german": "der Mund, die Münder", "english": "the mouth, the mouths",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Mund", "english": "the mouth",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Münder",
       "tags": []
     },
     {
-      "german": "die Rechnung, die Rechnungen", "english": "the bill, the bills",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Rechnung", "english": "the bill",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Rechnungen",
       "tags": []
     },
     {
-      "german": "der Elektriker, die Elektriker", "english": "the electrician, the electricians",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Elektriker", "english": "the electrician",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Elektriker",
       "tags": []
     },
     {
-      "german": "der Koch, die Köche", "english": "the cook, the cooks",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Koch", "english": "the cook",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Köche",
       "tags": []
     },
     {
-      "german": "der Kellner, die Kellner", "english": "the waiter, the waiters",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Kellner", "english": "the waiter",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Kellner",
       "tags": []
     },
     {
-      "german": "der Anwalt, die Anwälte", "english": "the lawyer, the lawyers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Anwalt", "english": "the lawyer",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Anwälte",
       "tags": []
     },
     {
-      "german": "die Etage, die Etagen", "english": "the floor, the floors",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Etage", "english": "the floor",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Etagen",
       "tags": []
     },
     {
-      "german": "der Aufzug, die Aufzüge", "english": "the elevator, the elevators",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Aufzug", "english": "the elevator",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Aufzüge",
       "tags": []
     },
     {
-      "german": "der Pinguin, die Pinguine", "english": "the penguin, the penguins",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Pinguin", "english": "the penguin",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Pinguine",
       "tags": []
     },
     {

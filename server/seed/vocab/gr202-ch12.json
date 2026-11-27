@@ -4,13 +4,13 @@
   "level": 200,
   "words": [
     {
-      "german": "die Veranstaltung, die Veranstaltungen", "english": "the event, the events",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Veranstaltung", "english": "the event",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Veranstaltungen",
       "tags": []
     },
     {
-      "german": "die Ausstellung, die Austellungen", "english": "the exhibit, the exhibits",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Ausstellung", "english": "the exhibit",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Austellungen",
       "tags": []
     },
     {

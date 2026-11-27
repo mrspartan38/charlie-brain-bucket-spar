@@ -9,13 +9,13 @@
       "tags": []
     },
     {
-      "german": "das Heimatland, die Heimatländer", "english": "the homeland, the homelands",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Heimatland", "english": "the homeland",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Heimatländer",
       "tags": []
     },
     {
-      "german": "der Bankangestellte, die Bankangestellten", "english": "the bank employee, the bank employees",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Bankangestellte", "english": "the bank employee",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Bankangestellten",
       "tags": []
     },
     {
@@ -29,13 +29,13 @@
       "tags": []
     },
     {
-      "german": "die To-Do Liste, die To-Do Listen", "english": "the to-do list, the to-do lists",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die To-Do Liste", "english": "the to-do list",
+      "partOfSpeech": "noun", "article": "die", "plural": "die To-Do Listen",
       "tags": []
     },
     {
-      "german": "das Konto, die Kontos/die Konten", "english": "the account, the accounts",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Konto", "english": "the account",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Kontos/die Konten",
       "tags": []
     },
     {
@@ -49,33 +49,33 @@
       "tags": []
     },
     {
-      "german": "die Meldebescheinigung, die Meldebescheinigungen", "english": "the certifitcate of registration, the certificates of registration",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Meldebescheinigung", "english": "the certifitcate of registration",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Meldebescheinigungen",
       "tags": []
     },
     {
-      "german": "die Geheimzahl, die Geheimzahlen", "english": "the code, the codes",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Geheimzahl", "english": "the code",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Geheimzahlen",
       "tags": []
     },
     {
-      "german": "der Vermieter, die Vermieter", "english": "the landlord, the landlords",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Vermieter", "english": "the landlord",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Vermieter",
       "tags": []
     },
     {
-      "german": "das Geburtsdatum, die Geburtsdaten", "english": "the date of birth, the dates of birth",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Geburtsdatum", "english": "the date of birth",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Geburtsdaten",
       "tags": []
     },
     {
-      "german": "der Bürger, die Bürger", "english": "the citizen, the citizens",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Bürger", "english": "the citizen",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Bürger",
       "tags": []
     },
     {
-      "german": "die PIN-Nummer, die PIN-Nummern", "english": "the PIN code, the PIN codes",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die PIN-Nummer", "english": "the PIN code",
+      "partOfSpeech": "noun", "article": "die", "plural": "die PIN-Nummern",
       "tags": []
     },
     {
@@ -84,8 +84,8 @@
       "tags": []
     },
     {
-      "german": "die Quittung, die Quittungen", "english": "the receipt, the receipts",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Quittung", "english": "the receipt",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Quittungen",
       "tags": []
     },
     {
@@ -94,28 +94,28 @@
       "tags": []
     },
     {
-      "german": "die Nachricht, die Nachrichten", "english": "the message, the messages",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Nachricht", "english": "the message",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Nachrichten",
       "tags": []
     },
     {
-      "german": "die Miete, die Mieten", "english": "the rent, the rents",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Miete", "english": "the rent",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Mieten",
       "tags": []
     },
     {
-      "german": "die Rechnung, die Rechnungen", "english": "the bill, the bills",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Rechnung", "english": "the bill",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Rechnungen",
       "tags": []
     },
     {
-      "german": "die Fehlermeldung, die Fehlermeldungen", "english": "the error message, the error messages",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Fehlermeldung", "english": "the error message",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Fehlermeldungen",
       "tags": []
     },
     {
-      "german": "die Werkstatt, die Werkstatte", "english": "the repair shop, the repair shops",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Werkstatt", "english": "the repair shop",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Werkstatte",
       "tags": []
     },
     {

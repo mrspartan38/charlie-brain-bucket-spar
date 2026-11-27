@@ -4,48 +4,48 @@
   "level": 100,
   "words": [
     {
-      "german": "der Fluss, die Flüsse", "english": "the river, the rivers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Fluss", "english": "the river",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Flüsse",
       "tags": []
     },
     {
-      "german": "das Land, die Länder", "english": "the land/country, the countries",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Land", "english": "the land/country",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Länder",
       "tags": []
     },
     {
-      "german": "das Meer, die Meere", "english": "the sea, the seas",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Meer", "english": "the sea",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Meere",
       "tags": []
     },
     {
-      "german": "die Stadt, die Städte", "english": "the city, the cities",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Stadt", "english": "the city",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Städte",
       "tags": []
     },
     {
-      "german": "der Wald, die Wälder", "english": "the forest/woods, the forests",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Wald", "english": "the forest/woods",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Wälder",
       "tags": []
     },
     {
-      "german": "der Berg, die Berge", "english": "the mountain, the mountains",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Berg", "english": "the mountain",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Berge",
       "tags": []
     },
     {
-      "german": "die Insel, die Inseln", "english": "the island, the islands",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Insel", "english": "the island",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Inseln",
       "tags": []
     },
     {
-      "german": "der Hügel, die Hügel", "english": "the hill, the hills",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Hügel", "english": "the hill",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Hügel",
       "tags": []
     },
     {
-      "german": "der See, die Seen", "english": "the lake, the lakes",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der See", "english": "the lake",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Seen",
       "tags": []
     },
     {
@@ -54,13 +54,13 @@
       "tags": []
     },
     {
-      "german": "der Baum, die Bäume", "english": "the tree, the trees",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Baum", "english": "the tree",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Bäume",
       "tags": []
     },
     {
-      "german": "der Vorschlag, die Vorschläge", "english": "the suggestion, the suggestions",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Vorschlag", "english": "the suggestion",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Vorschläge",
       "tags": []
     },
     {
@@ -69,153 +69,153 @@
       "tags": []
     },
     {
-      "german": "das Wörterbuch, die Wörterbücher", "english": "the dictionary, the dictionaries",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Wörterbuch", "english": "the dictionary",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Wörterbücher",
       "tags": []
     },
     {
-      "german": "der Hai, die Haie", "english": "the shark, the sharks",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Hai", "english": "the shark",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Haie",
       "tags": []
     },
     {
-      "german": "der Ordner, die Ordner", "english": "the binder, the binders",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Ordner", "english": "the binder",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Ordner",
       "tags": []
     },
     {
-      "german": "das Gedicht, die Gedichte", "english": "the poem, the poems",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Gedicht", "english": "the poem",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Gedichte",
       "tags": []
     },
     {
-      "german": "die Kuh, die Kühe", "english": "the cow, the cows",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Kuh", "english": "the cow",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Kühe",
       "tags": []
     },
     {
-      "german": "das Pferd, die Pferde", "english": "the horse, the horses",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Pferd", "english": "the horse",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Pferde",
       "tags": []
     },
     {
-      "german": "die Führung, die Führungen", "english": "the tour, the tours",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Führung", "english": "the tour",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Führungen",
       "tags": []
     },
     {
-      "german": "die Schlange, die Schlangen", "english": "the snake, the snakes",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Schlange", "english": "the snake",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Schlangen",
       "tags": []
     },
     {
-      "german": "der Igel, die Igel", "english": "the hedgehog, the hedgehogs",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Igel", "english": "the hedgehog",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Igel",
       "tags": []
     },
     {
-      "german": "die Terasse, die Terassen", "english": "the terrace, the terraces",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Terasse", "english": "the terrace",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Terassen",
       "tags": []
     },
     {
-      "german": "die Küche, die Küchen", "english": "the kitchen, the kitchens",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Küche", "english": "the kitchen",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Küchen",
       "tags": []
     },
     {
-      "german": "das Wohnzimmmer, die Wohnzimmer", "english": "the living room, the living rooms",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Wohnzimmmer", "english": "the living room",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Wohnzimmer",
       "tags": []
     },
     {
-      "german": "das Badezimmer, die Badezimmer", "english": "the bathroom, the bathrooms",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Badezimmer", "english": "the bathroom",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Badezimmer",
       "tags": []
     },
     {
-      "german": "das Bad, die Bäder", "english": "the bathroom, the bathrooms (short)",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Bad", "english": "the bathroom",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Bäder",
       "tags": []
     },
     {
-      "german": "die Toilette, die Toiletten", "english": "the toilet, the toilets",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Toilette", "english": "the toilet",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Toiletten",
       "tags": []
     },
     {
-      "german": "das Schlafzimmer, die Schlafzimmer", "english": "the bedroom, the bedrooms",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Schlafzimmer", "english": "the bedroom",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Schlafzimmer",
       "tags": []
     },
     {
-      "german": "der Keller, die Keller", "english": "the basement, the basements",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Keller", "english": "the basement",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Keller",
       "tags": []
     },
     {
-      "german": "der Flur, die Flure", "english": "the hallway, the hallways",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Flur", "english": "the hallway",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Flure",
       "tags": []
     },
     {
-      "german": "die WG, die WGs", "english": "the shared apartment, the apartments",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die WG", "english": "the shared apartment",
+      "partOfSpeech": "noun", "article": "die", "plural": "die WGs",
       "tags": []
     },
     {
-      "german": "die Wohnung, die Wohnungen", "english": "the apartment, the the apartments",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Wohnung", "english": "the apartment",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Wohnungen",
       "tags": []
     },
     {
-      "german": "die Heizung, die Heizungen", "english": "the heater, the heaters",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Heizung", "english": "the heater",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Heizungen",
       "tags": []
     },
     {
-      "german": "der Aufzug, die Aufzüge", "english": "the elevator, the elevators",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Aufzug", "english": "the elevator",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Aufzüge",
       "tags": []
     },
     {
-      "german": "der Mitbewohner, die Mitbewohner", "english": "the male roommate, the male roommates",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Mitbewohner", "english": "the male roommate",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Mitbewohner",
       "tags": []
     },
     {
-      "german": "die Mitbewohnerin, die Mitbewohnerinnen", "english": "the female roommate, the female roommates",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Mitbewohnerin", "english": "the female roommate",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Mitbewohnerinnen",
       "tags": []
     },
     {
-      "german": "das Gericht, die Gerichte", "english": "the dish, the dishes (of food)",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Gericht", "english": "the dish",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Gerichte",
       "tags": []
     },
     {
-      "german": "das Schloss, die Schlösser", "english": "the castle, the castles",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Schloss", "english": "the castle",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Schlösser",
       "tags": []
     },
     {
-      "german": "die Ameise, die Ameisen", "english": "the ant, the ants",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Ameise", "english": "the ant",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Ameisen",
       "tags": []
     },
     {
-      "german": "der Delphin, die Delphine", "english": "the dolphin, the dolphins",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Delphin", "english": "the dolphin",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Delphine",
       "tags": []
     },
     {
-      "german": "der Vogel, die Vögel", "english": "the bird, the birds",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Vogel", "english": "the bird",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Vögel",
       "tags": []
     },
     {
-      "german": "der Zettel, die Zettel", "english": "the scrap of paper, the scraps of paper",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Zettel", "english": "the scrap of paper",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Zettel",
       "tags": []
     },
     {

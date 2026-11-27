@@ -4,48 +4,48 @@
   "level": 100,
   "words": [
     {
-      "german": "der Cousin, die Cousins", "english": "the male cousin, the male cousins",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Cousin", "english": "the male cousin",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Cousins",
       "tags": []
     },
     {
-      "german": "die Cousine, die Cousinen", "english": "the female cousin, the female cousins",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Cousine", "english": "the female cousin",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Cousinen",
       "tags": []
     },
     {
-      "german": "die Nichte, die Nichten", "english": "the niece, the nieces",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Nichte", "english": "the niece",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Nichten",
       "tags": []
     },
     {
-      "german": "der Neffe, die Neffen", "english": "the nephew, the nephews",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Neffe", "english": "the nephew",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Neffen",
       "tags": []
     },
     {
-      "german": "der Schwager, die Schwager", "english": "the brother-in-law, the brothers-in-law",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Schwager", "english": "the brother-in-law",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schwager",
       "tags": []
     },
     {
-      "german": "die Schwägerin, die Schwägerinnen", "english": "the sister-in-law, the sisters-in-law",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Schwägerin", "english": "the sister-in-law",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Schwägerinnen",
       "tags": []
     },
     {
-      "german": "der Enkel, die Enkel", "english": "the grandson, the grandsons",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Enkel", "english": "the grandson",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Enkel",
       "tags": []
     },
     {
-      "german": "die Enkelin, die Enkelinnen", "english": "the granddaughter, the granddaughters",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Enkelin", "english": "the granddaughter",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Enkelinnen",
       "tags": []
     },
     {
-      "german": "das Enkelkind, die Enkelkinder", "english": "the grandchild, the grandchildren",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Enkelkind", "english": "the grandchild",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Enkelkinder",
       "tags": []
     },
     {
@@ -59,63 +59,63 @@
       "tags": []
     },
     {
-      "german": "die Zeitung, die Zeitungen", "english": "the newspaper, the newspapers",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Zeitung", "english": "the newspaper",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Zeitungen",
       "tags": []
     },
     {
-      "german": "der Roman, die Romane", "english": "the novel, the novels",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Roman", "english": "the novel",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Romane",
       "tags": []
     },
     {
-      "german": "die Zeitschrift, die Zeitschriften", "english": "the magazine, the magazines",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Zeitschrift", "english": "the magazine",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Zeitschriften",
       "tags": []
     },
     {
-      "german": "das Comicheft, die Comichefte", "english": "the comic book, the comic books",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Comicheft", "english": "the comic book",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Comichefte",
       "tags": []
     },
     {
-      "german": "der Artikel, die Artikel", "english": "the article, the articles",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Artikel", "english": "the article",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Artikel",
       "tags": []
     },
     {
-      "german": "die Universität, die Universitäten", "english": "the univerisity, the universities",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Universität", "english": "the univerisity",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Universitäten",
       "tags": []
     },
     {
-      "german": "die Uni, die Unis", "english": "the uni, the unis",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Uni", "english": "the uni",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Unis",
       "tags": []
     },
     {
-      "german": "der See, die Seen", "english": "the lake, the lakes",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der See", "english": "the lake",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Seen",
       "tags": []
     },
     {
-      "german": "der Baum, die Baüme", "english": "the tree, the trees",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Baum", "english": "the tree",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Baüme",
       "tags": []
     },
     {
-      "german": "die Bank, die Banken", "english": "the bank, the banks",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Bank", "english": "the bank",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Banken",
       "tags": []
     },
     {
-      "german": "die Ecke, die Ecken", "english": "the corner, the corners",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Ecke", "english": "the corner",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Ecken",
       "tags": []
     },
     {
-      "german": "die Bibliothek, die Bibliotheken", "english": "the library, the libraries",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Bibliothek", "english": "the library",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Bibliotheken",
       "tags": []
     },
     {
@@ -124,133 +124,133 @@
       "tags": []
     },
     {
-      "german": "das Hemd, die Hemden", "english": "the man's shirt, the man's shirts",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Hemd", "english": "the man's shirt",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Hemden",
       "tags": []
     },
     {
-      "german": "das T-shirt, die T-shirts", "english": "the t-shirt, the t-shirts",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das T-shirt", "english": "the t-shirt",
+      "partOfSpeech": "noun", "article": "das", "plural": "die T-shirts",
       "tags": []
     },
     {
-      "german": "der Handschuh, die Handschuhe", "english": "the glove, the gloves",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Handschuh", "english": "the glove",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Handschuhe",
       "tags": []
     },
     {
-      "german": "der Hut, die Hüte", "english": "the hat, the hats",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Hut", "english": "the hat",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Hüte",
       "tags": []
     },
     {
-      "german": "die Jeans, die Jeans", "english": "the jeans, the jeans",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Jeans", "english": "the jeans",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Jeans",
       "tags": []
     },
     {
-      "german": "die Hose, die Hosen", "english": "the pair of pants, the pairs of pants",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Hose", "english": "the pair of pants",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Hosen",
       "tags": []
     },
     {
-      "german": "der Schuh, die Schuhe", "english": "the shoe, the shoes",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Schuh", "english": "the shoe",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schuhe",
       "tags": []
     },
     {
-      "german": "die Socke, die Socken", "english": "the sock, the socks",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Socke", "english": "the sock",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Socken",
       "tags": []
     },
     {
-      "german": "die Bluse, die Blusen", "english": "the blouse, the blouses",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Bluse", "english": "the blouse",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Blusen",
       "tags": []
     },
     {
-      "german": "der Pullover, die Pullover", "english": "the pullover, the pullovers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Pullover", "english": "the pullover",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Pullover",
       "tags": []
     },
     {
-      "german": "der Pulli, die Pullis", "english": "the pullover, the pullovers (alt.)",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Pulli", "english": "the pullover",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Pullis",
       "tags": []
     },
     {
-      "german": "die Brille, die Brillen", "english": "the glasses, the pairs of glasses",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Brille", "english": "the glasses",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Brillen",
       "tags": []
     },
     {
-      "german": "die Mütze, die Mützen", "english": "the cap, the caps",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Mütze", "english": "the cap",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Mützen",
       "tags": []
     },
     {
-      "german": "das Kleid, die Kleider", "english": "the dress, the dresses",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Kleid", "english": "the dress",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Kleider",
       "tags": []
     },
     {
-      "german": "der Rock, die Röcke", "english": "the skirt, the skirts",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Rock", "english": "the skirt",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Röcke",
       "tags": []
     },
     {
-      "german": "der Anzug, die Anzüge", "english": "the suit, the suits",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Anzug", "english": "the suit",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Anzüge",
       "tags": []
     },
     {
-      "german": "der Badaenzug, die Badeanzüge", "english": "the bathing suit, the bathing suits",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Badaenzug", "english": "the bathing suit",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Badeanzüge",
       "tags": []
     },
     {
-      "german": "der Bikini, die Bikinis", "english": "the bikini, the bikinis",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Bikini", "english": "the bikini",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Bikinis",
       "tags": []
     },
     {
-      "german": "die Jacke, die Jacken", "english": "the jacket, the jackets",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Jacke", "english": "the jacket",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Jacken",
       "tags": []
     },
     {
-      "german": "die kurze Hose, die kurze Hosen", "english": "the shorts, the pairs of shorts",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die kurze Hose", "english": "the shorts",
+      "partOfSpeech": "noun", "article": "die", "plural": "die kurze Hosen",
       "tags": []
     },
     {
-      "german": "die Sandale, die Sandalen", "english": "the sandal, the sandals",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Sandale", "english": "the sandal",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Sandalen",
       "tags": []
     },
     {
-      "german": "der Badelatschen, die Badelatschen", "english": "the flipflop, the flipflops",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Badelatschen", "english": "the flipflop",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Badelatschen",
       "tags": []
     },
     {
-      "german": "die Sonnenbrille, die Sonnenbrillen", "english": "The sunglasses, the pairs of sunglasses",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Sonnenbrille", "english": "The sunglasses",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Sonnenbrillen",
       "tags": []
     },
     {
-      "german": "der Stöckelschuch, die Stöckelschuhe", "english": "the high heel, the high heels",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Stöckelschuch", "english": "the high heel",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Stöckelschuhe",
       "tags": []
     },
     {
-      "german": "das Dorf, die Dörfer", "english": "the village, the villages",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Dorf", "english": "the village",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Dörfer",
       "tags": []
     },
     {
-      "german": "das Kino, die Kinos", "english": "the movie theatre, the movie theatres",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Kino", "english": "the movie theatre",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Kinos",
       "tags": []
     },
     {
@@ -259,13 +259,13 @@
       "tags": []
     },
     {
-      "german": "der Supermarkt, die Supermärkte", "english": "the supermarket, the supermarkets",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Supermarkt", "english": "the supermarket",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Supermärkte",
       "tags": []
     },
     {
-      "german": "die Sonne, die Sonnen", "english": "the sun, the suns",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Sonne", "english": "the sun",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Sonnen",
       "tags": []
     },
     {

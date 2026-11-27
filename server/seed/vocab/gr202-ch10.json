@@ -4,53 +4,53 @@
   "level": 200,
   "words": [
     {
-      "german": "das Gericht, die Gerichte", "english": "the dish, the dishes",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Gericht", "english": "the dish",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Gerichte",
       "tags": []
     },
     {
-      "german": "der Lehrling, die Lehrlinge", "english": "the apprentice, the apprentices",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Lehrling", "english": "the apprentice",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Lehrlinge",
       "tags": []
     },
     {
-      "german": "die Schnecke, die Schnecken", "english": "the snail, the snails",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Schnecke", "english": "the snail",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Schnecken",
       "tags": []
     },
     {
-      "german": "der Konditor, die Konditoren", "english": "the pastry chef, the pastry chefs",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Konditor", "english": "the pastry chef",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Konditoren",
       "tags": []
     },
     {
-      "german": "der Besitzer, die Besitzer", "english": "the owner, the owners",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Besitzer", "english": "the owner",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Besitzer",
       "tags": []
     },
     {
-      "german": "der Vertrag, die Verträge", "english": "the contract, the contracts",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Vertrag", "english": "the contract",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Verträge",
       "tags": []
     },
     {
-      "german": "der Anwalt, die Anwälte", "english": "the lawyer, the lawyers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Anwalt", "english": "the lawyer",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Anwälte",
       "tags": []
     },
     {
-      "german": "der Azubi, die Azubis", "english": "the trainee, the trainees",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Azubi", "english": "the trainee",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Azubis",
       "tags": []
     },
     {
-      "german": "die Briefmarke, die Briefmarken", "english": "the stamp, the stamps",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Briefmarke", "english": "the stamp",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Briefmarken",
       "tags": []
     },
     {
-      "german": "das Vermögen, die Vermögen", "english": "the fortune, the fortunes",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Vermögen", "english": "the fortune",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Vermögen",
       "tags": []
     },
     {
@@ -59,8 +59,8 @@
       "tags": []
     },
     {
-      "german": "die Geburt, die Geburten", "english": "the birth, the births",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Geburt", "english": "the birth",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Geburten",
       "tags": []
     },
     {
@@ -69,28 +69,28 @@
       "tags": []
     },
     {
-      "german": "der Blumenstrauß, die Blumensträuße", "english": "the bouquet, the bouquets",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Blumenstrauß", "english": "the bouquet",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Blumensträuße",
       "tags": []
     },
     {
-      "german": "das Fell, die Felle", "english": "the fur, the furs",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Fell", "english": "the fur",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Felle",
       "tags": []
     },
     {
-      "german": "der Untergang, die Untergänge", "english": "the sinking, the downfalls",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Untergang", "english": "the sinking",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Untergänge",
       "tags": []
     },
     {
-      "german": "der Vorteil, die Vorteile", "english": "the advantage, the advantages",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Vorteil", "english": "the advantage",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Vorteile",
       "tags": []
     },
     {
-      "german": "der Nachteil, die Nachteile", "english": "the disadvantage, the disadvantages",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Nachteil", "english": "the disadvantage",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Nachteile",
       "tags": []
     },
     {

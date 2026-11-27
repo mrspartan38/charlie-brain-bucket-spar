@@ -1,16 +1,16 @@
 {
   "book": "GR102",
-  "chapter": 5,
+  "chapter": 6,
   "level": 100,
   "words": [
     {
-      "german": "die Ausbildung, die Ausbildungen", "english": "the education/apprenticeship, the apprenticeships",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Ausbildung", "english": "the education/apprenticeship",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Ausbildungen",
       "tags": []
     },
     {
-      "german": "der Mechatroniker, die Mechatroniker", "english": "the mechatronics engineer, the mechatronics engineers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Mechatroniker", "english": "the mechatronics engineer",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Mechatroniker",
       "tags": []
     },
     {
@@ -19,33 +19,33 @@
       "tags": []
     },
     {
-      "german": "die Krankschreibung, die Krankschreibungen", "english": "the work/school excuse, the excuses",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Krankschreibung", "english": "the work/school excuse",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Krankschreibungen",
       "tags": []
     },
     {
-      "german": "die Versichertenkarte, die Versichertenkarten", "english": "the health insurance card, the health insurance cards",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Versichertenkarte", "english": "the health insurance card",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Versichertenkarten",
       "tags": []
     },
     {
-      "german": "der Unterricht, die Unterrichte", "english": "the lecture/college class, the lectures",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Unterricht", "english": "the lecture/college class",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Unterrichte",
       "tags": []
     },
     {
-      "german": "die Pause, die Pausen", "english": "the break/pause, the breaks",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Pause", "english": "the break/pause",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Pausen",
       "tags": []
     },
     {
-      "german": "das Wochenende, die Wochenenden", "english": "the weekend, the weekends",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Wochenende", "english": "the weekend",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Wochenenden",
       "tags": []
     },
     {
-      "german": "der Schläger, die Schläger", "english": "the racket/bat, the rackets",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Schläger", "english": "the racket/bat",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schläger",
       "tags": []
     },
     {
@@ -54,33 +54,33 @@
       "tags": []
     },
     {
-      "german": "die Hitzewelle, die Hitzewellen", "english": "the heat wave, the heat waves",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Hitzewelle", "english": "the heat wave",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Hitzewellen",
       "tags": []
     },
     {
-      "german": "der Termin, die Termine", "english": "the appointment, the appointments",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Termin", "english": "the appointment",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Termine",
       "tags": []
     },
     {
-      "german": "die Arztpraxis, die Arztpraxen", "english": "the doctor's office, the doctor's offices",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Arztpraxis", "english": "the doctor's office",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Arztpraxen",
       "tags": []
     },
     {
-      "german": "die Sprechstundenhilfe, die Sprechstundenhilfen", "english": "the receptionist, the receptionists",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Sprechstundenhilfe", "english": "the receptionist",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Sprechstundenhilfen",
       "tags": []
     },
     {
-      "german": "der Krankenwagen, die Krankenwagen", "english": "the ambulance, the ambulances",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Krankenwagen", "english": "the ambulance",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Krankenwagen",
       "tags": []
     },
     {
-      "german": "die Salbe, die Salben", "english": "the ointment, the ointments",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Salbe", "english": "the ointment",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Salben",
       "tags": []
     },
     {
@@ -89,33 +89,33 @@
       "tags": []
     },
     {
-      "german": "der Krieg, die Kriege", "english": "the war, the wars",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Krieg", "english": "the war",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Kriege",
       "tags": []
     },
     {
-      "german": "die Verletzung, die Verletzungen", "english": "the injury, the injuries",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Verletzung", "english": "the injury",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Verletzungen",
       "tags": []
     },
     {
-      "german": "der Gips, die Gipse", "english": "the cast, the casts",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Gips", "english": "the cast",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Gipse",
       "tags": []
     },
     {
-      "german": "der Papagei, die Papageien", "english": "the parrot, the parrots",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Papagei", "english": "the parrot",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Papageien",
       "tags": []
     },
     {
-      "german": "der Patient, die Patienten", "english": "the patient, the patients",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Patient", "english": "the patient",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Patienten",
       "tags": []
     },
     {
-      "german": "der Preis, die Preise", "english": "the price, the prices",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Preis", "english": "the price",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Preise",
       "tags": []
     },
     {

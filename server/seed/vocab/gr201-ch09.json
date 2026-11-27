@@ -29,8 +29,8 @@
       "tags": []
     },
     {
-      "german": "die Gaststatt, die Gaststätte", "english": "the restaurant, the restaurants",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Gaststatt", "english": "the restaurant",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Gaststätte",
       "tags": []
     },
     {
@@ -44,8 +44,8 @@
       "tags": []
     },
     {
-      "german": "das Tablet, die Tablets", "english": "the tablet, the tablets",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Tablet", "english": "the tablet",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Tablets",
       "tags": []
     },
     {
@@ -59,13 +59,13 @@
       "tags": []
     },
     {
-      "german": "die Kneipe, die Kneipen", "english": "the pub, the bars",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Kneipe", "english": "the pub",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Kneipen",
       "tags": []
     },
     {
-      "german": "die Mahlzeit, die Mahlzeiten", "english": "the meal, the meals",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Mahlzeit", "english": "the meal",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Mahlzeiten",
       "tags": []
     },
     {

@@ -9,18 +9,18 @@
       "tags": []
     },
     {
-      "german": "der Unterschied, die Unterschiede", "english": "the difference, the differences",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Unterschied", "english": "the difference",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Unterschiede",
       "tags": []
     },
     {
-      "german": "der Lebenslauf, die Lebensläufe", "english": "the resume, the resumes",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Lebenslauf", "english": "the resume",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Lebensläufe",
       "tags": []
     },
     {
-      "german": "der Schulabschluss, die Schulabschlüsse", "english": "the high school diploma, the diplomas",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Schulabschluss", "english": "the high school diploma",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schulabschlüsse",
       "tags": []
     },
     {

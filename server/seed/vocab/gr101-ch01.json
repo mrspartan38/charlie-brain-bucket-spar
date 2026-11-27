@@ -4,243 +4,243 @@
   "level": 100,
   "words": [
     {
-      "german": "die Tafel, die Tafeln", "english": "the board, the boards",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Tafel", "english": "the board",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Tafeln",
       "tags": []
     },
     {
-      "german": "die Uhr, die Uhren", "english": "the clock, the clocks",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Uhr", "english": "the clock",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Uhren",
       "tags": []
     },
     {
-      "german": "die Maus, die Maüse", "english": "the mouse, the mice",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Maus", "english": "the mouse",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Maüse",
       "tags": []
     },
     {
-      "german": "die Landkarte, die Landekarten", "english": "the map, the maps",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Landkarte", "english": "the map",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Landekarten",
       "tags": []
     },
     {
-      "german": "die Professorin, die Professorinnen", "english": "the female professor, the female professors",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Professorin", "english": "the female professor",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Professorinnen",
       "tags": []
     },
     {
-      "german": "die Lehrerin, die Lehrerinnen", "english": "the female teacher, the female teachers",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Lehrerin", "english": "the female teacher",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Lehrerinnen",
       "tags": []
     },
     {
-      "german": "die Schülerin, die Schülerinnen", "english": "the female school student, the female school students",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Schülerin", "english": "the female school student",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Schülerinnen",
       "tags": []
     },
     {
-      "german": "die Studentin, die Studentinnen", "english": "the female college student, the female college students",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Studentin", "english": "the female college student",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Studentinnen",
       "tags": []
     },
     {
-      "german": "die Wand, die Wände", "english": "the wall, the walls",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Wand", "english": "the wall",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Wände",
       "tags": []
     },
     {
-      "german": "die Mutter, die Mütter", "english": "the mother, the mothers",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Mutter", "english": "the mother",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Mütter",
       "tags": []
     },
     {
-      "german": "die Schwester, die Schwestern", "english": "the sister, the sisters",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Schwester", "english": "the sister",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Schwestern",
       "tags": []
     },
     {
-      "german": "die Tante, die Tanten", "english": "the aunt, the aunts",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Tante", "english": "the aunt",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Tanten",
       "tags": []
     },
     {
-      "german": "die Großmutter, die Großmütter", "english": "the grandmother, the grandmothers",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Großmutter", "english": "the grandmother",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Großmütter",
       "tags": []
     },
     {
-      "german": "die Tochter, die Töchter", "english": "the daughter, the daughters",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Tochter", "english": "the daughter",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Töchter",
       "tags": []
     },
     {
-      "german": "die Stadt, die Städte", "english": "the city, the cities",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Stadt", "english": "the city",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Städte",
       "tags": []
     },
     {
-      "german": "die Katze, die Katzen", "english": "the cat, the cats",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Katze", "english": "the cat",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Katzen",
       "tags": []
     },
     {
-      "german": "der Wischer, die Wischer", "english": "the whiteboard eraser, the whiteboard erasers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Wischer", "english": "the whiteboard eraser",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Wischer",
       "tags": []
     },
     {
-      "german": "das Handy, die Handys", "english": "the cell phone, the cell phones",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Handy", "english": "the cell phone",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Handys",
       "tags": []
     },
     {
-      "german": "das Papier, die Papiere", "english": "the paper, the papers",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Papier", "english": "the paper",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Papiere",
       "tags": []
     },
     {
-      "german": "das Heft, die Hefte", "english": "the notebook, the notebooks",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Heft", "english": "the notebook",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Hefte",
       "tags": []
     },
     {
-      "german": "das Buch, die Bücher", "english": "the book, the books",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Buch", "english": "the book",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Bücher",
       "tags": []
     },
     {
-      "german": "das Fenster, die Fenster", "english": "the window, the windows",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Fenster", "english": "the window",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Fenster",
       "tags": []
     },
     {
-      "german": "das Poster, die Poster", "english": "the poster, the posters",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Poster", "english": "the poster",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Poster",
       "tags": []
     },
     {
-      "german": "die Tür, die Türen", "english": "the door, the doors",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Tür", "english": "the door",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Türen",
       "tags": []
     },
     {
-      "german": "der Tisch, die Tische", "english": "the table, the tables",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Tisch", "english": "the table",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Tische",
       "tags": []
     },
     {
-      "german": "der Stuhl, die Stühle", "english": "the chair, the chairs",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Stuhl", "english": "the chair",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Stühle",
       "tags": []
     },
     {
-      "german": "der Bleistift, die Bleistifte", "english": "the pencil, the pencils",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Bleistift", "english": "the pencil",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Bleistifte",
       "tags": []
     },
     {
-      "german": "der Stift, die Stifte", "english": "the pencil, the pencils (short)",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Stift", "english": "the pencil",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Stifte",
       "tags": []
     },
     {
-      "german": "der Kugelschreiber, die Kugelschriber", "english": "the pen, the pens",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Kugelschreiber", "english": "the pen",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Kugelschriber",
       "tags": []
     },
     {
-      "german": "der Kuli, die Kulis", "english": "the pen, the pens (short)",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Kuli", "english": "the pen",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Kulis",
       "tags": []
     },
     {
-      "german": "der Rucksack, die Rücksacke", "english": "the backpack, the backpacks",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Rucksack", "english": "the backpack",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Rücksacke",
       "tags": []
     },
     {
-      "german": "der Computer, die Computer", "english": "the computer, the computers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Computer", "english": "the computer",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Computer",
       "tags": []
     },
     {
-      "german": "der/das Laptop, die Laptops", "english": "the laptop, the laptops",
-      "partOfSpeech": "phrase",
+      "german": "der/das Laptop", "english": "the laptop",
+      "partOfSpeech": "phrase", "plural": "die Laptops",
       "tags": []
     },
     {
-      "german": "der Radiergummi, die Radiergummis", "english": "the eraser, the erasers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Radiergummi", "english": "the eraser",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Radiergummis",
       "tags": []
     },
     {
-      "german": "der Gummi, die Gummis", "english": "the eraser, the erasers (short)",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Gummi", "english": "the eraser",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Gummis",
       "tags": []
     },
     {
-      "german": "der Professor, die Professoren", "english": "the male professor, the male professors",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Professor", "english": "the male professor",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Professoren",
       "tags": []
     },
     {
-      "german": "der Student, die Studenten", "english": "the male college student, the male college students",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Student", "english": "the male college student",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Studenten",
       "tags": []
     },
     {
-      "german": "der Lehrer, die Lehrer", "english": "the male teacher, the male teachers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Lehrer", "english": "the male teacher",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Lehrer",
       "tags": []
     },
     {
-      "german": "der Schüler, die Schüler", "english": "the male student, the male students",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Schüler", "english": "the male student",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schüler",
       "tags": []
     },
     {
-      "german": "der Filzstift, die Filzstifte", "english": "the market, the markers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Filzstift", "english": "the market",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Filzstifte",
       "tags": []
     },
     {
-      "german": "der Vater, die Väter", "english": "the father, the fathers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Vater", "english": "the father",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Väter",
       "tags": []
     },
     {
-      "german": "der Bruder, die Brüder", "english": "the brother, the brothers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Bruder", "english": "the brother",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Brüder",
       "tags": []
     },
     {
-      "german": "der Sohn, die Söhne", "english": "the son, the sons",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Sohn", "english": "the son",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Söhne",
       "tags": []
     },
     {
-      "german": "der Großvater, die Größvater", "english": "the grandfather, the grandfathers",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Großvater", "english": "the grandfather",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Größvater",
       "tags": []
     },
     {
-      "german": "der Onkel, die Onkel", "english": "the uncle, the uncles",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Onkel", "english": "the uncle",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Onkel",
       "tags": []
     },
     {
-      "german": "der Hund, die Hunde", "english": "the dog, the dogs",
-      "partOfSpeech": "noun", "article": "der",
+      "german": "der Hund", "english": "the dog",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Hunde",
       "tags": []
     },
     {
-      "german": "das Kind, die Kinder", "english": "the child, the children",
-      "partOfSpeech": "noun", "article": "das",
+      "german": "das Kind", "english": "the child",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Kinder",
       "tags": []
     },
     {
-      "german": "die Tasche, die Taschen", "english": "the bag/duffle bag, the bags",
-      "partOfSpeech": "noun", "article": "die",
+      "german": "die Tasche", "english": "the bag/duffle bag",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Taschen",
       "tags": []
     },
     {
