@@ -1,0 +1,74 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 102 Chapters 5 & 6	the education/apprenticeship, the apprenticeships	die Ausbildung, die Ausbildungen	
+GR 102 Chapters 5 & 6	the mechatronics engineer, the mechatronics engineers	der Mechatroniker, die Mechatroniker	
+GR 102 Chapters 5 & 6	the relatives	die Verwandten	
+GR 102 Chapters 5 & 6	the work/school excuse, the excuses	die Krankschreibung, die Krankschreibungen	
+GR 102 Chapters 5 & 6	the health insurance card, the health insurance cards	die Versichertenkarte, die Versichertenkarten	
+GR 102 Chapters 5 & 6	the lecture/college class, the lectures	der Unterricht, die Unterrichte	
+GR 102 Chapters 5 & 6	the break/pause, the breaks	die Pause, die Pausen	
+GR 102 Chapters 5 & 6	the weekend, the weekends	das Wochenende, die Wochenenden	
+GR 102 Chapters 5 & 6	the racket/bat, the rackets	der Schläger, die Schläger	
+GR 102 Chapters 5 & 6	the strength training	das Krafttraining	
+GR 102 Chapters 5 & 6	the heat wave, the heat waves	die Hitzewelle, die Hitzewellen	
+GR 102 Chapters 5 & 6	the appointment, the appointments	der Termin, die Termine	
+GR 102 Chapters 5 & 6	the doctor's office, the doctor's offices	die Arztpraxis, die Arztpraxen&nbsp;	
+GR 102 Chapters 5 & 6	the receptionist, the receptionists	die Sprechstundenhilfe, die Sprechstundenhilfen	
+GR 102 Chapters 5 & 6	the ambulance, the ambulances	der Krankenwagen, die Krankenwagen	
+GR 102 Chapters 5 & 6	the ointment, the ointments	die Salbe, die Salben	
+GR 102 Chapters 5 & 6	the health insurance	die Krankenversicherung	
+GR 102 Chapters 5 & 6	the war, the wars	der Krieg, die Kriege	
+GR 102 Chapters 5 & 6	the injury, the injuries	die Verletzung, die Verletzungen	
+GR 102 Chapters 5 & 6	the cast, the casts	der Gips, die Gipse	
+GR 102 Chapters 5 & 6	the parrot, the parrots	der Papagei, die Papageien	
+GR 102 Chapters 5 & 6	the patient, the patients	der Patient, die Patienten	
+GR 102 Chapters 5 & 6	the price, the prices	der Preis, die Preise	
+GR 102 Chapters 5 & 6	the climate	das Klima	
+GR 102 Chapters 5 & 6	to water	gießen	
+GR 102 Chapters 5 & 6	to end a phone call	auf*legen	
+GR 102 Chapters 5 & 6	to annoy, be annoying	nerven	
+GR 102 Chapters 5 & 6	to be crazy, to spin	spinnen	
+GR 102 Chapters 5 & 6	to bore (someone)	langweilen	
+GR 102 Chapters 5 & 6	to lose weight	ab*nehmen	
+GR 102 Chapters 5 & 6	to turn an electric device on	an*schalten	
+GR 102 Chapters 5 & 6	to be no good	taugen	
+GR 102 Chapters 5 & 6	to ask a question	eine Frage stellen	
+GR 102 Chapters 5 & 6	to be interested in something	Lust auf etwas haben	
+GR 102 Chapters 5 & 6	to x-ray	roentgen	
+GR 102 Chapters 5 & 6	to bleed&nbsp;	bluten	
+GR 102 Chapters 5 & 6	to prescribe	verschreiben	
+GR 102 Chapters 5 & 6	to get a doctor's note	krank*schreiben	
+GR 102 Chapters 5 & 6	to be missing	fehlen + dat.	
+GR 102 Chapters 5 & 6	to book	buchen	
+GR 102 Chapters 5 & 6	to talk	reden	
+GR 102 Chapters 5 & 6	to hit	schlagen, a-&gt;ä	
+GR 102 Chapters 5 & 6	to win	gewinnen	
+GR 102 Chapters 5 & 6	to lose	verlieren	
+GR 102 Chapters 5 & 6	to invent	erfinden	
+GR 102 Chapters 5 & 6	to discover	entdecken	
+GR 102 Chapters 5 & 6	to fetch	holen	
+GR 102 Chapters 5 & 6	to shower	duschen	
+GR 102 Chapters 5 & 6	to break	brechen	
+GR 102 Chapters 5 & 6	to fall	stürzen	
+GR 102 Chapters 5 & 6	to wake up	auf*wachen	
+GR 102 Chapters 5 & 6	to move	bewegen	
+GR 102 Chapters 5 & 6	to miss	vermissen	
+GR 102 Chapters 5 & 6	to honk	hupen	
+GR 102 Chapters 5 & 6	instead of	(an)statt	
+GR 102 Chapters 5 & 6	despite, in spite of	trotz	
+GR 102 Chapters 5 & 6	during, while	während	
+GR 102 Chapters 5 & 6	because of&nbsp;	wegen	
+GR 102 Chapters 5 & 6	inside of	innerhalb	
+GR 102 Chapters 5 & 6	outside of	außerhalb	
+GR 102 Chapters 5 & 6	(un)athletic	(un)sportlich	
+GR 102 Chapters 5 & 6	strenuous	anstrengend	
+GR 102 Chapters 5 & 6	relaxing	entspannend	
+GR 102 Chapters 5 & 6	relaxed	entspannt	
+GR 102 Chapters 5 & 6	regular(ly)	regelmäßig	
+GR 102 Chapters 5 & 6	fat	dick	
+GR 102 Chapters 5 & 6	broken	gebrochen	
+GR 102 Chapters 5 & 6	maybe	vielleicht	
+GR 102 Chapters 5 & 6	injured	verletzt	
+GR 102 Chapters 5 & 6	again	noch einmal	

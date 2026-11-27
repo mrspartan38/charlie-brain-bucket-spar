@@ -1,0 +1,58 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 202 Kapitel 10	the dish, the dishes	das Gericht, die Gerichte	
+GR 202 Kapitel 10	the apprentice, the apprentices	der Lehrling, die Lehrlinge	
+GR 202 Kapitel 10	the snail, the snails	die Schnecke, die Schnecken&nbsp;	
+GR 202 Kapitel 10	the pastry chef, the pastry chefs	der Konditor, die Konditoren	
+GR 202 Kapitel 10	the owner, the owners	der Besitzer, die Besitzer	
+GR 202 Kapitel 10	the contract, the contracts	der Vertrag, die Verträge	
+GR 202 Kapitel 10	the lawyer, the lawyers	der Anwalt, die Anwälte&nbsp;	
+GR 202 Kapitel 10	the trainee, the trainees	der Azubi, die Azubis	
+GR 202 Kapitel 10	the stamp, the stamps	die Briefmarke, die Briefmarken	
+GR 202 Kapitel 10	the fortune, the fortunes	das Vermögen, die Vermögen&nbsp;	
+GR 202 Kapitel 10	the anniversary	das Jubiläum	
+GR 202 Kapitel 10	the birth, the births	die Geburt, die Geburten	
+GR 202 Kapitel 10	the wedding day	der Hochzeitstag	
+GR 202 Kapitel 10	the bouquet, the bouquets	der Blumenstrauß, die Blumensträuße	
+GR 202 Kapitel 10	the fur, the furs	das Fell, die Felle	
+GR 202 Kapitel 10	the sinking, the downfalls	der Untergang, die Untergänge	
+GR 202 Kapitel 10	the advantage, the advantages	der Vorteil, die Vorteile	
+GR 202 Kapitel 10	the disadvantage, the disadvantages	der Nachteil, die Nachteile&nbsp;	
+GR 202 Kapitel 10	to snore	schnarchen	
+GR 202 Kapitel 10	to work out right	funktioneren&nbsp;	
+GR 202 Kapitel 10	to bet	wetten	
+GR 202 Kapitel 10	to pick up, fetsch	ab*holen&nbsp;	
+GR 202 Kapitel 10	to slap	ohrfeigen	
+GR 202 Kapitel 10	to flood, be flooded	überfluten (sein)	
+GR 202 Kapitel 10	to renovate&nbsp;	renovieren&nbsp;	
+GR 202 Kapitel 10	to treasure, to value	schätzen&nbsp;	
+GR 202 Kapitel 10	to learn a job	einen Beruf lernen&nbsp;	
+GR 202 Kapitel 10	to train for a job as	eine Ausbildung machen&nbsp;	
+GR 202 Kapitel 10	to take upon oneself	übernehmen&nbsp;	
+GR 202 Kapitel 10	to say farewell	sich von jm. verabschieden&nbsp;	
+GR 202 Kapitel 10	to go bankrupt	pleite*gehen	
+GR 202 Kapitel 10	to dine	speisen	
+GR 202 Kapitel 10	to be friends with	befreundet sein mit	
+GR 202 Kapitel 10	to be missing, absent	fehlen	
+GR 202 Kapitel 10	to disturb, bother	stören&nbsp;	
+GR 202 Kapitel 10	to burn oneself	sich verbrennen	
+GR 202 Kapitel 10	to stumble	stolpern	
+GR 202 Kapitel 10	to fall (down)	stürzen&nbsp;	
+GR 202 Kapitel 10	to bump one's head	sich den Kopf stoßen&nbsp;	
+GR 202 Kapitel 10	to go wrong	schief*gehen	
+GR 202 Kapitel 10	to spill	verschütten&nbsp;	
+GR 202 Kapitel 10	agreed	einverstanden	
+GR 202 Kapitel 10	very tasty	köstlich&nbsp;	
+GR 202 Kapitel 10	embarrasing&nbsp;	peinlich	
+GR 202 Kapitel 10	to get everything together, juggle lots of things	alles unter einen Hut bringen&nbsp;	
+GR 202 Kapitel 10	to rip someone off; cheat someone	jemanden über den Tisch ziehen&nbsp;	
+GR 202 Kapitel 10	to be thick-skinned	ein dickes Fell haben	
+GR 202 Kapitel 10	among the blind the one-eyed is king	unter den Blinden ist der Einäugige König	
+GR 202 Kapitel 10	to be over the hill (stand with one leg in the grave)	mit einem Bein in Grab stehen	
+GR 202 Kapitel 10	good society	gute Gesellschaft	
+GR 202 Kapitel 10	both	beides	
+GR 202 Kapitel 10	to become friends (seal a friendship)	Freundschaft schließen&nbsp;	
+GR 202 Kapitel 10	Life goes on.	Das Leben geht weiter	
+GR 202 Kapitel 10	in office (political)	im Amt	

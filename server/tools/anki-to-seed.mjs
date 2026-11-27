@@ -314,6 +314,15 @@ rows.forEach(function (row) {
     });
   }
 
+  // both forms in one field, such as "die Tafel, die Tafeln" and "the board, the boards"
+  const together = record.german && !record.plural && record.german.match(/^((?:der|die|das)(?:\/(?:der|die|das))? [^,]+),\s*(die .+)$/i);
+
+  if (together) {
+    record.german = together[1].trim();
+    record.plural = together[2].trim();
+    record.english = record.english.split(/,\s*the /i)[0].trim();
+  }
+
   if (!record.german || !record.english) {
     review.push({ reason: 'missing German or English', deck: deck, german: record.german || '', english: record.english || '', details: '' });
     return;

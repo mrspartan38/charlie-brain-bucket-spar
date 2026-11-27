@@ -1,0 +1,104 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 101 Chapter 3	the river, the rivers	der Fluss, die Flüsse	
+GR 101 Chapter 3	the land/country, the countries	das Land, die Länder	
+GR 101 Chapter 3	the sea, the seas	das Meer, die Meere	
+GR 101 Chapter 3	the city, the cities	die Stadt, die Städte	
+GR 101 Chapter 3	the forest/woods, the forests	der Wald, die Wälder	
+GR 101 Chapter 3	the mountain, the mountains	der Berg, die Berge	
+GR 101 Chapter 3	the island, the islands	die Insel, die Inseln	
+GR 101 Chapter 3	the hill, the hills	der Hügel, die Hügel	
+GR 101 Chapter 3	the lake, the lakes	der See, die Seen	
+GR 101 Chapter 3	the sea	die See	
+GR 101 Chapter 3	the tree, the trees	der Baum, die Bäume	
+GR 101 Chapter 3	the suggestion, the suggestions	der Vorschlag, die Vorschläge	
+GR 101 Chapter 3	the landscape	die Landschaft	
+GR 101 Chapter 3	the dictionary, the dictionaries	das Wörterbuch, die Wörterbücher	
+GR 101 Chapter 3	the shark, the sharks	der Hai, die Haie	
+GR 101 Chapter 3	the binder, the binders	der Ordner, die Ordner	
+GR 101 Chapter 3	the poem, the poems	das Gedicht, die Gedichte	
+GR 101 Chapter 3	the cow, the cows	die Kuh, die Kühe	
+GR 101 Chapter 3	the horse, the horses	das Pferd, die Pferde	
+GR 101 Chapter 3	the tour, the tours	die Führung, die Führungen	
+GR 101 Chapter 3	the snake, the snakes	die Schlange, die Schlangen	
+GR 101 Chapter 3	the hedgehog, the hedgehogs	der Igel, die Igel	
+GR 101 Chapter 3	the terrace, the terraces	die Terasse, die Terassen	
+GR 101 Chapter 3	the kitchen, the kitchens	die Küche, die Küchen	
+GR 101 Chapter 3	the living room, the living rooms	das Wohnzimmmer, die Wohnzimmer	
+GR 101 Chapter 3	the bathroom, the bathrooms	das Badezimmer, die Badezimmer	
+GR 101 Chapter 3	the bathroom, the bathrooms (short)	das Bad, die Bäder	
+GR 101 Chapter 3	the toilet, the toilets	die Toilette, die Toiletten	
+GR 101 Chapter 3	the bedroom, the bedrooms	das Schlafzimmer, die Schlafzimmer	
+GR 101 Chapter 3	the basement, the basements	der Keller, die Keller	
+GR 101 Chapter 3	the hallway, the hallways	der Flur, die Flure	
+GR 101 Chapter 3	the shared apartment, the apartments	die WG, die WGs	
+GR 101 Chapter 3	the apartment, the the apartments	die Wohnung, die Wohnungen	
+GR 101 Chapter 3	the heater, the heaters	die Heizung, die Heizungen	
+GR 101 Chapter 3	the elevator, the elevators	der Aufzug, die Aufzüge	
+GR 101 Chapter 3	the male roommate, the male roommates	der Mitbewohner, die Mitbewohner	
+GR 101 Chapter 3	the female roommate, the female roommates	die Mitbewohnerin, die Mitbewohnerinnen	
+GR 101 Chapter 3	the dish, the dishes (of food)	das Gericht, die Gerichte	
+GR 101 Chapter 3	the castle, the castles	das Schloss, die Schlösser	
+GR 101 Chapter 3	the ant, the ants	die Ameise, die Ameisen	
+GR 101 Chapter 3	the dolphin, the dolphins	der Delphin, die Delphine	
+GR 101 Chapter 3	the bird, the birds	der Vogel, die Vögel	
+GR 101 Chapter 3	the scrap of paper, the scraps of paper	der Zettel, die Zettel	
+GR 101 Chapter 3	to review, repeat	wiederholen	
+GR 101 Chapter 3	to lie, to be located	liegen	
+GR 101 Chapter 3	to visit	besuchen	
+GR 101 Chapter 3	to wait	warten	
+GR 101 Chapter 3	to discuss	besprechen	
+GR 101 Chapter 3	to earn	verdienen	
+GR 101 Chapter 3	to order	bestellen	
+GR 101 Chapter 3	to translate	übersetzen	
+GR 101 Chapter 3	to use	benutzen	
+GR 101 Chapter 3	to take (a course)	belegen	
+GR 101 Chapter 3	to type	tippen	
+GR 101 Chapter 3	to receive	bekommen	
+GR 101 Chapter 3	to spend the night	übernachten	
+GR 101 Chapter 3	to watch (TV, film...)&nbsp;	gucken	
+GR 101 Chapter 3	can, to be able to	können	
+GR 101 Chapter 3	must, to have to	müssen	
+GR 101 Chapter 3	should, supposed to	sollen	
+GR 101 Chapter 3	to want (to)	wollen	
+GR 101 Chapter 3	may, be allowed to	dürfen	
+GR 101 Chapter 3	would like (to)	möchten	
+GR 101 Chapter 3	to own	besitzen	
+GR 101 Chapter 3	open, opened	geöffnet	
+GR 101 Chapter 3	closed	geschlossen	
+GR 101 Chapter 3	this	dies-	
+GR 101 Chapter 3	every	jed-&nbsp;	
+GR 101 Chapter 3	which	welch-	
+GR 101 Chapter 3	all	all-	
+GR 101 Chapter 3	old-fashioned	altmodisch	
+GR 101 Chapter 3	fluent	fließend	
+GR 101 Chapter 3	unfortunately	leider	
+GR 101 Chapter 3	now	jetzt	
+GR 101 Chapter 3	(one's) own	eigen	
+GR 101 Chapter 3	more likely	eher	
+GR 101 Chapter 3	personally	persönlich	
+GR 101 Chapter 3	little/few	winig/winige	
+GR 101 Chapter 3	other	andere	
+GR 101 Chapter 3	much/many	viel/viele	
+GR 101 Chapter 3	some	einige	
+GR 101 Chapter 3	several	mehrere	
+GR 101 Chapter 3	straight ahead	geradeaus	
+GR 101 Chapter 3	left&nbsp;	links	
+GR 101 Chapter 3	right	rechts	
+GR 101 Chapter 3	(going) to the left	nach links	
+GR 101 Chapter 3	(going) to the right	nach rechts	
+GR 101 Chapter 3	nearby	in der Nähe	
+GR 101 Chapter 3	in this direction	in diese Richtung	
+GR 101 Chapter 3	on the right side	auf der rechten Seite	
+GR 101 Chapter 3	on the left side	auf der linken Seite	
+GR 101 Chapter 3	around the corner	um die Ecke	
+GR 101 Chapter 3	across the traffic light	über die Ampel	
+GR 101 Chapter 3	the intersection	die Kreuzung	
+GR 101 Chapter 3	far away	weit weg	
+GR 101 Chapter 3	close	nah	
+GR 101 Chapter 3	in the north	im Norden	
+GR 101 Chapter 3	in the south	im Süden	
+GR 101 Chapter 3	in the west	im Westen	
+GR 101 Chapter 3	in the east	im Osten	

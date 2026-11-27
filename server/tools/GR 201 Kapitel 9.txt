@@ -1,0 +1,60 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 201 Kapitel 9	passion	die Leidenschaft	
+GR 201 Kapitel 9	body power	die Körperkraft	
+GR 201 Kapitel 9	freedom	die Freiheit	
+GR 201 Kapitel 9	ad, commercial	die Werbung	
+GR 201 Kapitel 9	internet connection	die Internetverbindung	
+GR 201 Kapitel 9	the restaurant, the restaurants	die Gaststatt, die Gaststätte	
+GR 201 Kapitel 9	passing through, the trip through	die Durchreisen	
+GR 201 Kapitel 9	the gourmet, the food connoisseur	der Feinschmecker&nbsp;	
+GR 201 Kapitel 9	the tablet, the tablets	das Tablet, die Tablets	
+GR 201 Kapitel 9	headphones	der Kopfhörer	
+GR 201 Kapitel 9	smartphone	das Smartphone	
+GR 201 Kapitel 9	the pub, the bars	die Kneipe, die Kneipen	
+GR 201 Kapitel 9	the meal, the meals	die Mahlzeit, die Mahlzeiten	
+GR 201 Kapitel 9	taste	der Geschmack&nbsp;	
+GR 201 Kapitel 9	to feel (good, bad)	sich fühlen	
+GR 201 Kapitel 9	to be located, found	sich befinden	
+GR 201 Kapitel 9	to be bored, get bored	sich langweilen&nbsp;	
+GR 201 Kapitel 9	to apologize to someone	sich bei jemandem entschuldigen&nbsp;	
+GR 201 Kapitel 9	to raise a hand in class	sich melden&nbsp;	
+GR 201 Kapitel 9	to behave	sich benehmen	
+GR 201 Kapitel 9	to work, to function	funktioneren&nbsp;	
+GR 201 Kapitel 9	to fight, to argue	streiten&nbsp;	
+GR 201 Kapitel 9	to register for	sich an*melden für	
+GR 201 Kapitel 9	to complain about	sich beschweren über (+ acc.)	
+GR 201 Kapitel 9	to apply at	sich bewerben bei	
+GR 201 Kapitel 9	to speak of	sprechen von	
+GR 201 Kapitel 9	to wait for/on	warten auf (+ acc.)	
+GR 201 Kapitel 9	to be interested in	sich interessieren für	
+GR 201 Kapitel 9	to apply for	sich bewerben um, e-&gt;i&nbsp;	
+GR 201 Kapitel 9	to inform oneself about	sich informieren über (+ acc.)	
+GR 201 Kapitel 9	to converse about	sich unterhalten über (+ acc.)	
+GR 201 Kapitel 9	to say thank you (to someone) for	sich (bei jemanden) bedanken für	
+GR 201 Kapitel 9	to get angry about, ticked off about	sich ärgern über (+ acc.)	
+GR 201 Kapitel 9	to be afraid of, to have fear of	Angst haben vor (+ dat.)&nbsp;	
+GR 201 Kapitel 9	to have enough nerve to do something	sich trauen	
+GR 201 Kapitel 9	to remember&nbsp;	sich erinnern an (+ acc.)&nbsp;	
+GR 201 Kapitel 9	to make a big fuss	sich an*stellen	
+GR 201 Kapitel 9	to sit oneself down	sich hin*setzen&nbsp;	
+GR 201 Kapitel 9	to make a decision, decide	sich entscheiden	
+GR 201 Kapitel 9	to focus on, be busy with	sich beschäftigen (mit)	
+GR 201 Kapitel 9	to support	unterstützen&nbsp;	
+GR 201 Kapitel 9	to imagine something	sich etwas vor*stellen	
+GR 201 Kapitel 9	to speak about	sprechen über (+ acc.)	
+GR 201 Kapitel 9	to meet up with	sich treffen mit	
+GR 201 Kapitel 9	to be happy about	sich freuen über (+ acc.)	
+GR 201 Kapitel 9	to argue with&nbsp;	sich streiten mit	
+GR 201 Kapitel 9	to relax	sich entspannen&nbsp;	
+GR 201 Kapitel 9	to look forward to	sich freuen auf (+ acc.)	
+GR 201 Kapitel 9	to take care of, care for	sich kümmern um	
+GR 201 Kapitel 9	to fall in love with	sich verlieben in (+ acc.)	
+GR 201 Kapitel 9	to get used to	sich gewöhnen an (+ acc.)	
+GR 201 Kapitel 9	to ask for, request (something)	bitten um	
+GR 201 Kapitel 9	empty	leer	
+GR 201 Kapitel 9	That won't hurt you.	Das wird dir nicht schaden.	
+GR 201 Kapitel 9	I don't care.	Das ist mir egal.	
+GR 201 Kapitel 9	May I sit here with you?	Darf ich mich zu Ihnen setzen?	

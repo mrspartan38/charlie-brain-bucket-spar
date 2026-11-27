@@ -1,0 +1,29 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 202 Kapitel 11	common law	das Grundgesetz	
+GR 202 Kapitel 11	the difference, the differences	der Unterschied, die Unterschiede	
+GR 202 Kapitel 11	the resume, the resumes	der Lebenslauf, die Lebensläufe	
+GR 202 Kapitel 11	the high school diploma, the diplomas	der Schulabschluss, die Schulabschlüsse	
+GR 202 Kapitel 11	the internship	das Praktikum	
+GR 202 Kapitel 11	job interview	das Bewerbungsgespräch	
+GR 202 Kapitel 11	to take care of someone	jemanden versorgen&nbsp;	
+GR 202 Kapitel 11	to support	unterstützen&nbsp;	
+GR 202 Kapitel 11	to finish (school, etc.)	ab schließen&nbsp;	
+GR 202 Kapitel 11	to advise	beraten	
+GR 202 Kapitel 11	to educate	aus*bilden&nbsp;	
+GR 202 Kapitel 11	to retrain (for a new job)	um*schulen	
+GR 202 Kapitel 11	to apply for a job	auf/um eine Stelle bewerben	
+GR 202 Kapitel 11	to leave a message	eine Nachricht hinterlassen	
+GR 202 Kapitel 11	to interrupt	unterbrechen&nbsp;	
+GR 202 Kapitel 11	to say goodbye	sich verabschieden&nbsp;	
+GR 202 Kapitel 11	earlier	früher	
+GR 202 Kapitel 11	back then, back in the day	damals	
+GR 202 Kapitel 11	Oh, I see!	Ach so!	
+GR 202 Kapitel 11	Me too!	Ich auch!	
+GR 202 Kapitel 11	Whoa! Wow!	Boah!	
+GR 202 Kapitel 11	Really?	Echt?	
+GR 202 Kapitel 11	That would be nice	Das wäre schön.&nbsp;	
+GR 202 Kapitel 11	No, I'd rather not	Nee, lieber nicht.	
+GR 202 Kapitel 11	It's on the house.	Es geht aufs Haus.	

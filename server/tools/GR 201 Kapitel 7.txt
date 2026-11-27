@@ -1,0 +1,81 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 201 Kapitel 7	homesickness	das Heimweh	
+GR 201 Kapitel 7	the homeland, the homelands	das Heimatland, die Heimatländer	
+GR 201 Kapitel 7	the bank employee, the bank employees	der Bankangestellte, die Bankangestellten	
+GR 201 Kapitel 7	the home	das Zuhause	
+GR 201 Kapitel 7	knowledge of German	Deutschkenntnisse	
+GR 201 Kapitel 7	the to-do list, the to-do lists	die To-Do Liste, die To-Do Listen	
+GR 201 Kapitel 7	the account, the accounts	das Konto, die Kontos/die Konten	
+GR 201 Kapitel 7	the basic account	das Basiskonto	
+GR 201 Kapitel 7	the checking account	das Girokonto	
+GR 201 Kapitel 7	the certifitcate of registration, the certificates of registration	die Meldebescheinigung, die Meldebescheinigungen	
+GR 201 Kapitel 7	the code, the codes	die Geheimzahl, die Geheimzahlen	
+GR 201 Kapitel 7	the landlord, the landlords	der Vermieter, die Vermieter	
+GR 201 Kapitel 7	the date of birth, the dates of birth	das Geburtsdatum, die Geburtsdaten	
+GR 201 Kapitel 7	the citizen, the citizens	der Bürger, die Bürger	
+GR 201 Kapitel 7	the PIN code, the PIN codes	die PIN-Nummer, die PIN-Nummern	
+GR 201 Kapitel 7	the cash	das Bargeld	
+GR 201 Kapitel 7	the receipt, the receipts	die Quittung, die Quittungen	
+GR 201 Kapitel 7	the debts	die Schulden	
+GR 201 Kapitel 7	the message, the messages	die Nachricht, die Nachrichten	
+GR 201 Kapitel 7	the rent, the rents	die Miete, die Mieten	
+GR 201 Kapitel 7	the bill, the bills	die Rechnung, die Rechnungen	
+GR 201 Kapitel 7	the error message, the error messages	die Fehlermeldung, die Fehlermeldungen	
+GR 201 Kapitel 7	the repair shop, the repair shops	die Werkstatt, die Werkstatte	
+GR 201 Kapitel 7	to miss	vermissen	
+GR 201 Kapitel 7	to marry	heiraten	
+GR 201 Kapitel 7	to practice	üben	
+GR 201 Kapitel 7	to accomplish, to get done, be successful&nbsp;	schaffen	
+GR 201 Kapitel 7	to lie to someone	belügen&nbsp;	
+GR 201 Kapitel 7	to wait on	warten auf + acc.	
+GR 201 Kapitel 7	to withdraw	ab*heben	
+GR 201 Kapitel 7	to overdraw	überziehen	
+GR 201 Kapitel 7	to enter (data, PIN, etc.)	ein*geben	
+GR 201 Kapitel 7	to work out okay, to end up time	klappen&nbsp;	
+GR 201 Kapitel 7	to meet	treffen, e-&gt;i&nbsp;	
+GR 201 Kapitel 7	to press, push	drücken&nbsp;	
+GR 201 Kapitel 7	to get done, to finish	erledigen&nbsp;	
+GR 201 Kapitel 7	to argue with someone	sich mit (jmdm.) Straiten&nbsp;	
+GR 201 Kapitel 7	to complain (to someone)	sich (bei jmdm.) beschweren	
+GR 201 Kapitel 7	to thank someone for	sich (bei jmdm.) bedanken	
+GR 201 Kapitel 7	to sit oneself down (go from standing to sitting)	sich setzen	
+GR 201 Kapitel 7	to get upset&nbsp;	sich auf*regen	
+GR 201 Kapitel 7	to get dressed	sich an*ziehen&nbsp;	
+GR 201 Kapitel 7	to get undressed	sich aus*ziehen&nbsp;	
+GR 201 Kapitel 7	to relax	sich aus*ruhen&nbsp;	
+GR 201 Kapitel 7	to hurry	sich beeilen&nbsp;	
+GR 201 Kapitel 7	to get a cold	sich erkälten&nbsp;	
+GR 201 Kapitel 7	to feel	sich fühlen&nbsp;	
+GR 201 Kapitel 7	to be happy	sich freuen&nbsp;	
+GR 201 Kapitel 7	to be late	sich verspäten	
+GR 201 Kapitel 7	to bathe oneself	sich baden&nbsp;	
+GR 201 Kapitel 7	to take a shower	sich duschen&nbsp;	
+GR 201 Kapitel 7	to examine	untersuchen	
+GR 201 Kapitel 7	to select	aus*wählen&nbsp;	
+GR 201 Kapitel 7	to be bored	Langeweile haben&nbsp;	
+GR 201 Kapitel 7	to be homesick	Heimweh haben	
+GR 201 Kapitel 7	in no case, no way	auf keinen Fall&nbsp;	
+GR 201 Kapitel 7	to speak about	sprechen über + acc.	
+GR 201 Kapitel 7	That's enough	Das reicht.&nbsp;	
+GR 201 Kapitel 7	That's not enough&nbsp;	Das reicht nicht.&nbsp;	
+GR 201 Kapitel 7	to open an account	ein Konto eröffnen	
+GR 201 Kapitel 7	to fill out the form	das Formular aus*füllen&nbsp;	
+GR 201 Kapitel 7	to learn a trade&nbsp;	einen Beruf lernen&nbsp;	
+GR 201 Kapitel 7	to register at the registry office	beim Einwohnermeldeamt an*melden	
+GR 201 Kapitel 7	to move in with someone	bei jm. ein*ziehen	
+GR 201 Kapitel 7	to take out the trash	den Müll (he)rausbringen	
+GR 201 Kapitel 7	to take away the recycable bottles	die Pflandflaschen wegbringen	
+GR 201 Kapitel 7	to save money	Geld sparen	
+GR 201 Kapitel 7	to spend money	Geld aus*geben	
+GR 201 Kapitel 7	to put back some money	Geld zurück*legen&nbsp;	
+GR 201 Kapitel 7	to pay cash	bar bezahlen	
+GR 201 Kapitel 7	to pay fees&nbsp;	Gebühren zahlen&nbsp;	
+GR 201 Kapitel 7	by mail&nbsp;	per Post	
+GR 201 Kapitel 7	to be okay, to be fine	in Ordnung sein&nbsp;	
+GR 201 Kapitel 7	a steady income	ein festes Einkommen&nbsp;	
+GR 201 Kapitel 7	to clean the bathroom	das Bad putzen&nbsp;	
+GR 201 Kapitel 7	immediately	sofort	
+GR 201 Kapitel 7	miserly, stingy	geizig	

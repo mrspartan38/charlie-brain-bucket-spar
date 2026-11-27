@@ -1,0 +1,111 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 102 Chapter 4	hunger like a bear	der Bärenhunger	
+GR 102 Chapter 4	the standalone wardrobe; closet	der Schrank, die Schränke	
+GR 102 Chapter 4	the bed, the beds	das Bett, die Betten	
+GR 102 Chapter 4	the armchair, the armchairs	der Sessel, die Sessel	
+GR 102 Chapter 4	the couch, the couches	das Sofa, die Sofas	
+GR 102 Chapter 4	the rug, the rugs	der Teppich, die Teppiche	
+GR 102 Chapter 4	the lamp, the lamps	die Lampe, die Lampen	
+GR 102 Chapter 4	the standing lamp, the standing lamps	die Stehlampe, die Stehlampen	
+GR 102 Chapter 4	the picture, the pictures	das Bild, die Bilder	
+GR 102 Chapter 4	the renter, the renters	der Mieter, die Mieter	
+GR 102 Chapter 4	the arm, the arms	der Arm, die Arme	
+GR 102 Chapter 4	the finger, the finger	der Finger, die Finger	
+GR 102 Chapter 4	the eye, the eyes	das Auge, die Augen	
+GR 102 Chapter 4	the knee, the knees	das Knie, die Knien	
+GR 102 Chapter 4	the tooth, the teeth	der Zahn, die Zähne	
+GR 102 Chapter 4	the flea market, the flea markets	der Flohmarkt, die Flohmärkte	
+GR 102 Chapter 4	the driver's license	der Führerschein	
+GR 102 Chapter 4	the boss, the bosses	der Chef, die Chefs	
+GR 102 Chapter 4	the barber/hair stylist, the barbers	der Friseur, die Friseure	
+GR 102 Chapter 4	the policeman, the policemen	der Polizist, die Polizisten	
+GR 102 Chapter 4	the ground floor, the ground floors	das Erdgeschoss, die Erdgeschossse	
+GR 102 Chapter 4	the stair, the stairs/staircase	die Treppe, die Treppen	
+GR 102 Chapter 4	the reception desk, the reception desks	der Empfang, die Empfänge	
+GR 102 Chapter 4	the city map, the city maps	der Stadtplan, die Stadtpläne	
+GR 102 Chapter 4	the center, the centers	das Zentrum, die Zentren	
+GR 102 Chapter 4	the stovetop, the stovetops	der Herd, die Herde	
+GR 102 Chapter 4	the kitchen sink, the kitchen sinks	die Spüle, die Spülen	
+GR 102 Chapter 4	the drape/curtain, the curtains	die Gardine, die Gardinen	
+GR 102 Chapter 4	the writing desk, the writing desks	der Schreibtisch, die Schreibtische	
+GR 102 Chapter 4	the television, the televisions	der Fernseher, die Fernseher	
+GR 102 Chapter 4	the bookshelf, the bookshelves	das Bücherregal, die Bücherregale	
+GR 102 Chapter 4	the mirror, the mirrors	der Spiegel, die Spiegel	
+GR 102 Chapter 4	the vacuum, the vacuums	der Staubsauger, die Staubsauger	
+GR 102 Chapter 4	the stink, the stinks	der Gestank, die Gestank	
+GR 102 Chapter 4	the hand, the hands	die Hand, die Hände	
+GR 102 Chapter 4	the head, the heads	der Kopf, die Köpfe	
+GR 102 Chapter 4	the nose, the noses	die Nase, die Nasen	
+GR 102 Chapter 4	the foot, the feet	der Fuß, die Füße	
+GR 102 Chapter 4	the leg, the legs	das Bein, die Beine	
+GR 102 Chapter 4	the mouth, the mouths	der Mund, die Münder	
+GR 102 Chapter 4	the bill, the bills	die Rechnung, die Rechnungen	
+GR 102 Chapter 4	the electrician, the electricians	der Elektriker, die Elektriker	
+GR 102 Chapter 4	the cook, the cooks	der Koch, die Köche	
+GR 102 Chapter 4	the waiter, the waiters	der Kellner, die Kellner	
+GR 102 Chapter 4	the lawyer, the lawyers	der Anwalt, die Anwälte	
+GR 102 Chapter 4	the floor, the floors	die Etage, die Etagen&nbsp;	
+GR 102 Chapter 4	the elevator, the elevators	der Aufzug, die Aufzüge	
+GR 102 Chapter 4	the penguin, the penguins	der Pinguin, die Pinguine	
+GR 102 Chapter 4	the popsicle	das Eis am Stiel	
+GR 102 Chapter 4	to begin, start	an*fangen	
+GR 102 Chapter 4	to review, check	überprufen	
+GR 102 Chapter 4	to close	zu*machen	
+GR 102 Chapter 4	to get up, stand up	auf*stehen	
+GR 102 Chapter 4	to come along, to come with	mit*kommen	
+GR 102 Chapter 4	to arrive	an*kommen	
+GR 102 Chapter 4	to come by	vorbei*kommen	
+GR 102 Chapter 4	to come back	zurück*kommen	
+GR 102 Chapter 4	to call (on the phone)	an*rufen	
+GR 102 Chapter 4	&nbsp;to monitor, check	kontrollieren	
+GR 102 Chapter 4	to get to know	kennen*lernen	
+GR 102 Chapter 4	to clean up (a dirty room, etc.)	auf*räumen	
+GR 102 Chapter 4	to tidy up (a room, table, etc.)	ab*räumen	
+GR 102 Chapter 4	to appear, to look	aus*sehen	
+GR 102 Chapter 4	to go to sleep, fall asleep	ein*schlafen	
+GR 102 Chapter 4	to be pleasing to	gefallen, a -&gt; ä	
+GR 102 Chapter 4	to congratulate	gratulieren	
+GR 102 Chapter 4	to meet	treffen, e -&gt;i	
+GR 102 Chapter 4	to spend time	Zeit verbringen	
+GR 102 Chapter 4	to answer	antworten	
+GR 102 Chapter 4	to thank	danken	
+GR 102 Chapter 4	to belong to	gehören	
+GR 102 Chapter 4	to believe	glauben	
+GR 102 Chapter 4	to help	helfen, e-&gt;i	
+GR 102 Chapter 4	to advise	beraten, a-&gt;ä	
+GR 102 Chapter 4	to sign	unterschreiben	
+GR 102 Chapter 4	to prepare	vor*bereiten	
+GR 102 Chapter 4	to organize	organisieren&nbsp;	
+GR 102 Chapter 4	to stop	auf*hören	
+GR 102 Chapter 4	to turn off	aus*machen	
+GR 102 Chapter 4	to sleep late	aus*schlafen	
+GR 102 Chapter 4	to turn on	an*machen	
+GR 102 Chapter 4	to open	auf*machen	
+GR 102 Chapter 4	to watch TV	fern*sehen	
+GR 102 Chapter 4	clean	sauber	
+GR 102 Chapter 4	dirty	dreckig	
+GR 102 Chapter 4	first of all, first	zuerst	
+GR 102 Chapter 4	then	dann	
+GR 102 Chapter 4	after that	danach	
+GR 102 Chapter 4	inside	drinnen	
+GR 102 Chapter 4	outside	draußen	
+GR 102 Chapter 4	open	geöffnet	
+GR 102 Chapter 4	closed	geschlossen	
+GR 102 Chapter 4	day after tomorrow	übermorgen	
+GR 102 Chapter 4	day before yesterday	vorgestern	
+GR 102 Chapter 4	together	zusammen	
+GR 102 Chapter 4	creepy	unheimlich	
+GR 102 Chapter 4	comfortable	bequem	
+GR 102 Chapter 4	old-fashioned	altmodisch	
+GR 102 Chapter 4	stupid, silly	doof	
+GR 102 Chapter 4	aus (dative)	out of, from	
+GR 102 Chapter 4	außer (dative)	except, besides	
+GR 102 Chapter 4	bei (dative)	at, near	
+GR 102 Chapter 4	mit (dative)	with	
+GR 102 Chapter 4	after; to (country) (dative)	nach	
+GR 102 Chapter 4	from (dative)	von	
+GR 102 Chapter 4	since (the time of) (dative)	seit)	
+GR 102 Chapter 4	to (person) (dative)	zu	

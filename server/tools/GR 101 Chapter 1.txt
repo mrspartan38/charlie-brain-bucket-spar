@@ -1,0 +1,123 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 101 Chapter 1	the board, the boards	die Tafel, die Tafeln	
+GR 101 Chapter 1	the clock, the clocks	die Uhr, die Uhren	
+GR 101 Chapter 1	the mouse, the mice	die Maus, die Maüse	
+GR 101 Chapter 1	the map, the maps	die Landkarte, die Landekarten	
+GR 101 Chapter 1	the female professor, the female professors	die Professorin, die Professorinnen	
+GR 101 Chapter 1	the female teacher, the female teachers	die Lehrerin, die Lehrerinnen	
+GR 101 Chapter 1	the female school student, the female school students	die Schülerin, die Schülerinnen	
+GR 101 Chapter 1	the female college student, the female college students	die Studentin, die Studentinnen	
+GR 101 Chapter 1	the wall, the walls	die Wand, die Wände	
+GR 101 Chapter 1	the mother, the mothers	die Mutter, die Mütter	
+GR 101 Chapter 1	the sister, the sisters	die Schwester, die Schwestern	
+GR 101 Chapter 1	the aunt, the aunts	die Tante, die Tanten	
+GR 101 Chapter 1	the grandmother, the grandmothers	die Großmutter, die Großmütter	
+GR 101 Chapter 1	the daughter, the daughters	die Tochter, die Töchter	
+GR 101 Chapter 1	the city, the cities	die Stadt, die Städte	
+GR 101 Chapter 1	the cat, the cats	die Katze, die Katzen	
+GR 101 Chapter 1	the whiteboard eraser, the whiteboard erasers	der Wischer, die Wischer	
+GR 101 Chapter 1	the cell phone, the cell phones	das Handy, die Handys	
+GR 101 Chapter 1	the paper, the papers	das Papier, die Papiere	
+GR 101 Chapter 1	the notebook, the notebooks	das Heft, die Hefte	
+GR 101 Chapter 1	the book, the books	das Buch, die Bücher	
+GR 101 Chapter 1	the window, the windows	das Fenster, die Fenster	
+GR 101 Chapter 1	the poster, the posters	das Poster, die Poster	
+GR 101 Chapter 1	the door, the doors	die Tür, die Türen	
+GR 101 Chapter 1	the table, the tables	der Tisch, die Tische	
+GR 101 Chapter 1	the chair, the chairs	der Stuhl, die Stühle	
+GR 101 Chapter 1	the pencil, the pencils	der Bleistift, die Bleistifte	
+GR 101 Chapter 1	the pencil, the pencils (short)	der Stift, die Stifte	
+GR 101 Chapter 1	the pen, the pens	der Kugelschreiber, die Kugelschriber	
+GR 101 Chapter 1	the pen, the pens (short)	der Kuli, die Kulis	
+GR 101 Chapter 1	the backpack, the backpacks	der Rucksack, die Rücksacke	
+GR 101 Chapter 1	the computer, the computers	der Computer, die Computer	
+GR 101 Chapter 1	the laptop, the laptops	der/das Laptop, die Laptops	
+GR 101 Chapter 1	the eraser, the erasers	der Radiergummi, die Radiergummis	
+GR 101 Chapter 1	the eraser, the erasers (short)	der Gummi, die Gummis	
+GR 101 Chapter 1	the male professor, the male professors	der Professor, die Professoren	
+GR 101 Chapter 1	the male college student, the male college students	der Student, die Studenten	
+GR 101 Chapter 1	the male teacher, the male teachers	der Lehrer, die Lehrer	
+GR 101 Chapter 1	the male student, the male students	der Schüler, die Schüler	
+GR 101 Chapter 1	the market, the markers	der Filzstift, die Filzstifte	
+GR 101 Chapter 1	the father, the fathers	der Vater, die Väter	
+GR 101 Chapter 1	the brother, the brothers	der Bruder, die Brüder	
+GR 101 Chapter 1	the son, the sons	der Sohn, die Söhne	
+GR 101 Chapter 1	the grandfather, the grandfathers	der Großvater, die Größvater	
+GR 101 Chapter 1	the uncle, the uncles	der Onkel, die Onkel	
+GR 101 Chapter 1	the dog, the dogs	der Hund, die Hunde	
+GR 101 Chapter 1	the child, the children	das Kind, die Kinder	
+GR 101 Chapter 1	the bag/duffle bag, the bags	die Tasche, die Taschen	
+GR 101 Chapter 1	to be called	heißen	
+GR 101 Chapter 1	to cook	kochen	
+GR 101 Chapter 1	to hike	wandern	
+GR 101 Chapter 1	to work	arbeiten	
+GR 101 Chapter 1	to ask	fragen	
+GR 101 Chapter 1	to dance	tanzen	
+GR 101 Chapter 1	to write	schreiben	
+GR 101 Chapter 1	to paint/color	malen	
+GR 101 Chapter 1	to go	gehen	
+GR 101 Chapter 1	to play	spielen	
+GR 101 Chapter 1	to make, to do	machen	
+GR 101 Chapter 1	to stay, remain	bleiben	
+GR 101 Chapter 1	to come	kommen	
+GR 101 Chapter 1	spazieren	to go for a walk	
+GR 101 Chapter 1	to say	sagen	
+GR 101 Chapter 1	to draw, sketch	zeichnen	
+GR 101 Chapter 1	to hear, listen to	hören	
+GR 101 Chapter 1	to travel	reisen	
+GR 101 Chapter 1	to jog	joggen	
+GR 101 Chapter 1	to live	wohnen	
+GR 101 Chapter 1	to learn, study for a test	lernen	
+GR 101 Chapter 1	to go to college	studieren	
+GR 101 Chapter 1	to sing	singen	
+GR 101 Chapter 1	to swim	schwimmen	
+GR 101 Chapter 1	to take pictures	fotografieren	
+GR 101 Chapter 1	to find	finden	
+GR 101 Chapter 1	to fly	fliegen	
+GR 101 Chapter 1	old	alt	
+GR 101 Chapter 1	loud	laut	
+GR 101 Chapter 1	lazy	faul	
+GR 101 Chapter 1	tall	groß	
+GR 101 Chapter 1	healthy	gesund	
+GR 101 Chapter 1	young	jung	
+GR 101 Chapter 1	small	klein	
+GR 101 Chapter 1	strange, odd	komisch	
+GR 101 Chapter 1	sick	krank	
+GR 101 Chapter 1	boring	langweilig	
+GR 101 Chapter 1	tired	müde	
+GR 101 Chapter 1	punctual&nbsp;	pünktlich	
+GR 101 Chapter 1	rich	reich	
+GR 101 Chapter 1	cold	kalt	
+GR 101 Chapter 1	hot	heiß	
+GR 101 Chapter 1	hardworking	fleißig	
+GR 101 Chapter 1	friendly	freundlich	
+GR 101 Chapter 1	poor	arm	
+GR 101 Chapter 1	easy, simple	einfach	
+GR 101 Chapter 1	difficult, hard	schwierig	
+GR 101 Chapter 1	important	wichtig	
+GR 101 Chapter 1	bad	schlecht	
+GR 101 Chapter 1	good	gut	
+GR 101 Chapter 1	cloudy	wolkig	
+GR 101 Chapter 1	sonny	sonnig	
+GR 101 Chapter 1	foggy	neblig	
+GR 101 Chapter 1	rainy	regnerisch	
+GR 101 Chapter 1	windy	windig	
+GR 101 Chapter 1	warm	warm	
+GR 101 Chapter 1	cool&nbsp;	kühl	
+GR 101 Chapter 1	how	wie	
+GR 101 Chapter 1	where	wo	
+GR 101 Chapter 1	who	wer	
+GR 101 Chapter 1	when	wann	
+GR 101 Chapter 1	what	was	
+GR 101 Chapter 1	from where	woher	
+GR 101 Chapter 1	to where	wohin	
+GR 101 Chapter 1	why	warum	
+GR 101 Chapter 1	yes	ja	
+GR 101 Chapter 1	no	nein	
+GR 101 Chapter 1	and	und	
+GR 101 Chapter 1	or	oder	
+GR 101 Chapter 1	but	aber	
+GR 101 Chapter 1	very	sehr	
