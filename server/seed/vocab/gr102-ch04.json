@@ -324,8 +324,8 @@
       "tags": []
     },
     {
-      "german": "gefallen, a -> ä", "english": "to be",
-      "partOfSpeech": "verb", "plural": "easing to",
+      "german": "gefallen, a -> ä", "english": "to be pleasing to",
+      "partOfSpeech": "verb",
       "tags": []
     },
     {
@@ -499,22 +499,22 @@
       "tags": []
     },
     {
-      "german": "out of, from", "english": "aus (dative)",
-      "partOfSpeech": "phrase",
+      "german": "aus (dative)", "english": "out of, from",
+      "partOfSpeech": "other",
       "tags": []
     },
     {
-      "german": "except, besides", "english": "außer (dative)",
-      "partOfSpeech": "phrase",
+      "german": "außer (dative)", "english": "except, besides",
+      "partOfSpeech": "other",
       "tags": []
     },
     {
-      "german": "at, near", "english": "bei (dative)",
-      "partOfSpeech": "phrase",
+      "german": "bei (dative)", "english": "at, near",
+      "partOfSpeech": "other",
       "tags": []
     },
     {
-      "german": "with", "english": "mit (dative)",
+      "german": "mit (dative)", "english": "with",
       "partOfSpeech": "other",
       "tags": []
     },
@@ -529,7 +529,7 @@
       "tags": []
     },
     {
-      "german": "seit)", "english": "since (the time of) (dative)",
+      "german": "seit", "english": "since (the time of) (dative)",
       "partOfSpeech": "other",
       "tags": []
     },

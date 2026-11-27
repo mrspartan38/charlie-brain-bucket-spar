@@ -69,8 +69,8 @@
       "tags": []
     },
     {
-      "german": "die Strecke, die Strecken", "english": "strech, distance between two",
-      "partOfSpeech": "noun", "article": "die", "plural": "aces",
+      "german": "die Strecke", "english": "stretch, distance between two",
+      "partOfSpeech": "noun", "article": "die", "plural": " die Strecken",
       "tags": []
     },
     {
@@ -144,8 +144,8 @@
       "tags": []
     },
     {
-      "german": "ab*fliegen", "english": "to depart by",
-      "partOfSpeech": "verb", "plural": "ane",
+      "german": "ab*fliegen", "english": "to depart by plane",
+      "partOfSpeech": "verb", 
       "tags": []
     },
     {
