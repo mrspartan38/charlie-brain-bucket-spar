@@ -1,0 +1,392 @@
+{
+  "book": "GR201",
+  "chapter": 7,
+  "level": 200,
+  "words": [
+    {
+      "german": "das Heimweh", "english": "homesickness",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Heimatland", "english": "the homeland",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Heimatländer",
+      "tags": []
+    },
+    {
+      "german": "der Bankangestellte", "english": "the bank employee",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Bankangestellten",
+      "tags": []
+    },
+    {
+      "german": "das Zuhause", "english": "the home",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "Deutschkenntnisse", "english": "knowledge of German",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "die To-Do Liste", "english": "the to-do list",
+      "partOfSpeech": "noun", "article": "die", "plural": "die To-Do Listen",
+      "tags": []
+    },
+    {
+      "german": "das Konto", "english": "the account",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Kontos/die Konten",
+      "tags": []
+    },
+    {
+      "german": "das Basiskonto", "english": "the basic account",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Girokonto", "english": "the checking account",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Meldebescheinigung", "english": "the certifitcate of registration",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Meldebescheinigungen",
+      "tags": []
+    },
+    {
+      "german": "die Geheimzahl", "english": "the code",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Geheimzahlen",
+      "tags": []
+    },
+    {
+      "german": "der Vermieter", "english": "the landlord",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Vermieter",
+      "tags": []
+    },
+    {
+      "german": "das Geburtsdatum", "english": "the date of birth",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Geburtsdaten",
+      "tags": []
+    },
+    {
+      "german": "der Bürger", "english": "the citizen",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Bürger",
+      "tags": []
+    },
+    {
+      "german": "die PIN-Nummer", "english": "the PIN code",
+      "partOfSpeech": "noun", "article": "die", "plural": "die PIN-Nummern",
+      "tags": []
+    },
+    {
+      "german": "das Bargeld", "english": "the cash",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Quittung", "english": "the receipt",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Quittungen",
+      "tags": []
+    },
+    {
+      "german": "die Schulden", "english": "the debts",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Nachricht", "english": "the message",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Nachrichten",
+      "tags": []
+    },
+    {
+      "german": "die Miete", "english": "the rent",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Mieten",
+      "tags": []
+    },
+    {
+      "german": "die Rechnung", "english": "the bill",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Rechnungen",
+      "tags": []
+    },
+    {
+      "german": "die Fehlermeldung", "english": "the error message",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Fehlermeldungen",
+      "tags": []
+    },
+    {
+      "german": "die Werkstatt", "english": "the repair shop",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Werkstatte",
+      "tags": []
+    },
+    {
+      "german": "vermissen", "english": "to miss",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "heiraten", "english": "to marry",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "üben", "english": "to practice",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schaffen", "english": "to accomplish, to get done, be successful",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "belügen", "english": "to lie to someone",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "warten auf + acc.", "english": "to wait on",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ab*heben", "english": "to withdraw",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "überziehen", "english": "to overdraw",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ein*geben", "english": "to enter (data, PIN, etc.)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "klappen", "english": "to work out okay, to end up time",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "treffen, e->i", "english": "to meet",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "drücken", "english": "to press, push",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "erledigen", "english": "to get done, to finish",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich mit (jmdm.) Straiten", "english": "to argue with someone",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich (bei jmdm.) beschweren", "english": "to complain (to someone)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich (bei jmdm.) bedanken", "english": "to thank someone for",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich setzen", "english": "to sit oneself down (go from standing to sitting)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich auf*regen", "english": "to get upset",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich an*ziehen", "english": "to get dressed",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich aus*ziehen", "english": "to get undressed",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich aus*ruhen", "english": "to relax",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich beeilen", "english": "to hurry",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich erkälten", "english": "to get a cold",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich fühlen", "english": "to feel",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich freuen", "english": "to be happy",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich verspäten", "english": "to be late",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich baden", "english": "to bathe oneself",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich duschen", "english": "to take a shower",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "untersuchen", "english": "to examine",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*wählen", "english": "to select",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Langeweile haben", "english": "to be bored",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Heimweh haben", "english": "to be homesick",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "auf keinen Fall", "english": "in no case, no way",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "sprechen über + acc.", "english": "to speak about",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Das reicht.", "english": "That's enough",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "Das reicht nicht.", "english": "That's not enough",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "ein Konto eröffnen", "english": "to open an account",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "das Formular aus*füllen", "english": "to fill out the form",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "einen Beruf lernen", "english": "to learn a trade",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "beim Einwohnermeldeamt an*melden", "english": "to register at the registry office",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "bei jm. ein*ziehen", "english": "to move in with someone",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "den Müll (he)rausbringen", "english": "to take out the trash",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "die Pflandflaschen wegbringen", "english": "to take away the recycable bottles",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "Geld sparen", "english": "to save money",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Geld aus*geben", "english": "to spend money",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Geld zurück*legen", "english": "to put back some money",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "bar bezahlen", "english": "to pay cash",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Gebühren zahlen", "english": "to pay fees",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "per Post", "english": "by mail",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "in Ordnung sein", "english": "to be okay, to be fine",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ein festes Einkommen", "english": "a steady income",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "das Bad putzen", "english": "to clean the bathroom",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "sofort", "english": "immediately",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "geizig", "english": "miserly, stingy",
+      "partOfSpeech": "other",
+      "tags": []
+    }
+  ]
+}

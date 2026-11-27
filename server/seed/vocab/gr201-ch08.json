@@ -1,0 +1,207 @@
+{
+  "book": "GR201",
+  "chapter": 8,
+  "level": 200,
+  "words": [
+     {
+      "german": "der Ort", "english": "the place",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Orte",
+      "tags": []
+    },
+    {
+      "german": "der Flug", "english": "the flight",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Flüg",
+      "tags": []
+    },
+    {
+      "german": "die Kisten", "english": "box, carton",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Kisten",
+      "tags": []
+    },
+    {
+      "german": "das Angebot", "english": "offer",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Angebote",
+      "tags": []
+    },
+    {
+      "german": "der Strand", "english": "the beach",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Strände",
+      "tags": []
+    },
+    {
+      "german": "der Rückflug", "english": "the flight back",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "das Reisebüro", "english": "travel agency",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Reisebüros",
+      "tags": []
+    },
+    {
+      "german": "die Beratung", "english": "advising, counseling, consulting",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Umstände", "english": "circumstances, problems",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Doppelzimmer", "english": "double room",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Unterkunft", "english": "lodging, accommodation",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Unterkünfte",
+      "tags": []
+    },
+    {
+      "german": "die Hinfarht", "english": "the drive there",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Hauptbahnhof", "english": "main train station",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "der Fahrschein", "english": "ticket",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Fahrscheine",
+      "tags": []
+    },
+    {
+      "german": "die Strecke", "english": "stretch, distance between two",
+      "partOfSpeech": "noun", "article": "die", "plural": " die Strecken",
+      "tags": []
+    },
+    {
+      "german": "der Urlaub", "english": "vacation",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Urlaube",
+      "tags": []
+    },
+    {
+      "german": "das Ergebnis", "english": "result",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Ergebnisse",
+      "tags": []
+    },
+    {
+      "german": "der Hinflug", "english": "the flight there",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "die Vorliebe", "english": "preference, partiality",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Vorlieben",
+      "tags": []
+    },
+    {
+      "german": "der Aufenthalt", "english": "stay (in a hotel, city, etc.)",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Aufenhälte",
+      "tags": []
+    },
+    {
+      "german": "die Schlüsselkarte", "english": "key card",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Schlüsselkarten",
+      "tags": []
+    },
+    {
+      "german": "das Einzelzimmer", "english": "single room",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Etage", "english": "floor (of a building)",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Etagen",
+      "tags": []
+    },
+    {
+      "german": "der Ausflug", "english": "excursion, small trip",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Ausflüge",
+      "tags": []
+    },
+    {
+      "german": "die Rückfahrt", "english": "the drive back",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Verbindung", "english": "connection",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Verbindungen",
+      "tags": []
+    },
+    {
+      "german": "der Schwarzfahrer", "english": "rider without a ticket",
+      "partOfSpeech": "noun", "article": "der",
+      "tags": []
+    },
+    {
+      "german": "buchen", "english": "to book",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ein*steigen", "english": "to get in",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ab*fliegen", "english": "to depart by plane",
+      "partOfSpeech": "verb", 
+      "tags": []
+    },
+    {
+      "german": "ab*fahren", "english": "to depart by car, train, etc.",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*steigen", "english": "to get out",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*fallen", "english": "to be cancelled",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich*trauen", "english": "to trust oneself to do something",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich verändern", "english": "to change (oneself)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "traineren", "english": "to train, work out",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "versprechen", "english": "to promise",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ski*fahren", "english": "to ski",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "kriegen", "english": "to get, to recieve (slang)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+        {
+      "german": "das Gleis", "english": "the platform (at a train station)",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Gleise",
+      "tags": []
+    }
+  ]
+}

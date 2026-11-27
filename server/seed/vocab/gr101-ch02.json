@@ -1,0 +1,743 @@
+{
+  "book": "GR101",
+  "chapter": 2,
+  "level": 100,
+  "words": [
+    {
+      "german": "der Cousin",
+      "english": "the male cousin",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Cousins",
+      "tags": []
+    },
+    {
+      "german": "die Cousine",
+      "english": "the female cousin",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Cousinen",
+      "tags": []
+    },
+    {
+      "german": "die Nichte",
+      "english": "the niece",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Nichten",
+      "tags": []
+    },
+    {
+      "german": "der Neffe",
+      "english": "the nephew",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Neffen",
+      "tags": []
+    },
+    {
+      "german": "der Schwager",
+      "english": "the brother-in-law",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Schwager",
+      "tags": []
+    },
+    {
+      "german": "die Schwägerin",
+      "english": "the sister-in-law",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Schwägerinnen",
+      "tags": []
+    },
+    {
+      "german": "der Enkel",
+      "english": "the grandson",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Enkel",
+      "tags": []
+    },
+    {
+      "german": "die Enkelin",
+      "english": "the granddaughter",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Enkelinnen",
+      "tags": []
+    },
+    {
+      "german": "das Enkelkind",
+      "english": "the grandchild",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "plural": "die Enkelkinder",
+      "tags": []
+    },
+    {
+      "german": "die Eltern",
+      "english": "the parents",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Geschwister",
+      "english": "the siblings",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Zeitung",
+      "english": "the newspaper",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Zeitungen",
+      "tags": []
+    },
+    {
+      "german": "der Roman",
+      "english": "the novel",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Romane",
+      "tags": []
+    },
+    {
+      "german": "die Zeitschrift",
+      "english": "the magazine",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Zeitschriften",
+      "tags": []
+    },
+    {
+      "german": "das Comicheft",
+      "english": "the comic book",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "plural": "die Comichefte",
+      "tags": []
+    },
+    {
+      "german": "der Artikel",
+      "english": "the article",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Artikel",
+      "tags": []
+    },
+    {
+      "german": "die Universität",
+      "english": "the univerisity",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Universitäten",
+      "tags": []
+    },
+    {
+      "german": "die Uni",
+      "english": "the uni",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Unis",
+      "tags": []
+    },
+    {
+      "german": "der See",
+      "english": "the lake",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Seen",
+      "tags": []
+    },
+    {
+      "german": "der Baum",
+      "english": "the tree",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Baüme",
+      "tags": []
+    },
+    {
+      "german": "die Bank",
+      "english": "the bank",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Banken",
+      "tags": []
+    },
+    {
+      "german": "die Ecke",
+      "english": "the corner",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Ecken",
+      "tags": []
+    },
+    {
+      "german": "die Bibliothek",
+      "english": "the library",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Bibliotheken",
+      "tags": []
+    },
+    {
+      "german": "die Welt",
+      "english": "the world",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "tags": []
+    },
+    {
+      "german": "das Hemd",
+      "english": "the man's shirt",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "plural": "die Hemden",
+      "tags": []
+    },
+    {
+      "german": "das T-shirt",
+      "english": "the t-shirt",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "plural": "die T-shirts",
+      "tags": []
+    },
+    {
+      "german": "der Handschuh",
+      "english": "the glove",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Handschuhe",
+      "tags": []
+    },
+    {
+      "german": "der Hut",
+      "english": "the hat",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Hüte",
+      "tags": []
+    },
+    {
+      "german": "die Jeans",
+      "english": "the jeans",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Jeans",
+      "tags": []
+    },
+    {
+      "german": "die Hose",
+      "english": "the pair of pants",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Hosen",
+      "tags": []
+    },
+    {
+      "german": "der Schuh",
+      "english": "the shoe",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Schuhe",
+      "tags": []
+    },
+    {
+      "german": "die Socke",
+      "english": "the sock",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Socken",
+      "tags": []
+    },
+    {
+      "german": "die Bluse",
+      "english": "the blouse",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Blusen",
+      "tags": []
+    },
+    {
+      "german": "der Pullover",
+      "english": "the pullover",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Pullover",
+      "tags": []
+    },
+    {
+      "german": "der Pulli",
+      "english": "the pullover",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Pullis",
+      "tags": []
+    },
+    {
+      "german": "die Brille",
+      "english": "the glasses",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Brillen",
+      "tags": []
+    },
+    {
+      "german": "die Mütze",
+      "english": "the cap",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Mützen",
+      "tags": []
+    },
+    {
+      "german": "das Kleid",
+      "english": "the dress",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "plural": "die Kleider",
+      "tags": []
+    },
+    {
+      "german": "der Rock",
+      "english": "the skirt",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Röcke",
+      "tags": []
+    },
+    {
+      "german": "der Anzug",
+      "english": "the suit",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Anzüge",
+      "tags": []
+    },
+    {
+      "german": "der Badaenzug",
+      "english": "the bathing suit",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Badeanzüge",
+      "tags": []
+    },
+    {
+      "german": "der Bikini",
+      "english": "the bikini",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Bikinis",
+      "tags": []
+    },
+    {
+      "german": "die Jacke",
+      "english": "the jacket",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Jacken",
+      "tags": []
+    },
+    {
+      "german": "die kurze Hose",
+      "english": "the shorts",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die kurze Hosen",
+      "tags": []
+    },
+    {
+      "german": "die Sandale",
+      "english": "the sandal",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Sandalen",
+      "tags": []
+    },
+    {
+      "german": "der Badelatschen",
+      "english": "the flipflop",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Badelatschen",
+      "tags": []
+    },
+    {
+      "german": "die Sonnenbrille",
+      "english": "The sunglasses",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Sonnenbrillen",
+      "tags": []
+    },
+    {
+      "german": "der Stöckelschuch",
+      "english": "the high heel",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Stöckelschuhe",
+      "tags": []
+    },
+    {
+      "german": "das Dorf",
+      "english": "the village",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "plural": "die Dörfer",
+      "tags": []
+    },
+    {
+      "german": "das Kino",
+      "english": "the movie theatre",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "plural": "die Kinos",
+      "tags": []
+    },
+    {
+      "german": "die Post",
+      "english": "the post office",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Supermarkt",
+      "english": "the supermarket",
+      "partOfSpeech": "noun",
+      "article": "der",
+      "plural": "die Supermärkte",
+      "tags": []
+    },
+    {
+      "german": "die Sonne",
+      "english": "the sun",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "plural": "die Sonnen",
+      "tags": []
+    },
+    {
+      "german": "das Frühstück",
+      "english": "the breakfast",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Mittagessen",
+      "english": "the lunch",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Abensessen",
+      "english": "the supper",
+      "partOfSpeech": "noun",
+      "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Hausaufgaben",
+      "english": "the homework",
+      "partOfSpeech": "noun",
+      "article": "die",
+      "tags": []
+    },
+    {
+      "german": "essen, e->i",
+      "english": "to eat",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "lesen, e->ie",
+      "english": "to read",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "nehmen, e->i",
+      "english": "to take",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sehen, e->ie",
+      "english": "to see",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sprechen, e-> i",
+      "english": "to speak",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "geben, e->i",
+      "english": "to give",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "werden, e->i",
+      "english": "to become",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "regnen",
+      "english": "to rain",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schneien",
+      "english": "to snow",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "blitzen",
+      "english": "to lightning",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "stürmen",
+      "english": "to storm",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "scheinen",
+      "english": "to shine",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "suchen",
+      "english": "to look for, search for",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "trinken",
+      "english": "to drink",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schmecken",
+      "english": "to taste (good)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "verstehen",
+      "english": "to understand",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "brauchen",
+      "english": "to need",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "kennen",
+      "english": "to know, to be familiar with a person",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "tragen, a->ä",
+      "english": "to wear",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "fahren, a->ä",
+      "english": "to drive",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "laufen, a->ä",
+      "english": "to run, to walk fast",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schlafen, a->ä",
+      "english": "to sleep",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "halten, a->ä",
+      "english": "to halt, stop",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "kaufen",
+      "english": "to buy",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "frühstücken",
+      "english": "to eat breakfast",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "durch",
+      "english": "through",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "für",
+      "english": "for",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "gegen",
+      "english": "against",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "ohne",
+      "english": "without",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "um",
+      "english": "around; at (time)",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "bis",
+      "english": "until",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "danke",
+      "english": "thank you",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "denn",
+      "english": "because; for",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "süß",
+      "english": "sweet",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "sauer",
+      "english": "sour",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "salzig",
+      "english": "salty",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "lecker",
+      "english": "tasty",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "vegetarisch",
+      "english": "vegetarian",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "satt",
+      "english": "full",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "(un)gesund",
+      "english": "(un)healthy",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "vegan",
+      "english": "vegan",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "ledig",
+      "english": "single",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "verheiratet",
+      "english": "married",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "verlobt",
+      "english": "engaged",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "geschieden",
+      "english": "divorced",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "kinderlos",
+      "english": "childless",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "schön",
+      "english": "pretty",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "bitte",
+      "english": "please",
+      "partOfSpeech": "other",
+      "tags": []
+    }
+  ]
+}

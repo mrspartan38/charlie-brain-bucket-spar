@@ -123,7 +123,7 @@ function parseDelimited(text, separator) {
 }
 
 function readExport(file) {
-  const raw = readFileSync(file, 'utf8').replace(/^﻿/, '');
+  const raw = readFileSync(file, 'utf8').replace(/^\uFEFF/, '');
   const lines = raw.split(/\r?\n/);
   const meta = { separator: '\t' };
   let bodyStart = 0;
@@ -312,6 +312,15 @@ rows.forEach(function (row) {
         record[name] = record[name].replace(match[0], '').trim();
       }
     });
+  }
+
+  // both forms in one field, such as "die Tafel, die Tafeln" and "the board, the boards"
+  const together = record.german && !record.plural && record.german.match(/^((?:der|die|das)(?:\/(?:der|die|das))? [^,]+),\s*(die .+)$/i);
+
+  if (together) {
+    record.german = together[1].trim();
+    record.plural = together[2].trim();
+    record.english = record.english.split(/,\s*the /i)[0].trim();
   }
 
   if (!record.german || !record.english) {

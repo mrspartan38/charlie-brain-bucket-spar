@@ -1,0 +1,109 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 101 Chapter 2	the male cousin, the male cousins	der Cousin, die Cousins	
+GR 101 Chapter 2	the female cousin, the female cousins	die Cousine, die Cousinen	
+GR 101 Chapter 2	the niece, the nieces	die Nichte, die Nichten	
+GR 101 Chapter 2	the nephew, the nephews	der Neffe, die Neffen	
+GR 101 Chapter 2	the brother-in-law, the brothers-in-law	der Schwager, die Schwager	
+GR 101 Chapter 2	the sister-in-law, the sisters-in-law	die Schwägerin, die Schwägerinnen	
+GR 101 Chapter 2	the grandson, the grandsons	der Enkel, die Enkel	
+GR 101 Chapter 2	the granddaughter, the granddaughters	die Enkelin, die Enkelinnen	
+GR 101 Chapter 2	the grandchild, the grandchildren	das Enkelkind, die Enkelkinder	
+GR 101 Chapter 2	the parents	die Eltern	
+GR 101 Chapter 2	the siblings	die Geschwister	
+GR 101 Chapter 2	the newspaper, the newspapers	die Zeitung, die Zeitungen	
+GR 101 Chapter 2	the novel, the novels	der Roman, die Romane	
+GR 101 Chapter 2	the magazine, the magazines	die Zeitschrift, die Zeitschriften	
+GR 101 Chapter 2	&nbsp;the comic book, the comic books	das Comicheft, die Comichefte	
+GR 101 Chapter 2	the article, the articles	der Artikel, die Artikel	
+GR 101 Chapter 2	the univerisity, the universities	die Universität, die Universitäten	
+GR 101 Chapter 2	the uni, the unis	die Uni, die Unis	
+GR 101 Chapter 2	the lake, the lakes	der See, die Seen	
+GR 101 Chapter 2	the tree, the trees	der Baum, die Baüme	
+GR 101 Chapter 2	the bank, the banks	die Bank, die Banken	
+GR 101 Chapter 2	the corner, the corners	die Ecke, die Ecken	
+GR 101 Chapter 2	the library, the libraries	die Bibliothek, die Bibliotheken	
+GR 101 Chapter 2	the world	die Welt	
+GR 101 Chapter 2	the man's shirt, the man's shirts	das Hemd, die Hemden	
+GR 101 Chapter 2	the t-shirt, the t-shirts	das T-shirt, die T-shirts	
+GR 101 Chapter 2	the glove, the gloves	der Handschuh, die Handschuhe	
+GR 101 Chapter 2	the hat, the hats	der Hut, die Hüte	
+GR 101 Chapter 2	the jeans, the jeans	die Jeans, die Jeans	
+GR 101 Chapter 2	the pair of pants, the pairs of pants	die Hose, die Hosen	
+GR 101 Chapter 2	the shoe, the shoes	der Schuh, die Schuhe	
+GR 101 Chapter 2	the sock, the socks	die Socke, die Socken	
+GR 101 Chapter 2	the blouse, the blouses	die Bluse, die Blusen	
+GR 101 Chapter 2	the pullover, the pullovers	der Pullover, die Pullover	
+GR 101 Chapter 2	the pullover, the pullovers (alt.)	der Pulli, die Pullis	
+GR 101 Chapter 2	the glasses, the pairs of glasses	die Brille, die Brillen	
+GR 101 Chapter 2	the cap, the caps	die Mütze, die Mützen	
+GR 101 Chapter 2	the dress, the dresses	das Kleid, die Kleider	
+GR 101 Chapter 2	the skirt, the skirts	der Rock, die Röcke	
+GR 101 Chapter 2	the suit, the suits	der Anzug, die Anzüge	
+GR 101 Chapter 2	the bathing suit, the bathing suits	der Badaenzug, die Badeanzüge	
+GR 101 Chapter 2	the bikini, the bikinis	der Bikini, die Bikinis	
+GR 101 Chapter 2	the jacket, the jackets	die Jacke, die Jacken	
+GR 101 Chapter 2	the shorts, the pairs of shorts	die kurze Hose, die kurze Hosen	
+GR 101 Chapter 2	the sandal, the sandals	die Sandale, die Sandalen	
+GR 101 Chapter 2	the flipflop, the flipflops	der Badelatschen, die Badelatschen	
+GR 101 Chapter 2	The sunglasses, the pairs of sunglasses	die Sonnenbrille, die Sonnenbrillen	
+GR 101 Chapter 2	the high heel, the high heels	der Stöckelschuch, die Stöckelschuhe	
+GR 101 Chapter 2	the village, the villages	das Dorf, die Dörfer	
+GR 101 Chapter 2	the movie theatre, the movie theatres	das Kino, die Kinos	
+GR 101 Chapter 2	the post office	die Post	
+GR 101 Chapter 2	the supermarket, the supermarkets	der Supermarkt, die Supermärkte	
+GR 101 Chapter 2	the sun, the suns	die Sonne, die Sonnen	
+GR 101 Chapter 2	the breakfast	das Frühstück	
+GR 101 Chapter 2	the lunch	das Mittagessen	
+GR 101 Chapter 2	the supper	das Abensessen	
+GR 101 Chapter 2	the homework	die Hausaufgaben	
+GR 101 Chapter 2	to eat	essen, e-&gt;i	
+GR 101 Chapter 2	to read	lesen, e-&gt;ie	
+GR 101 Chapter 2	to take	nehmen, e-&gt;i	
+GR 101 Chapter 2	to see	sehen, e-&gt;ie	
+GR 101 Chapter 2	to speak	sprechen, e-&gt; i	
+GR 101 Chapter 2	to give	geben, e-&gt;i	
+GR 101 Chapter 2	to become	werden, e-&gt;i	
+GR 101 Chapter 2	to rain	regnen	
+GR 101 Chapter 2	to snow	schneien	
+GR 101 Chapter 2	to lightning	blitzen	
+GR 101 Chapter 2	to storm	stürmen	
+GR 101 Chapter 2	to shine	scheinen	
+GR 101 Chapter 2	to look for, search for	suchen	
+GR 101 Chapter 2	to drink	trinken	
+GR 101 Chapter 2	to taste (good)	schmecken	
+GR 101 Chapter 2	to understand	verstehen	
+GR 101 Chapter 2	to need	brauchen	
+GR 101 Chapter 2	to know, to be familiar with a person	kennen	
+GR 101 Chapter 2	to wear	tragen, a-&gt;ä	
+GR 101 Chapter 2	to drive	fahren, a-&gt;ä	
+GR 101 Chapter 2	to run, to walk fast	laufen, a-&gt;ä	
+GR 101 Chapter 2	to sleep	schlafen, a-&gt;ä	
+GR 101 Chapter 2	to halt, stop	halten, a-&gt;ä	
+GR 101 Chapter 2	to buy	kaufen	
+GR 101 Chapter 2	to eat breakfast	frühstücken	
+GR 101 Chapter 2	through	durch	
+GR 101 Chapter 2	for	für	
+GR 101 Chapter 2	against	gegen	
+GR 101 Chapter 2	without	ohne&nbsp;	
+GR 101 Chapter 2	around; at (time)	um	
+GR 101 Chapter 2	until	bis	
+GR 101 Chapter 2	thank you	danke	
+GR 101 Chapter 2	please; you're welcome	bitte	
+GR 101 Chapter 2	because; for	denn	
+GR 101 Chapter 2	sweet	süß	
+GR 101 Chapter 2	sour	sauer	
+GR 101 Chapter 2	salty	salzig	
+GR 101 Chapter 2	tasty	lecker	
+GR 101 Chapter 2	vegetarian	vegetarisch	
+GR 101 Chapter 2	full	satt	
+GR 101 Chapter 2	(un)healthy	(un)gesund	
+GR 101 Chapter 2	vegan	vegan	
+GR 101 Chapter 2	single	ledig	
+GR 101 Chapter 2	married	verheiratet	
+GR 101 Chapter 2	engaged	verlobt	
+GR 101 Chapter 2	divorced	geschieden	
+GR 101 Chapter 2	childless	kinderlos	
+GR 101 Chapter 2	pretty	schön	

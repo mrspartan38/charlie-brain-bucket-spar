@@ -1,0 +1,10 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 202 Kapitel 12	the event, the events	die Veranstaltung, die Veranstaltungen	
+GR 202 Kapitel 12	the exhibit, the exhibits	die Ausstellung, die Austellungen	
+GR 202 Kapitel 12	to listen to someone	zu*hören (+ dat.)	
+GR 202 Kapitel 12	to jump, bounce around	hüpfen	
+GR 202 Kapitel 12	sold out	ausverkauft&nbsp;	
+GR 202 Kapitel 12	That's none of your business.	Das geht dich nicht an.&nbsp;	

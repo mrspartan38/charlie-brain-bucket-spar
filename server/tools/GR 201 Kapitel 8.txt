@@ -1,0 +1,44 @@
+#separator:tab
+#html:true
+#deck column:1
+#tags column:4
+GR 201 Kapitel 8	the flight, the flights	der Flug, die Flüg	
+GR 201 Kapitel 8	box, carton	die Kisten, die Kisten	
+GR 201 Kapitel 8	offer	das Angebot, die Angebote	
+GR 201 Kapitel 8	the beach	der Strand, die Strände	
+GR 201 Kapitel 8	the flight back	der Rückflug	
+GR 201 Kapitel 8	travel agency	das Reisebüro, die Reisebüros	
+GR 201 Kapitel 8	advising, counseling, consulting	die Beratung	
+GR 201 Kapitel 8	circumstances, problems	die Umstände	
+GR 201 Kapitel 8	double room	das Doppelzimmer	
+GR 201 Kapitel 8	lodging, accommodation	die Unterkunft, die Unterkünfte	
+GR 201 Kapitel 8	the drive there	die Hinfarht	
+GR 201 Kapitel 8	main train station	der Hauptbahnhof&nbsp;	
+GR 201 Kapitel 8	ticket	der Fahrschein, die Fahrscheine	
+GR 201 Kapitel 8	strech, distance between two places	die Strecke, die Strecken	
+GR 201 Kapitel 8	place	der Ort, die Orte	
+GR 201 Kapitel 8	vacation	der Urlaub, die Urlaube	
+GR 201 Kapitel 8	result	das Ergebnis, die Ergebnisse	
+GR 201 Kapitel 8	the flight there	der Hinflug	
+GR 201 Kapitel 8	preference, partiality	die Vorliebe, die Vorlieben	
+GR 201 Kapitel 8	stay (in a hotel, city, etc.)	der Aufenthalt, die Aufenhälte	
+GR 201 Kapitel 8	key card	die Schlüsselkarte, die Schlüsselkarten	
+GR 201 Kapitel 8	single room	das Einzelzimmer&nbsp;	
+GR 201 Kapitel 8	floor (of a building)	die Etage, die Etagen	
+GR 201 Kapitel 8	excursion, small trip	der Ausflug, die Ausflüge	
+GR 201 Kapitel 8	the drive back&nbsp;	die Rückfahrt	
+GR 201 Kapitel 8	platform (at a train station)	das Gleis, die Gleise	
+GR 201 Kapitel 8	connection	die Verbindung, die Verbindungen	
+GR 201 Kapitel 8	rider without a ticket	der Schwarzfahrer	
+GR 201 Kapitel 8	to book	buchen	
+GR 201 Kapitel 8	to get in	ein*steigen	
+GR 201 Kapitel 8	to depart by plane	ab*fliegen	
+GR 201 Kapitel 8	to depart by car, train, etc.	ab*fahren	
+GR 201 Kapitel 8	to get out	aus*steigen	
+GR 201 Kapitel 8	to be cancelled	aus*fallen	
+GR 201 Kapitel 8	to trust oneself to do something	sich*trauen&nbsp;	
+GR 201 Kapitel 8	to change (oneself)	sich verändern	
+GR 201 Kapitel 8	to train, work out	traineren	
+GR 201 Kapitel 8	to promise	versprechen	
+GR 201 Kapitel 8	to ski	ski*fahren	
+GR 201 Kapitel 8	to get, to recieve (slang)	kriegen	

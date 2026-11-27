@@ -1,0 +1,132 @@
+{
+  "book": "GR202",
+  "chapter": 11,
+  "level": 200,
+  "words": [
+    {
+      "german": "das Grundgesetz", "english": "common law",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "der Unterschied", "english": "the difference",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Unterschiede",
+      "tags": []
+    },
+    {
+      "german": "der Lebenslauf", "english": "the resume",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Lebensläufe",
+      "tags": []
+    },
+    {
+      "german": "der Schulabschluss", "english": "the high school diploma",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schulabschlüsse",
+      "tags": []
+    },
+    {
+      "german": "das Praktikum", "english": "the internship",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "das Bewerbungsgespräch", "english": "job interview",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "jemanden versorgen", "english": "to take care of someone",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "unterstützen", "english": "to support",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ab schließen", "english": "to finish (school, etc.)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "beraten", "english": "to advise",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "aus*bilden", "english": "to educate",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "um*schulen", "english": "to retrain (for a new job)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "auf/um eine Stelle bewerben", "english": "to apply for a job",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "eine Nachricht hinterlassen", "english": "to leave a message",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "unterbrechen", "english": "to interrupt",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "sich verabschieden", "english": "to say goodbye",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "früher", "english": "earlier",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "damals", "english": "back then, back in the day",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "Ach so!", "english": "Oh, I see!",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "Ich auch!", "english": "Me too!",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "Boah!", "english": "Whoa! Wow!",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "Echt?", "english": "Really?",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "Das wäre schön.", "english": "That would be nice",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "Nee, lieber nicht.", "english": "No, I'd rather not",
+      "partOfSpeech": "phrase",
+      "tags": []
+    },
+    {
+      "german": "Es geht aufs Haus.", "english": "It's on the house.",
+      "partOfSpeech": "phrase",
+      "tags": []
+    }
+  ]
+}

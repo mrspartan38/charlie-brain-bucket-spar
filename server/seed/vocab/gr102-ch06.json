@@ -1,0 +1,357 @@
+{
+  "book": "GR102",
+  "chapter": 6,
+  "level": 100,
+  "words": [
+    {
+      "german": "die Ausbildung", "english": "the education/apprenticeship",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Ausbildungen",
+      "tags": []
+    },
+    {
+      "german": "der Mechatroniker", "english": "the mechatronics engineer",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Mechatroniker",
+      "tags": []
+    },
+    {
+      "german": "die Verwandten", "english": "the relatives",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "die Krankschreibung", "english": "the work/school excuse",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Krankschreibungen",
+      "tags": []
+    },
+    {
+      "german": "die Versichertenkarte", "english": "the health insurance card",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Versichertenkarten",
+      "tags": []
+    },
+    {
+      "german": "der Unterricht", "english": "the lecture/college class",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Unterrichte",
+      "tags": []
+    },
+    {
+      "german": "die Pause", "english": "the break/pause",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Pausen",
+      "tags": []
+    },
+    {
+      "german": "das Wochenende", "english": "the weekend",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Wochenenden",
+      "tags": []
+    },
+    {
+      "german": "der Schläger", "english": "the racket/bat",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Schläger",
+      "tags": []
+    },
+    {
+      "german": "das Krafttraining", "english": "the strength training",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "die Hitzewelle", "english": "the heat wave",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Hitzewellen",
+      "tags": []
+    },
+    {
+      "german": "der Termin", "english": "the appointment",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Termine",
+      "tags": []
+    },
+    {
+      "german": "die Arztpraxis", "english": "the doctor's office",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Arztpraxen",
+      "tags": []
+    },
+    {
+      "german": "die Sprechstundenhilfe", "english": "the receptionist",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Sprechstundenhilfen",
+      "tags": []
+    },
+    {
+      "german": "der Krankenwagen", "english": "the ambulance",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Krankenwagen",
+      "tags": []
+    },
+    {
+      "german": "die Salbe", "english": "the ointment",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Salben",
+      "tags": []
+    },
+    {
+      "german": "die Krankenversicherung", "english": "the health insurance",
+      "partOfSpeech": "noun", "article": "die",
+      "tags": []
+    },
+    {
+      "german": "der Krieg", "english": "the war",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Kriege",
+      "tags": []
+    },
+    {
+      "german": "die Verletzung", "english": "the injury",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Verletzungen",
+      "tags": []
+    },
+    {
+      "german": "der Gips", "english": "the cast",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Gipse",
+      "tags": []
+    },
+    {
+      "german": "der Papagei", "english": "the parrot",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Papageien",
+      "tags": []
+    },
+    {
+      "german": "der Patient", "english": "the patient",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Patienten",
+      "tags": []
+    },
+    {
+      "german": "der Preis", "english": "the price",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Preise",
+      "tags": []
+    },
+    {
+      "german": "das Klima", "english": "the climate",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    },
+    {
+      "german": "gießen", "english": "to water",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "auf*legen", "english": "to end a phone call",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "nerven", "english": "to annoy, be annoying",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "spinnen", "english": "to be crazy, to spin",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "langweilen", "english": "to bore (someone)",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ab*nehmen", "english": "to lose weight",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "an*schalten", "english": "to turn an electric device on",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "taugen", "english": "to be no good",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "eine Frage stellen", "english": "to ask a question",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "Lust auf etwas haben", "english": "to be interested in something",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "roentgen", "english": "to x-ray",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "bluten", "english": "to bleed",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "verschreiben", "english": "to prescribe",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "krank*schreiben", "english": "to get a doctor's note",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "fehlen + dat.", "english": "to be missing",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "buchen", "english": "to book",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "reden", "english": "to talk",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "schlagen, a->ä", "english": "to hit",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "gewinnen", "english": "to win",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "verlieren", "english": "to lose",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "erfinden", "english": "to invent",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "entdecken", "english": "to discover",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "holen", "english": "to fetch",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "duschen", "english": "to shower",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "brechen", "english": "to break",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "stürzen", "english": "to fall",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "auf*wachen", "english": "to wake up",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "bewegen", "english": "to move",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "vermissen", "english": "to miss",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "hupen", "english": "to honk",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "(an)statt", "english": "instead of",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "trotz", "english": "despite, in spite of",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "während", "english": "during, while",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "wegen", "english": "because of",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "innerhalb", "english": "inside of",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "außerhalb", "english": "outside of",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "(un)sportlich", "english": "(un)athletic",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "anstrengend", "english": "strenuous",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "entspannend", "english": "relaxing",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "entspannt", "english": "relaxed",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "regelmäßig", "english": "regular(ly)",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "dick", "english": "fat",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "gebrochen", "english": "broken",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "vielleicht", "english": "maybe",
+      "partOfSpeech": "adverb",
+      "tags": []
+    },
+    {
+      "german": "verletzt", "english": "injured",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "noch einmal", "english": "again",
+      "partOfSpeech": "phrase",
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "book": "GR202",
+  "chapter": 12,
+  "level": 200,
+  "words": [
+    {
+      "german": "die Veranstaltung", "english": "the event",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Veranstaltungen",
+      "tags": []
+    },
+    {
+      "german": "die Ausstellung", "english": "the exhibit",
+      "partOfSpeech": "noun", "article": "die", "plural": "die Austellungen",
+      "tags": []
+    },
+    {
+      "german": "zu*hören (+ dat.)", "english": "to listen to someone",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "hüpfen", "english": "to jump, bounce around",
+      "partOfSpeech": "verb",
+      "tags": []
+    },
+    {
+      "german": "ausverkauft", "english": "sold out",
+      "partOfSpeech": "other",
+      "tags": []
+    },
+    {
+      "german": "Das geht dich nicht an.", "english": "That's none of your business.",
+      "partOfSpeech": "noun", "article": "das",
+      "tags": []
+    }
+  ]
+}
