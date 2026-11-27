@@ -123,7 +123,7 @@ function parseDelimited(text, separator) {
 }
 
 function readExport(file) {
-  const raw = readFileSync(file, 'utf8').replace(/^﻿/, '');
+  const raw = readFileSync(file, 'utf8').replace(/^\uFEFF/, '');
   const lines = raw.split(/\r?\n/);
   const meta = { separator: '\t' };
   let bodyStart = 0;
