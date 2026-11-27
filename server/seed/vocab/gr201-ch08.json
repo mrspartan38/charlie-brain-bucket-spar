@@ -3,6 +3,11 @@
   "chapter": 8,
   "level": 200,
   "words": [
+     {
+      "german": "der Ort", "english": "the place",
+      "partOfSpeech": "noun", "article": "der", "plural": "die Orte",
+      "tags": []
+    },
     {
       "german": "der Flug", "english": "the flight",
       "partOfSpeech": "noun", "article": "der", "plural": "die Flüg",

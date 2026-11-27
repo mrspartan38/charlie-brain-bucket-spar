@@ -523,5 +523,10 @@
       "partOfSpeech": "other",
       "tags": []
     }
+     {
+      "german": "bitte", "english": "please",
+      "partOfSpeech": "other",
+      "tags": []
+    }
   ]
 }
