@@ -197,6 +197,11 @@
       "german": "kriegen", "english": "to get, to recieve (slang)",
       "partOfSpeech": "verb",
       "tags": []
+    },
+        {
+      "german": "das Gleis", "english": "the platform (at a train station)",
+      "partOfSpeech": "noun", "article": "das", "plural": "die Gleise",
+      "tags": []
     }
   ]
 }
